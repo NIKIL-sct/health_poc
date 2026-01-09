@@ -1,0 +1,13 @@
+numpy==1.26.4
+scipy==1.11.4
+scikit-image==0.22.0
+opencv-python==4.9.0.80
+pillow==10.2.0
+torch==2.1.2
+torchvision==0.16.2
+ftfy
+regex
+tqdm
+psutil
+ultralytics==8.1.0
+git+https://github.com/openai/CLIP.git
