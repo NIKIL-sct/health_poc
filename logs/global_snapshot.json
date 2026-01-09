@@ -1,0 +1,44 @@
+{
+  "timestamp": "2026-01-09T20:44:46.032664",
+  "orchestrator_version": "2.0.0",
+  "summary": {
+    "total_cameras": 1,
+    "cameras_up": 1,
+    "cameras_down": 0,
+    "cameras_alerted": 0,
+    "cameras_unknown": 0
+  },
+  "performance_metrics": {
+    "health_checks": {
+      "total_checks": 17,
+      "ip_checks": 5,
+      "port_checks": 12
+    },
+    "latency": {
+      "avg_overall_ms": 2.35,
+      "avg_ip_ms": 5.25,
+      "avg_port_ms": 1.14,
+      "min_ms": 0.67,
+      "max_ms": 10.49,
+      "p50_ms": 1.1,
+      "p95_ms": 7.02,
+      "p99_ms": 9.79
+    },
+    "memory_consumption": {
+      "total_health_checks_mb": 0.1,
+      "avg_per_health_check_mb": 0.0059,
+      "total_all_cameras_mb": 0.0,
+      "overall_system_mb": 0.1
+    },
+    "concurrency": {
+      "max_concurrent": 1,
+      "avg_concurrent": 1
+    }
+  },
+  "per_camera_metrics": [
+    {
+      "camera_id": "cam13",
+      "memory_consumed_mb": 0.0
+    }
+  ]
+}

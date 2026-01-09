@@ -1,0 +1,185 @@
+{
+  "camera_id": "cam11",
+  "camera_info": {
+    "camera_id": "cam11",
+    "ip": "154.210.224.77",
+    "onvif_port": 8021,
+    "rtsp_port": 8021,
+    "rtsp_url": "rtsp://viewer:Vigil_x1@154.210.224.77:8021/cam/realmonitor?channel=1&subtype=0"
+  },
+  "latest_health_check": {
+    "timestamp": "2026-01-09T15:05:34.642052",
+    "phase": "continuous_monitoring",
+    "ip_status": "up",
+    "port_status": "up",
+    "alert_active": false,
+    "last_ip_check": 1767951232.0941324,
+    "last_port_check": 1767951272.6182835,
+    "total_memory_consumed_mb": 0.0
+  },
+  "health_check_history": [
+    {
+      "timestamp": "2026-01-08T18:32:55.763223",
+      "phase": "ip_check",
+      "ip_status": "unknown",
+      "port_status": "unknown",
+      "alert_active": false,
+      "last_ip_check": 0.0,
+      "last_port_check": 0.0,
+      "total_memory_consumed_mb": 0.0
+    },
+    {
+      "timestamp": "2026-01-08T18:33:25.774037",
+      "phase": "alerted",
+      "ip_status": "up",
+      "port_status": "down",
+      "alert_active": true,
+      "last_ip_check": 1767877376.0203848,
+      "last_port_check": 1767877388.7080963,
+      "total_memory_consumed_mb": 0.0
+    },
+    {
+      "timestamp": "2026-01-08T18:33:55.782836",
+      "phase": "alerted",
+      "ip_status": "up",
+      "port_status": "down",
+      "alert_active": true,
+      "last_ip_check": 1767877376.0203848,
+      "last_port_check": 1767877388.7080963,
+      "total_memory_consumed_mb": 0.0
+    },
+    {
+      "timestamp": "2026-01-08T18:34:25.792232",
+      "phase": "alerted",
+      "ip_status": "up",
+      "port_status": "down",
+      "alert_active": true,
+      "last_ip_check": 1767877376.0203848,
+      "last_port_check": 1767877388.7080963,
+      "total_memory_consumed_mb": 0.0
+    },
+    {
+      "timestamp": "2026-01-08T18:34:55.801819",
+      "phase": "alerted",
+      "ip_status": "up",
+      "port_status": "down",
+      "alert_active": true,
+      "last_ip_check": 1767877376.0203848,
+      "last_port_check": 1767877388.7080963,
+      "total_memory_consumed_mb": 0.0
+    },
+    {
+      "timestamp": "2026-01-08T18:35:30.307131",
+      "phase": "alerted",
+      "ip_status": "up",
+      "port_status": "down",
+      "alert_active": true,
+      "last_ip_check": 1767877376.0203848,
+      "last_port_check": 1767877388.7080963,
+      "total_memory_consumed_mb": 0.0
+    },
+    {
+      "timestamp": "2026-01-08T18:36:05.158112",
+      "phase": "alerted",
+      "ip_status": "up",
+      "port_status": "down",
+      "alert_active": true,
+      "last_ip_check": 1767877376.0203848,
+      "last_port_check": 1767877388.7080963,
+      "total_memory_consumed_mb": 0.0
+    },
+    {
+      "timestamp": "2026-01-08T18:36:35.169518",
+      "phase": "alerted",
+      "ip_status": "up",
+      "port_status": "down",
+      "alert_active": true,
+      "last_ip_check": 1767877376.0203848,
+      "last_port_check": 1767877388.7080963,
+      "total_memory_consumed_mb": 0.0
+    },
+    {
+      "timestamp": "2026-01-08T18:36:42.217806",
+      "phase": "alerted",
+      "ip_status": "up",
+      "port_status": "down",
+      "alert_active": true,
+      "last_ip_check": 1767877376.0203848,
+      "last_port_check": 1767877388.7080963,
+      "total_memory_consumed_mb": 0.0
+    },
+    {
+      "timestamp": "2026-01-09T15:03:18.690036",
+      "phase": "ip_check",
+      "ip_status": "unknown",
+      "port_status": "unknown",
+      "alert_active": false,
+      "last_ip_check": 0.0,
+      "last_port_check": 0.0,
+      "total_memory_consumed_mb": 0.0
+    },
+    {
+      "timestamp": "2026-01-09T15:03:48.720468",
+      "phase": "port_check_2",
+      "ip_status": "up",
+      "port_status": "up",
+      "alert_active": false,
+      "last_ip_check": 1767951199.0346467,
+      "last_port_check": 1767951208.9599612,
+      "total_memory_consumed_mb": 0.0
+    },
+    {
+      "timestamp": "2026-01-09T15:04:18.733679",
+      "phase": "continuous_monitoring",
+      "ip_status": "up",
+      "port_status": "up",
+      "alert_active": false,
+      "last_ip_check": 1767951232.0941324,
+      "last_port_check": 1767951252.4119966,
+      "total_memory_consumed_mb": 0.0
+    },
+    {
+      "timestamp": "2026-01-09T15:04:53.930413",
+      "phase": "continuous_monitoring",
+      "ip_status": "up",
+      "port_status": "up",
+      "alert_active": false,
+      "last_ip_check": 1767951232.0941324,
+      "last_port_check": 1767951272.6182835,
+      "total_memory_consumed_mb": 0.0
+    },
+    {
+      "timestamp": "2026-01-09T15:05:24.290079",
+      "phase": "continuous_monitoring",
+      "ip_status": "up",
+      "port_status": "up",
+      "alert_active": false,
+      "last_ip_check": 1767951232.0941324,
+      "last_port_check": 1767951272.6182835,
+      "total_memory_consumed_mb": 0.0
+    },
+    {
+      "timestamp": "2026-01-09T15:05:34.642052",
+      "phase": "continuous_monitoring",
+      "ip_status": "up",
+      "port_status": "up",
+      "alert_active": false,
+      "last_ip_check": 1767951232.0941324,
+      "last_port_check": 1767951272.6182835,
+      "total_memory_consumed_mb": 0.0
+    }
+  ],
+  "vision_checks": [],
+  "vision_statistics": {
+    "total_checks": 0,
+    "total_passed": 0,
+    "total_failed": 0,
+    "pass_rate": 0.0,
+    "average_similarity": 0.0,
+    "average_check_duration_ms": 0.0,
+    "total_memory_consumed_mb": 0.0,
+    "average_memory_per_check_mb": 0.0,
+    "first_check": null,
+    "last_check": null
+  }
+}

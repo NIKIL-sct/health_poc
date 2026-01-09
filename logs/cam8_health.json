@@ -1,0 +1,241 @@
+{
+  "camera_id": "cam8",
+  "camera_info": {
+    "camera_id": "cam8",
+    "ip": "154.210.224.77",
+    "onvif_port": 8018,
+    "rtsp_port": 8018,
+    "rtsp_url": "rtsp://viewer:Matrix%40123@154.210.224.77:8018/unicaststream/1"
+  },
+  "latest_health_check": {
+    "timestamp": "2026-01-09T15:05:34.637229",
+    "phase": "alerted",
+    "ip_status": "up",
+    "port_status": "up",
+    "alert_active": true,
+    "last_ip_check": 1767951324.2975852,
+    "last_port_check": 1767951324.3188443,
+    "total_memory_consumed_mb": 0.0
+  },
+  "health_check_history": [
+    {
+      "timestamp": "2026-01-08T18:32:55.762315",
+      "phase": "ip_check",
+      "ip_status": "unknown",
+      "port_status": "unknown",
+      "alert_active": false,
+      "last_ip_check": 0.0,
+      "last_port_check": 0.0,
+      "total_memory_consumed_mb": 0.0
+    },
+    {
+      "timestamp": "2026-01-08T18:33:25.773230",
+      "phase": "port_check_2",
+      "ip_status": "up",
+      "port_status": "up",
+      "alert_active": false,
+      "last_ip_check": 1767877375.9358497,
+      "last_port_check": 1767877385.66491,
+      "total_memory_consumed_mb": 0.0
+    },
+    {
+      "timestamp": "2026-01-08T18:33:55.782040",
+      "phase": "continuous_monitoring",
+      "ip_status": "up",
+      "port_status": "up",
+      "alert_active": false,
+      "last_ip_check": 1767877406.7442741,
+      "last_port_check": 1767877427.0482569,
+      "total_memory_consumed_mb": 0.0
+    },
+    {
+      "timestamp": "2026-01-08T18:34:25.791433",
+      "phase": "continuous_monitoring",
+      "ip_status": "up",
+      "port_status": "up",
+      "alert_active": false,
+      "last_ip_check": 1767877406.7442741,
+      "last_port_check": 1767877447.2215765,
+      "total_memory_consumed_mb": 0.0
+    },
+    {
+      "timestamp": "2026-01-08T18:34:55.800542",
+      "phase": "continuous_monitoring",
+      "ip_status": "up",
+      "port_status": "up",
+      "alert_active": false,
+      "last_ip_check": 1767877467.5266993,
+      "last_port_check": 1767877487.7830474,
+      "total_memory_consumed_mb": 0.0
+    },
+    {
+      "timestamp": "2026-01-08T18:35:30.306178",
+      "phase": "continuous_monitoring",
+      "ip_status": "up",
+      "port_status": "up",
+      "alert_active": false,
+      "last_ip_check": 1767877467.5266993,
+      "last_port_check": 1767877507.9604678,
+      "total_memory_consumed_mb": 0.0
+    },
+    {
+      "timestamp": "2026-01-08T18:36:05.156938",
+      "phase": "alerted",
+      "ip_status": "up",
+      "port_status": "up",
+      "alert_active": true,
+      "last_ip_check": 1767877558.3808854,
+      "last_port_check": 1767877558.3998873,
+      "total_memory_consumed_mb": 0.0
+    },
+    {
+      "timestamp": "2026-01-08T18:36:35.168054",
+      "phase": "alerted",
+      "ip_status": "up",
+      "port_status": "up",
+      "alert_active": true,
+      "last_ip_check": 1767877558.3808854,
+      "last_port_check": 1767877558.3998873,
+      "total_memory_consumed_mb": 0.0
+    },
+    {
+      "timestamp": "2026-01-08T18:36:42.215931",
+      "phase": "alerted",
+      "ip_status": "up",
+      "port_status": "up",
+      "alert_active": true,
+      "last_ip_check": 1767877558.3808854,
+      "last_port_check": 1767877558.3998873,
+      "total_memory_consumed_mb": 0.0
+    },
+    {
+      "timestamp": "2026-01-09T15:03:18.658941",
+      "phase": "ip_check",
+      "ip_status": "unknown",
+      "port_status": "unknown",
+      "alert_active": false,
+      "last_ip_check": 0.0,
+      "last_port_check": 0.0,
+      "total_memory_consumed_mb": 0.0
+    },
+    {
+      "timestamp": "2026-01-09T15:03:48.717890",
+      "phase": "port_check_2",
+      "ip_status": "up",
+      "port_status": "up",
+      "alert_active": false,
+      "last_ip_check": 1767951198.922038,
+      "last_port_check": 1767951208.8907294,
+      "total_memory_consumed_mb": 0.0
+    },
+    {
+      "timestamp": "2026-01-09T15:04:18.731448",
+      "phase": "continuous_monitoring",
+      "ip_status": "up",
+      "port_status": "up",
+      "alert_active": false,
+      "last_ip_check": 1767951232.0941324,
+      "last_port_check": 1767951252.347007,
+      "total_memory_consumed_mb": 0.0
+    },
+    {
+      "timestamp": "2026-01-09T15:04:53.925939",
+      "phase": "continuous_monitoring",
+      "ip_status": "up",
+      "port_status": "up",
+      "alert_active": false,
+      "last_ip_check": 1767951232.0941324,
+      "last_port_check": 1767951272.5584905,
+      "total_memory_consumed_mb": 0.0
+    },
+    {
+      "timestamp": "2026-01-09T15:05:24.281844",
+      "phase": "continuous_monitoring",
+      "ip_status": "up",
+      "port_status": "up",
+      "alert_active": false,
+      "last_ip_check": 1767951232.0941324,
+      "last_port_check": 1767951272.5584905,
+      "total_memory_consumed_mb": 0.0
+    },
+    {
+      "timestamp": "2026-01-09T15:05:34.637229",
+      "phase": "alerted",
+      "ip_status": "up",
+      "port_status": "up",
+      "alert_active": true,
+      "last_ip_check": 1767951324.2975852,
+      "last_port_check": 1767951324.3188443,
+      "total_memory_consumed_mb": 0.0
+    }
+  ],
+  "vision_checks": [
+    {
+      "timestamp": "2026-01-08T18:36:05.150864",
+      "similarity": 0.9113,
+      "status": "FAIL",
+      "check_duration_ms": 6732.62,
+      "baseline_image": "img/baseline/cam8.png",
+      "captured_image": "img/captures/cam8_1767877559.jpg",
+      "semantic_analysis": {
+        "top_anomaly": "security camera showing normal indoor view",
+        "top_anomaly_confidence": 0.0332,
+        "is_clear_view": true,
+        "summary": "[Similarity: 91.1% - VERY GOOD] Very close match to baseline. Detected: security camera showing normal indoor view (confidence: 3.3%). Alert Severity: LOW. Continue monitoring."
+      },
+      "image_quality": {
+        "brightness_mean": 109.57,
+        "brightness_std": 43.96,
+        "blur_score": 86.32,
+        "is_low_light": false,
+        "is_very_low_light": false,
+        "is_overexposed": false,
+        "is_blurry": true
+      },
+      "camera_displacement_score": 0.7706,
+      "memory_metrics": {
+        "start_memory_mb": 0.01,
+        "end_memory_mb": 0.01,
+        "peak_memory_mb": 33.69,
+        "memory_consumed_mb": 0.0
+      }
+    },
+    {
+      "timestamp": "2026-01-09T15:05:31.238305",
+      "similarity": 0.0,
+      "status": "FAIL",
+      "summary": "Camera position changed significantly",
+      "confidence_score": 0.0,
+      "check_duration_ms": 0.0,
+      "baseline_image": "",
+      "captured_image": "",
+      "memory_metrics": {}
+    }
+  ],
+  "vision_statistics": {
+    "total_checks": 2,
+    "total_passed": 0,
+    "total_failed": 2,
+    "pass_rate": 0.0,
+    "average_similarity": 0.4556,
+    "average_check_duration_ms": 3366.31,
+    "total_memory_consumed_mb": 0.0,
+    "average_memory_per_check_mb": 0.0,
+    "first_check": "2026-01-08T18:36:05.150864",
+    "last_check": "2026-01-09T15:05:31.238305",
+    "min_similarity": 0.0,
+    "max_similarity": 0.9113,
+    "average_confidence": 0.0
+  },
+  "latest_vision_check": {
+    "timestamp": "2026-01-09T15:05:31.238305",
+    "similarity": 0.0,
+    "status": "FAIL",
+    "summary": "Camera position changed significantly",
+    "confidence_score": 0.0,
+    "check_duration_ms": 0.0,
+    "baseline_image": "",
+    "captured_image": "",
+    "memory_metrics": {}
+  }
+}
