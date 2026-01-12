@@ -82,5 +82,3 @@ python main.py
 
 ---
 ---
-
-✅ The service should now be running successfully on your system.
