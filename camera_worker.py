@@ -59,8 +59,10 @@ class CameraWorker:
             "last_updated": datetime.now().isoformat()
         }
 
+        
         with open(self.log_path, "w") as f:
             json.dump(full_log, f, indent=2)
+            
 
     def run(self):
         print(f"[{self.cam_id}] Worker started")
@@ -74,6 +76,7 @@ class CameraWorker:
                 self.state["ip_up"] = result
                 self.state["last_ip_check"] = now
                 self._log_event("ip_check")
+                self._print_status("ip_check")
 
             # PORT CHECK – every 15 sec
             if now - self.state["last_port_check"] >= 15:
@@ -82,6 +85,7 @@ class CameraWorker:
                 self.state["port_up"] = port_ok
                 self.state["last_port_check"] = now
                 self._log_event("port_check")
+                self._print_status("port_check")
 
             # VISION CHECK – every 120 sec (only if net OK)
             if (
@@ -102,6 +106,38 @@ class CameraWorker:
                 self.state["alert_active"] = vision_result["status"] != "PASS"
                 self.state["last_vision_check"] = now
                 self._log_event("vision_check")
+                self._print_status("vision_check", vision_result)
 
 
             time.sleep(1)
+        
+    def _print_status(self, phase: str, vision_result: dict | None = None):
+        ts = datetime.now().strftime("%H:%M:%S")
+
+        print("\n" + "=" * 60)
+        print(f"[{self.cam_id}] {phase.upper()} @ {ts}")
+        print("-" * 60)
+
+        print(f"IP Status     : {'UP' if self.state['ip_up'] else 'DOWN'}")
+        print(f"Port Status   : {'UP' if self.state['port_up'] else 'DOWN'}")
+        print(f"Memory (MB)   : {self._memory_mb():.2f}")
+
+        if phase == "vision_check" and vision_result:
+            print("-" * 60)
+            print(f"Vision Status : {vision_result['status']}")
+
+            alerts = vision_result.get("alerts", [])
+            if alerts:
+                print("Alerts        :")
+                for a in alerts:
+                    print(f"  • {a}")
+            else:
+                print("Alerts        : None")
+
+            perf = vision_result.get("performance", {})
+            if perf:
+                print(f"Exec Time (s) : {perf.get('execution_time_sec', 'N/A')}")
+                print(f"Mem Used (MB) : {perf.get('memory_used_mb', 'N/A')}")
+
+        print("=" * 60)
+
