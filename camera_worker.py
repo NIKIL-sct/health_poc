@@ -24,8 +24,10 @@ class CameraWorker:
             "last_ip_check": 0.0,
             "last_port_check": 0.0,
             "last_vision_check": 0.0,
-            "alert_active": False
+            "alert_active": False,
+            "vision": None   
         }
+
 
         self.log_path = Path(f"logs/{self.cam_id}.json")
         self.log_path.parent.mkdir(exist_ok=True)
@@ -53,6 +55,7 @@ class CameraWorker:
             "camera_info": self.camera,
             "latest_health_check": entry,
             "health_check_history": self.history[-100:],  # cap history
+             "vision_checks": self.state["vision"],
             "last_updated": datetime.now().isoformat()
         }
 
@@ -90,9 +93,15 @@ class CameraWorker:
                     self.cam_id, self.camera["rtsp_url"]
                 )
 
+                # store vision INSIDE worker state
+                self.state["vision"] = vision_result
+
+                # update stats only (no files)
                 self.storage.store_vision_result(self.cam_id, vision_result)
+
                 self.state["alert_active"] = vision_result["status"] != "PASS"
                 self.state["last_vision_check"] = now
                 self._log_event("vision_check")
+
 
             time.sleep(1)
