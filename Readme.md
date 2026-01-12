@@ -1,34 +1,86 @@
-1. Create a Virtual Environment
-Linux / macOS
-    python3 -m venv venv
-Windows (Command Prompt / PowerShell)
-    python -m venv venv
+## 1. Create a Virtual Environment
 
-2. Activate the Virtual Environment
-Linux / macOS
-    source venv/bin/activate
-Windows (Command Prompt)
-    venv\Scripts\activate
-Windows (PowerShell)
-    venv\Scripts\Activate.ps1
+### Linux / macOS
 
-If PowerShell blocks activation, run:
-Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+```bash
+python3 -m venv venv
+```
 
-3. Upgrade pip
-    pip install --upgrade pip
+### Windows (Command Prompt / PowerShell)
 
-4. Install Python Dependencies
-    pip install -r requirements.txt
+```bat
+python -m venv venv
+```
 
-5. Running the Service
-    Activate the virtual environment (if not already active)
+---
 
-Linux / macOS
-    source venv/bin/activate
+## 2. Activate the Virtual Environment
 
-Windows
-    venv\Scripts\activate
+### Linux / macOS
 
-Start the application
-    python main.py
+```bash
+source venv/bin/activate
+```
+
+### Windows (Command Prompt)
+
+```bat
+venv\Scripts\activate
+```
+
+### Windows (PowerShell)
+
+```powershell
+venv\Scripts\Activate.ps1
+```
+
+> **Note:** If PowerShell blocks script execution, run the following command once:
+>
+> ```powershell
+> Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+> ```
+
+---
+
+## 3. Upgrade pip
+
+```bash
+pip install --upgrade pip
+```
+
+---
+
+## 4. Install Python Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## 5. Running the Service
+
+### Activate the Virtual Environment (if not already active)
+
+* **Linux / macOS**
+
+  ```bash
+  source venv/bin/activate
+  ```
+
+* **Windows**
+
+  ```bat
+  venv\Scripts\activate
+  ```
+
+### Start the Application
+
+```bash
+python main.py
+```
+
+---
+---
+
+✅ The service should now be running successfully on your system.
