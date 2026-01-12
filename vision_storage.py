@@ -26,9 +26,7 @@ class VisionStorage:
         # Create logs directory if it doesn't exist
         Path(log_dir).mkdir(parents=True, exist_ok=True)
     
-    def _get_camera_log_path(self, camera_id: str) -> str:
-        """Get the log file path for a specific camera"""
-        return os.path.join(self.log_dir, f"{camera_id}_vision.json")
+    
     
     def _atomic_write(self, filepath: str, data: Dict):
         """
@@ -76,33 +74,33 @@ class VisionStorage:
         Returns: True if successful, False otherwise
         """
         try:
-            log_path = self._get_camera_log_path(camera_id)
+            # log_path = self._get_camera_log_path(camera_id)
             
-            # Load existing history
-            camera_log = self._load_json(log_path)
-            if 'history' not in camera_log:
-                camera_log = {
-                    'camera_id': camera_id,
-                    'history': [],
-                    'last_updated': None
-                }
+            # # Load existing history
+            # camera_log = self._load_json(log_path)
+            # if 'history' not in camera_log:
+            #     camera_log = {
+            #         'camera_id': camera_id,
+            #         'history': [],
+            #         'last_updated': None
+            #     }
             
-            # Add new result
-            camera_log['history'].append(result)
-            camera_log['last_updated'] = datetime.now().isoformat()
+            # # Add new result
+            # camera_log['history'].append(result)
+            # camera_log['last_updated'] = datetime.now().isoformat()
             
-            # Trim history if exceeds max
-            if len(camera_log['history']) > self.max_history:
-                camera_log['history'] = camera_log['history'][-self.max_history:]
+            # # Trim history if exceeds max
+            # if len(camera_log['history']) > self.max_history:
+            #     camera_log['history'] = camera_log['history'][-self.max_history:]
             
-            # Atomic write
-            self._atomic_write(log_path, camera_log)
+            # # Atomic write
+            # self._atomic_write(log_path, camera_log)
             
             # Update aggregated stats
             self._update_stats(camera_id, result)
             
-            logger.info(f"[{camera_id}] Vision result stored successfully")
-            return True
+            # logger.info(f"[{camera_id}] Vision result stored successfully")
+            return result
             
         except Exception as e:
             logger.error(f"[{camera_id}] Failed to store result: {e}")
