@@ -20,6 +20,6 @@ Activate the virtual environment:
     source venv/bin/activate
 
 
-Start the orchestrator:
+Start the main file:
 
-    python3 orchestor.py
+    python main.py
