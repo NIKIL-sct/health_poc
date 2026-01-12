@@ -1,25 +1,34 @@
-Create and activate a virtual environment:
-
+1. Create a Virtual Environment
+Linux / macOS
     python3 -m venv venv
+Windows (Command Prompt / PowerShell)
+    python -m venv venv
+
+2. Activate the Virtual Environment
+Linux / macOS
     source venv/bin/activate
+Windows (Command Prompt)
+    venv\Scripts\activate
+Windows (PowerShell)
+    venv\Scripts\Activate.ps1
 
+If PowerShell blocks activation, run:
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 
-Upgrade pip:
-
+3. Upgrade pip
     pip install --upgrade pip
 
-Install Python Dependencies
+4. Install Python Dependencies
     pip install -r requirements.txt
 
+5. Running the Service
+    Activate the virtual environment (if not already active)
 
-
-Running the Service
-
-Activate the virtual environment:
-
+Linux / macOS
     source venv/bin/activate
 
+Windows
+    venv\Scripts\activate
 
-Start the main file:
-
+Start the application
     python main.py
