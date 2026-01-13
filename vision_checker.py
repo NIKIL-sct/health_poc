@@ -32,15 +32,18 @@ class VisionChecker:
         self.BLUR_THRESHOLD = 80
         self.EDGE_COLLAPSE_RATIO = 0.25  # 75% edge loss = suspicious
 
-        # SSIM thresholds - more lenient for real-world conditions
-        self.SSIM_CRITICAL = 0.50   # Below this = severe issue
-        self.SSIM_WARNING = 0.65    # Below this = potential issue
-        self.SSIM_GOOD = 0.75       # Above this = healthy
+        # SSIM thresholds - MORE LENIENT for day-to-day variations
+        self.SSIM_CRITICAL = 0.40   # Below this = severe issue (was 0.50)
+        self.SSIM_WARNING = 0.55    # Below this = potential issue (was 0.65)
+        self.SSIM_GOOD = 0.65       # Above this = healthy (was 0.75)
         
-        # Difference thresholds - adjusted for lighting/compression variations
-        self.DIFF_SEVERE = 50       # >50% difference = severe obstruction
-        self.DIFF_MODERATE = 35     # >35% difference = partial obstruction
-        self.DIFF_DISPLACEMENT = 25 # >25% difference = possible displacement
+        # Difference thresholds - MORE LENIENT for lighting/compression variations
+        self.DIFF_SEVERE = 55       # >55% difference = severe obstruction (was 50)
+        self.DIFF_MODERATE = 40     # >40% difference = partial obstruction (was 35)
+        self.DIFF_DISPLACEMENT = 35 # >35% difference = possible displacement (was 25)
+        
+        # NEW: Brightness tolerance for day/night variations
+        self.BRIGHTNESS_TOLERANCE = 40  # Allow 40 units of brightness change
         
     def capture_frame(self, rtsp_url: str, timeout: int = 10) -> Optional[np.ndarray]:
         """
@@ -144,12 +147,7 @@ class VisionChecker:
     def compare_with_baseline(self, frame: np.ndarray, baseline: np.ndarray, 
                               blur_score: float, brightness: float) -> Dict:
         """
-        Intelligent comparison using multiple factors:
-        - SSIM for structural similarity
-        - Pixel difference for changes
-        - Edge detection for displacement vs obstruction
-        - Blur score to identify focus issues
-        - Brightness to identify lighting issues
+        Intelligent comparison using multiple factors with improved tolerance for natural variations
         """
         # Resize frames to same size for comparison
         h, w = baseline.shape[:2]
@@ -158,6 +156,10 @@ class VisionChecker:
         # Convert to grayscale
         gray_frame = cv2.cvtColor(frame_resized, cv2.COLOR_BGR2GRAY)
         gray_baseline = cv2.cvtColor(baseline, cv2.COLOR_BGR2GRAY)
+        
+        # Calculate baseline brightness for comparison
+        baseline_brightness = np.mean(gray_baseline)
+        brightness_diff = abs(brightness - baseline_brightness)
         
         # Calculate SSIM (structural similarity)
         similarity, diff_img = ssim(gray_baseline, gray_frame, full=True)
@@ -170,6 +172,7 @@ class VisionChecker:
         frame_edges = self.detect_edges(frame_resized)
         baseline_edges = self.detect_edges(baseline)
         edge_diff = abs(frame_edges - baseline_edges)
+        edge_ratio = frame_edges / baseline_edges if baseline_edges > 0 else 1.0
         
         # INTELLIGENT ALERT CLASSIFICATION
         alerts = []
@@ -179,66 +182,74 @@ class VisionChecker:
         if blur_score < self.BLUR_THRESHOLD:
             status = "FAIL"
             alerts.append(f"Camera out of focus or lens obstructed (blur score: {blur_score:.1f})")
-            # Don't continue to other checks if blur is the issue
         
-        # 2. Check if it's too DARK (always report this separately if true)
-        if brightness < self.BRIGHTNESS_MIN and blur_score >= self.BLUR_THRESHOLD:
+        # 2. Check if it's too DARK (but account for day/night cycle)
+        elif brightness < self.BRIGHTNESS_MIN and brightness_diff > self.BRIGHTNESS_TOLERANCE:
             status = "FAIL"
             alerts.append("Too dark - possible obstruction or lighting issue")
-            # Continue to check what else might be wrong
         
-        # 3. HIGH PRIORITY: Check for CAMERA DISPLACEMENT first (before obstruction)
-        # Key indicator: Current frame has good edges (not blocked) but scene is very different
-        if frame_edges > baseline_edges * 0.4 and diff_percent > self.DIFF_DISPLACEMENT and blur_score >= self.BLUR_THRESHOLD:
-            # Camera can see details (has edges) but scene is different = camera moved
+        # 3. CAMERA DISPLACEMENT - STRICTER CRITERIA to reduce false positives
+        # Only flag if: high edge ratio (can see clearly) + very high difference + low SSIM
+        elif (
+            edge_ratio > 0.7  # Frame has good edges (was 0.4)
+            and diff_percent > 45  # Very high difference (was 25)
+            and similarity < 0.50  # Low structural similarity (new condition)
+            and blur_score >= self.BLUR_THRESHOLD
+            and brightness_diff < self.BRIGHTNESS_TOLERANCE  # Not just lighting change
+        ):
             status = "FAIL"
-            if diff_percent > 60:
+            if diff_percent > 70:
                 alerts.append(f"Camera angle changed significantly - completely different view ({diff_percent:.1f}% difference)")
-            elif edge_diff > 5:
+            elif diff_percent > 55:
                 alerts.append(f"Camera position changed - viewing angle altered ({diff_percent:.1f}% scene difference)")
             else:
                 alerts.append(f"Camera displacement detected ({diff_percent:.1f}% difference)")
         
-        # 4. Check for SEVERE OBSTRUCTION (low edges + high difference)
-        # If frame has very few edges compared to baseline = something blocking view
+        # 4. SEVERE OBSTRUCTION (low edges + high difference)
         elif (
-            frame_edges < baseline_edges * self.EDGE_COLLAPSE_RATIO
+            edge_ratio < self.EDGE_COLLAPSE_RATIO
             and diff_percent > self.DIFF_SEVERE
+            and blur_score >= self.BLUR_THRESHOLD
         ):
             status = "FAIL"
-
             if blur_score >= self.BLUR_THRESHOLD:
-                alerts.append(
-                    "Image clarity degraded - lens smear or camera-side blur detected"
-                )
+                alerts.append("Image clarity degraded - lens smear or camera-side blur detected")
             else:
-                alerts.append(
-                    "Severe obstruction detected - camera view significantly blocked"
-                )
-
+                alerts.append("Severe obstruction detected - camera view significantly blocked")
         
-        # 5. Check for PARTIAL OBSTRUCTION (moderate edge loss + moderate difference)
-        elif frame_edges < baseline_edges * 0.6 and diff_percent > self.DIFF_MODERATE and blur_score >= self.BLUR_THRESHOLD:
+        # 5. PARTIAL OBSTRUCTION
+        elif (
+            edge_ratio < 0.6 
+            and diff_percent > self.DIFF_MODERATE 
+            and blur_score >= self.BLUR_THRESHOLD
+            and brightness_diff < self.BRIGHTNESS_TOLERANCE
+        ):
             status = "FAIL"
             alerts.append("Partial obstruction detected - camera view partially blocked")
         
-        # 6. SSIM-based checks for subtle issues
-        elif similarity < self.SSIM_CRITICAL and blur_score >= self.BLUR_THRESHOLD:
+        # 6. CRITICAL SSIM - only if not explained by lighting
+        elif (
+            similarity < self.SSIM_CRITICAL 
+            and blur_score >= self.BLUR_THRESHOLD
+            and brightness_diff < self.BRIGHTNESS_TOLERANCE
+        ):
             status = "FAIL"
-            if frame_edges > baseline_edges * 0.5:
-                # Has edges but very different = likely displacement
+            if edge_ratio > 0.5:
                 alerts.append(f"Camera orientation changed ({similarity:.2f} similarity)")
             else:
-                # Lost edges = likely obstruction
                 alerts.append(f"Camera view degraded - possible lens damage or obstruction")
         
-        # 7. LIGHTING VARIATION (SSIM low but diff acceptable)
-        elif similarity < self.SSIM_WARNING and diff_percent <= self.DIFF_DISPLACEMENT and blur_score >= self.BLUR_THRESHOLD:
+        # 7. LIGHTING VARIATION - now more tolerant
+        elif (
+            similarity < self.SSIM_WARNING 
+            and diff_percent <= self.DIFF_DISPLACEMENT
+            and brightness_diff >= self.BRIGHTNESS_TOLERANCE
+        ):
             status = "PASS"
-            logger.info(f"Lighting variation detected: SSIM={similarity:.2f}, Diff={diff_percent:.1f}%")
+            logger.info(f"Natural lighting variation detected: SSIM={similarity:.2f}, Brightness diff={brightness_diff:.1f}")
         
-        # 8. If no alerts yet but status is still PASS, everything is good
-        if not alerts and status == "PASS":
+        # 8. Normal day-to-day variation
+        elif similarity >= self.SSIM_WARNING:
             status = "PASS"
         
         message = "; ".join(alerts) if alerts else "Vision matches baseline"
@@ -249,6 +260,8 @@ class VisionChecker:
             'difference_percent': float(diff_percent),
             'edge_density_current': float(frame_edges),
             'edge_density_baseline': float(baseline_edges),
+            'edge_ratio': float(edge_ratio),
+            'brightness_diff': float(brightness_diff),
             'message': message,
             'alerts': alerts
         }
