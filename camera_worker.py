@@ -28,11 +28,24 @@ class CameraWorker:
             "vision": None   
         }
 
-
         self.log_path = Path(f"logs/{self.cam_id}.json")
         self.log_path.parent.mkdir(exist_ok=True)
 
-        self.history = []
+        # Load existing history if available
+        self.history = self._load_existing_history()
+
+    def _load_existing_history(self):
+        """Load existing log history from file"""
+        if self.log_path.exists():
+            try:
+                with open(self.log_path, "r") as f:
+                    existing_log = json.load(f)
+                    # Return existing history, limit to last 1000 entries
+                    return existing_log.get("health_check_history", [])[-1000:]
+            except (json.JSONDecodeError, KeyError) as e:
+                print(f"[{self.cam_id}] Warning: Could not load existing history: {e}")
+                return []
+        return []
 
     def _memory_mb(self):
         return psutil.Process().memory_info().rss / 1024 / 1024
@@ -48,24 +61,33 @@ class CameraWorker:
             "last_port_check": self.state["last_port_check"],
             "total_memory_consumed_mb": round(self._memory_mb(), 2)
         }
+        
+        # Append to history (not replace)
         self.history.append(entry)
+        
+        # Keep only last 1000 entries to prevent file from growing too large
+        if len(self.history) > 1000:
+            self.history = self.history[-1000:]
 
         full_log = {
             "camera_id": self.cam_id,
             "camera_info": self.camera,
             "latest_health_check": entry,
-            "health_check_history": self.history[-100:],  # cap history
-             "vision_checks": self.state["vision"],
-            "last_updated": datetime.now().isoformat()
+            "health_check_history": self.history,  # Full history preserved
+            "vision_checks": self.state["vision"],
+            "last_updated": datetime.now().isoformat(),
+            "total_checks_count": len(self.history)
         }
 
-        
+        # Write to file
         with open(self.log_path, "w") as f:
             json.dump(full_log, f, indent=2)
-            
 
     def run(self):
         print(f"[{self.cam_id}] Worker started")
+        
+        # Log startup
+        self._log_event("startup")
 
         while True:
             now = time.time()
@@ -108,7 +130,6 @@ class CameraWorker:
                 self._log_event("vision_check")
                 self._print_status("vision_check", vision_result)
 
-
             time.sleep(1)
         
     def _print_status(self, phase: str, vision_result: dict | None = None):
@@ -121,6 +142,7 @@ class CameraWorker:
         print(f"IP Status     : {'UP' if self.state['ip_up'] else 'DOWN'}")
         print(f"Port Status   : {'UP' if self.state['port_up'] else 'DOWN'}")
         print(f"Memory (MB)   : {self._memory_mb():.2f}")
+        print(f"Total Checks  : {len(self.history)}")
 
         if phase == "vision_check" and vision_result:
             print("-" * 60)
@@ -140,4 +162,3 @@ class CameraWorker:
                 print(f"Mem Used (MB) : {perf.get('memory_used_mb', 'N/A')}")
 
         print("=" * 60)
-
