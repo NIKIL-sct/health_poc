@@ -1,0 +1,3420 @@
+{
+  "test_info": {
+    "target_cameras": 500,
+    "base_cameras": 13,
+    "start_time": "2026-01-19T13:24:16.204951",
+    "test_duration_seconds": 89.28,
+    "end_time": "2026-01-19T13:25:45.484140"
+  },
+  "system_metrics": [
+    {
+      "timestamp": "2026-01-19T13:24:17.437939",
+      "elapsed_seconds": 1.23,
+      "cpu": {
+        "total_percent": 100.0,
+        "per_core": [
+          100.0,
+          100.0,
+          90.0,
+          100.0
+        ],
+        "process_percent": 28.1
+      },
+      "memory": {
+        "total_mb": 15855.84,
+        "used_mb": 9856.23,
+        "available_mb": 5999.61,
+        "percent": 62.2,
+        "process_mb": 98.59,
+        "memory_growth_mb": -9828.47
+      },
+      "disk": {
+        "total_gb": 218.51,
+        "used_gb": 163.35,
+        "free_gb": 43.99,
+        "percent": 78.8
+      },
+      "threads": {
+        "active_count": 37,
+        "target_count": 500
+      },
+      "network": {
+        "bytes_sent_mb": 142.28,
+        "bytes_recv_mb": 3414.45,
+        "packets_sent": 1496923,
+        "packets_recv": 3044637,
+        "errors_in": 0,
+        "errors_out": 0,
+        "drops_in": 0,
+        "drops_out": 0
+      }
+    },
+    {
+      "timestamp": "2026-01-19T13:24:27.838980",
+      "elapsed_seconds": 11.63,
+      "cpu": {
+        "total_percent": 92.3,
+        "per_core": [
+          70.0,
+          100.0,
+          80.0,
+          100.0
+        ],
+        "process_percent": 28.6
+      },
+      "memory": {
+        "total_mb": 15855.84,
+        "used_mb": 10206.25,
+        "available_mb": 5649.59,
+        "percent": 64.4,
+        "process_mb": 414.4,
+        "memory_growth_mb": -9512.66
+      },
+      "disk": {
+        "total_gb": 218.51,
+        "used_gb": 163.35,
+        "free_gb": 43.99,
+        "percent": 78.8
+      },
+      "threads": {
+        "active_count": 511,
+        "target_count": 500
+      },
+      "network": {
+        "bytes_sent_mb": 142.69,
+        "bytes_recv_mb": 3423.48,
+        "packets_sent": 1502884,
+        "packets_recv": 3053032,
+        "errors_in": 0,
+        "errors_out": 0,
+        "drops_in": 0,
+        "drops_out": 0
+      }
+    },
+    {
+      "timestamp": "2026-01-19T13:24:38.164085",
+      "elapsed_seconds": 21.96,
+      "cpu": {
+        "total_percent": 45.0,
+        "per_core": [
+          0.0,
+          0.0,
+          40.0,
+          100.0
+        ],
+        "process_percent": 0.0
+      },
+      "memory": {
+        "total_mb": 15855.84,
+        "used_mb": 10382.94,
+        "available_mb": 5472.9,
+        "percent": 65.5,
+        "process_mb": 423.96,
+        "memory_growth_mb": -9503.1
+      },
+      "disk": {
+        "total_gb": 218.51,
+        "used_gb": 163.35,
+        "free_gb": 43.99,
+        "percent": 78.8
+      },
+      "threads": {
+        "active_count": 511,
+        "target_count": 500
+      },
+      "network": {
+        "bytes_sent_mb": 142.81,
+        "bytes_recv_mb": 3426.7,
+        "packets_sent": 1504590,
+        "packets_recv": 3055962,
+        "errors_in": 0,
+        "errors_out": 0,
+        "drops_in": 0,
+        "drops_out": 0
+      }
+    },
+    {
+      "timestamp": "2026-01-19T13:24:48.486322",
+      "elapsed_seconds": 32.28,
+      "cpu": {
+        "total_percent": 87.5,
+        "per_core": [
+          100.0,
+          44.4,
+          80.0,
+          36.4
+        ],
+        "process_percent": 59.9
+      },
+      "memory": {
+        "total_mb": 15855.84,
+        "used_mb": 10562.44,
+        "available_mb": 5293.4,
+        "percent": 66.6,
+        "process_mb": 625.31,
+        "memory_growth_mb": -9301.75
+      },
+      "disk": {
+        "total_gb": 218.51,
+        "used_gb": 163.36,
+        "free_gb": 43.98,
+        "percent": 78.8
+      },
+      "threads": {
+        "active_count": 511,
+        "target_count": 500
+      },
+      "network": {
+        "bytes_sent_mb": 143.04,
+        "bytes_recv_mb": 3433.12,
+        "packets_sent": 1507634,
+        "packets_recv": 3061243,
+        "errors_in": 0,
+        "errors_out": 0,
+        "drops_in": 0,
+        "drops_out": 0
+      }
+    },
+    {
+      "timestamp": "2026-01-19T13:24:58.816707",
+      "elapsed_seconds": 42.61,
+      "cpu": {
+        "total_percent": 73.2,
+        "per_core": [
+          90.0,
+          50.0,
+          80.0,
+          88.9
+        ],
+        "process_percent": 9.9
+      },
+      "memory": {
+        "total_mb": 15855.84,
+        "used_mb": 10798.57,
+        "available_mb": 5057.27,
+        "percent": 68.1,
+        "process_mb": 895.33,
+        "memory_growth_mb": -9031.73
+      },
+      "disk": {
+        "total_gb": 218.51,
+        "used_gb": 163.37,
+        "free_gb": 43.97,
+        "percent": 78.8
+      },
+      "threads": {
+        "active_count": 511,
+        "target_count": 500
+      },
+      "network": {
+        "bytes_sent_mb": 143.29,
+        "bytes_recv_mb": 3440.31,
+        "packets_sent": 1511237,
+        "packets_recv": 3067300,
+        "errors_in": 0,
+        "errors_out": 0,
+        "drops_in": 0,
+        "drops_out": 0
+      }
+    },
+    {
+      "timestamp": "2026-01-19T13:25:09.151337",
+      "elapsed_seconds": 52.95,
+      "cpu": {
+        "total_percent": 97.5,
+        "per_core": [
+          77.8,
+          70.0,
+          100.0,
+          80.0
+        ],
+        "process_percent": 29.8
+      },
+      "memory": {
+        "total_mb": 15855.84,
+        "used_mb": 10994.77,
+        "available_mb": 4861.07,
+        "percent": 69.3,
+        "process_mb": 1074.77,
+        "memory_growth_mb": -8852.29
+      },
+      "disk": {
+        "total_gb": 218.51,
+        "used_gb": 163.37,
+        "free_gb": 43.97,
+        "percent": 78.8
+      },
+      "threads": {
+        "active_count": 511,
+        "target_count": 500
+      },
+      "network": {
+        "bytes_sent_mb": 143.5,
+        "bytes_recv_mb": 3446.53,
+        "packets_sent": 1514420,
+        "packets_recv": 3072657,
+        "errors_in": 0,
+        "errors_out": 0,
+        "drops_in": 0,
+        "drops_out": 0
+      }
+    },
+    {
+      "timestamp": "2026-01-19T13:25:19.495418",
+      "elapsed_seconds": 63.29,
+      "cpu": {
+        "total_percent": 82.5,
+        "per_core": [
+          100.0,
+          60.0,
+          36.4,
+          36.4
+        ],
+        "process_percent": 0.0
+      },
+      "memory": {
+        "total_mb": 15855.84,
+        "used_mb": 11095.14,
+        "available_mb": 4760.7,
+        "percent": 70.0,
+        "process_mb": 1162.38,
+        "memory_growth_mb": -8764.68
+      },
+      "disk": {
+        "total_gb": 218.51,
+        "used_gb": 163.37,
+        "free_gb": 43.97,
+        "percent": 78.8
+      },
+      "threads": {
+        "active_count": 511,
+        "target_count": 500
+      },
+      "network": {
+        "bytes_sent_mb": 143.77,
+        "bytes_recv_mb": 3454.43,
+        "packets_sent": 1518448,
+        "packets_recv": 3079199,
+        "errors_in": 0,
+        "errors_out": 0,
+        "drops_in": 0,
+        "drops_out": 0
+      }
+    },
+    {
+      "timestamp": "2026-01-19T13:25:29.827841",
+      "elapsed_seconds": 73.62,
+      "cpu": {
+        "total_percent": 97.6,
+        "per_core": [
+          45.5,
+          100.0,
+          100.0,
+          20.0
+        ],
+        "process_percent": 0.0
+      },
+      "memory": {
+        "total_mb": 15855.84,
+        "used_mb": 11206.43,
+        "available_mb": 4649.41,
+        "percent": 70.7,
+        "process_mb": 1365.83,
+        "memory_growth_mb": -8561.23
+      },
+      "disk": {
+        "total_gb": 218.51,
+        "used_gb": 163.38,
+        "free_gb": 43.96,
+        "percent": 78.8
+      },
+      "threads": {
+        "active_count": 511,
+        "target_count": 500
+      },
+      "network": {
+        "bytes_sent_mb": 144.02,
+        "bytes_recv_mb": 3461.74,
+        "packets_sent": 1522124,
+        "packets_recv": 3085361,
+        "errors_in": 0,
+        "errors_out": 0,
+        "drops_in": 0,
+        "drops_out": 0
+      }
+    },
+    {
+      "timestamp": "2026-01-19T13:25:40.168467",
+      "elapsed_seconds": 83.96,
+      "cpu": {
+        "total_percent": 80.5,
+        "per_core": [
+          88.9,
+          90.0,
+          100.0,
+          100.0
+        ],
+        "process_percent": 79.6
+      },
+      "memory": {
+        "total_mb": 15855.84,
+        "used_mb": 11234.3,
+        "available_mb": 4621.54,
+        "percent": 70.9,
+        "process_mb": 1526.16,
+        "memory_growth_mb": -8400.9
+      },
+      "disk": {
+        "total_gb": 218.51,
+        "used_gb": 163.38,
+        "free_gb": 43.96,
+        "percent": 78.8
+      },
+      "threads": {
+        "active_count": 511,
+        "target_count": 500
+      },
+      "network": {
+        "bytes_sent_mb": 144.23,
+        "bytes_recv_mb": 3467.85,
+        "packets_sent": 1525135,
+        "packets_recv": 3090572,
+        "errors_in": 0,
+        "errors_out": 0,
+        "drops_in": 0,
+        "drops_out": 0
+      }
+    }
+  ],
+  "thread_metrics": [
+    {
+      "timestamp": "2026-01-19T13:24:17.210347",
+      "camera_id": "cam_0001",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:17.210866",
+      "camera_id": "cam_0002",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:17.211583",
+      "camera_id": "cam_0003",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:17.213668",
+      "camera_id": "cam_0004",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:17.215995",
+      "camera_id": "cam_0005",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:17.216559",
+      "camera_id": "cam_0006",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:17.217074",
+      "camera_id": "cam_0007",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:17.218964",
+      "camera_id": "cam_0008",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:17.222316",
+      "camera_id": "cam_0009",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:17.228549",
+      "camera_id": "cam_0010",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:17.236503",
+      "camera_id": "cam_0011",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:17.242710",
+      "camera_id": "cam_0012",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:17.248509",
+      "camera_id": "cam_0013",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:17.254871",
+      "camera_id": "cam_0014",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:17.270023",
+      "camera_id": "cam_0015",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:17.274817",
+      "camera_id": "cam_0016",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:17.294630",
+      "camera_id": "cam_0017",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:17.296822",
+      "camera_id": "cam_0018",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:17.298137",
+      "camera_id": "cam_0019",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:17.298597",
+      "camera_id": "cam_0020",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:17.307908",
+      "camera_id": "cam_0021",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:17.311897",
+      "camera_id": "cam_0022",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:17.328288",
+      "camera_id": "cam_0023",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:17.339111",
+      "camera_id": "cam_0024",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:17.353437",
+      "camera_id": "cam_0025",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:17.359311",
+      "camera_id": "cam_0026",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:17.390894",
+      "camera_id": "cam_0027",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:17.403573",
+      "camera_id": "cam_0028",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:17.423405",
+      "camera_id": "cam_0029",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:17.481483",
+      "camera_id": "cam_0030",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:17.487068",
+      "camera_id": "cam_0031",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:17.497642",
+      "camera_id": "cam_0032",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:17.499259",
+      "camera_id": "cam_0033",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:17.519510",
+      "camera_id": "cam_0034",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:17.533197",
+      "camera_id": "cam_0035",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:17.536577",
+      "camera_id": "cam_0036",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:17.549391",
+      "camera_id": "cam_0037",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:17.558262",
+      "camera_id": "cam_0038",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:17.573387",
+      "camera_id": "cam_0039",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:17.584547",
+      "camera_id": "cam_0040",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:17.586075",
+      "camera_id": "cam_0041",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:17.586920",
+      "camera_id": "cam_0042",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:17.587408",
+      "camera_id": "cam_0043",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:17.588978",
+      "camera_id": "cam_0044",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:17.599556",
+      "camera_id": "cam_0045",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:17.609829",
+      "camera_id": "cam_0046",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:17.612393",
+      "camera_id": "cam_0047",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:17.619160",
+      "camera_id": "cam_0048",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:17.639622",
+      "camera_id": "cam_0049",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:17.665291",
+      "camera_id": "cam_0050",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:18.199123",
+      "camera_id": "cam_0051",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:18.200391",
+      "camera_id": "cam_0052",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:18.208999",
+      "camera_id": "cam_0053",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:18.220232",
+      "camera_id": "cam_0054",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:18.230487",
+      "camera_id": "cam_0055",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:18.231660",
+      "camera_id": "cam_0056",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:18.239905",
+      "camera_id": "cam_0057",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:18.247483",
+      "camera_id": "cam_0058",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:18.248190",
+      "camera_id": "cam_0059",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:18.257638",
+      "camera_id": "cam_0060",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:18.263741",
+      "camera_id": "cam_0061",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:18.266282",
+      "camera_id": "cam_0062",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:18.272468",
+      "camera_id": "cam_0063",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:18.278134",
+      "camera_id": "cam_0064",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:18.283744",
+      "camera_id": "cam_0065",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:18.288730",
+      "camera_id": "cam_0066",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:18.306950",
+      "camera_id": "cam_0067",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:18.315514",
+      "camera_id": "cam_0068",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:18.320013",
+      "camera_id": "cam_0069",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:18.324346",
+      "camera_id": "cam_0070",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:18.336975",
+      "camera_id": "cam_0071",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:18.343723",
+      "camera_id": "cam_0072",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:18.357720",
+      "camera_id": "cam_0073",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:18.364966",
+      "camera_id": "cam_0074",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:18.367968",
+      "camera_id": "cam_0075",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:18.378041",
+      "camera_id": "cam_0076",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:18.386239",
+      "camera_id": "cam_0077",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:18.391689",
+      "camera_id": "cam_0078",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:18.397635",
+      "camera_id": "cam_0079",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:18.408538",
+      "camera_id": "cam_0080",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:18.425411",
+      "camera_id": "cam_0081",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:18.434543",
+      "camera_id": "cam_0082",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:18.443056",
+      "camera_id": "cam_0083",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:18.443620",
+      "camera_id": "cam_0084",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:18.456540",
+      "camera_id": "cam_0085",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:18.462549",
+      "camera_id": "cam_0086",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:18.468411",
+      "camera_id": "cam_0087",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:18.479423",
+      "camera_id": "cam_0088",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:18.488279",
+      "camera_id": "cam_0089",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:18.506148",
+      "camera_id": "cam_0090",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:18.514127",
+      "camera_id": "cam_0091",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:18.527742",
+      "camera_id": "cam_0092",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:18.528148",
+      "camera_id": "cam_0093",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:18.544347",
+      "camera_id": "cam_0094",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:18.554714",
+      "camera_id": "cam_0095",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:18.557965",
+      "camera_id": "cam_0096",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:18.572757",
+      "camera_id": "cam_0097",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:18.593106",
+      "camera_id": "cam_0098",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:18.601022",
+      "camera_id": "cam_0099",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:18.610395",
+      "camera_id": "cam_0100",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:19.114725",
+      "camera_id": "cam_0101",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:19.115203",
+      "camera_id": "cam_0102",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:19.125250",
+      "camera_id": "cam_0103",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:19.126295",
+      "camera_id": "cam_0104",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:19.129111",
+      "camera_id": "cam_0105",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:19.147418",
+      "camera_id": "cam_0106",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:19.147911",
+      "camera_id": "cam_0107",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:19.148933",
+      "camera_id": "cam_0108",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:19.156874",
+      "camera_id": "cam_0109",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:19.164555",
+      "camera_id": "cam_0110",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:19.167237",
+      "camera_id": "cam_0111",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:19.174339",
+      "camera_id": "cam_0112",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:19.176486",
+      "camera_id": "cam_0113",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:19.182973",
+      "camera_id": "cam_0114",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:19.232953",
+      "camera_id": "cam_0115",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:19.241835",
+      "camera_id": "cam_0116",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:19.248405",
+      "camera_id": "cam_0117",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:19.278175",
+      "camera_id": "cam_0118",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:19.280405",
+      "camera_id": "cam_0119",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:19.304012",
+      "camera_id": "cam_0120",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:19.313765",
+      "camera_id": "cam_0121",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:19.340493",
+      "camera_id": "cam_0122",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:19.355404",
+      "camera_id": "cam_0123",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:19.363765",
+      "camera_id": "cam_0124",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:19.365455",
+      "camera_id": "cam_0125",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:19.373526",
+      "camera_id": "cam_0126",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:19.377318",
+      "camera_id": "cam_0127",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:19.390513",
+      "camera_id": "cam_0128",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:19.391140",
+      "camera_id": "cam_0129",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:19.392021",
+      "camera_id": "cam_0130",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:19.401865",
+      "camera_id": "cam_0131",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:19.410963",
+      "camera_id": "cam_0132",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:19.419264",
+      "camera_id": "cam_0133",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:19.430874",
+      "camera_id": "cam_0134",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:19.432789",
+      "camera_id": "cam_0135",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:19.436445",
+      "camera_id": "cam_0136",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:19.440673",
+      "camera_id": "cam_0137",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:19.442747",
+      "camera_id": "cam_0138",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:19.476846",
+      "camera_id": "cam_0139",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:19.490080",
+      "camera_id": "cam_0140",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:19.497808",
+      "camera_id": "cam_0141",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:19.513773",
+      "camera_id": "cam_0142",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:19.514737",
+      "camera_id": "cam_0143",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:19.531923",
+      "camera_id": "cam_0144",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:19.544267",
+      "camera_id": "cam_0145",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:19.564560",
+      "camera_id": "cam_0146",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:19.598013",
+      "camera_id": "cam_0147",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:19.605567",
+      "camera_id": "cam_0148",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:19.646831",
+      "camera_id": "cam_0149",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:19.662419",
+      "camera_id": "cam_0150",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:20.176913",
+      "camera_id": "cam_0151",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:20.181889",
+      "camera_id": "cam_0152",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:20.189140",
+      "camera_id": "cam_0153",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:20.190275",
+      "camera_id": "cam_0154",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:20.202231",
+      "camera_id": "cam_0155",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:20.211145",
+      "camera_id": "cam_0156",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:20.218042",
+      "camera_id": "cam_0157",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:20.218419",
+      "camera_id": "cam_0158",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:20.229567",
+      "camera_id": "cam_0159",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:20.231475",
+      "camera_id": "cam_0160",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:20.234591",
+      "camera_id": "cam_0161",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:20.238978",
+      "camera_id": "cam_0162",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:20.252315",
+      "camera_id": "cam_0163",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:20.258708",
+      "camera_id": "cam_0164",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:20.272709",
+      "camera_id": "cam_0165",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:20.275473",
+      "camera_id": "cam_0166",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:20.282239",
+      "camera_id": "cam_0167",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:20.295118",
+      "camera_id": "cam_0168",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:20.298686",
+      "camera_id": "cam_0169",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:20.300287",
+      "camera_id": "cam_0170",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:20.312740",
+      "camera_id": "cam_0171",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:20.316492",
+      "camera_id": "cam_0172",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:20.338596",
+      "camera_id": "cam_0173",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:20.357127",
+      "camera_id": "cam_0174",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:20.361521",
+      "camera_id": "cam_0175",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:20.381919",
+      "camera_id": "cam_0176",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:20.393013",
+      "camera_id": "cam_0177",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:20.409328",
+      "camera_id": "cam_0178",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:20.413962",
+      "camera_id": "cam_0179",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:20.423493",
+      "camera_id": "cam_0180",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:20.445076",
+      "camera_id": "cam_0181",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:20.454184",
+      "camera_id": "cam_0182",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:20.466249",
+      "camera_id": "cam_0183",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:20.487335",
+      "camera_id": "cam_0184",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:20.493497",
+      "camera_id": "cam_0185",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:20.539059",
+      "camera_id": "cam_0186",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:20.545473",
+      "camera_id": "cam_0187",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:20.573684",
+      "camera_id": "cam_0188",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:20.579216",
+      "camera_id": "cam_0189",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:20.582053",
+      "camera_id": "cam_0190",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:20.599656",
+      "camera_id": "cam_0191",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:20.605746",
+      "camera_id": "cam_0192",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:20.639737",
+      "camera_id": "cam_0193",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:20.658173",
+      "camera_id": "cam_0194",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:20.670271",
+      "camera_id": "cam_0195",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:20.691566",
+      "camera_id": "cam_0196",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:20.699895",
+      "camera_id": "cam_0197",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:20.716194",
+      "camera_id": "cam_0198",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:20.736875",
+      "camera_id": "cam_0199",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:20.744015",
+      "camera_id": "cam_0200",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:21.248804",
+      "camera_id": "cam_0201",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:21.258176",
+      "camera_id": "cam_0202",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:21.265777",
+      "camera_id": "cam_0203",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:21.275379",
+      "camera_id": "cam_0204",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:21.279566",
+      "camera_id": "cam_0205",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:21.282085",
+      "camera_id": "cam_0206",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:21.292989",
+      "camera_id": "cam_0207",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:21.297840",
+      "camera_id": "cam_0208",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:21.308602",
+      "camera_id": "cam_0209",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:21.312065",
+      "camera_id": "cam_0210",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:21.315159",
+      "camera_id": "cam_0211",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:21.329069",
+      "camera_id": "cam_0212",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:21.339442",
+      "camera_id": "cam_0213",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:21.343007",
+      "camera_id": "cam_0214",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:21.347288",
+      "camera_id": "cam_0215",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:21.365684",
+      "camera_id": "cam_0216",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:21.369229",
+      "camera_id": "cam_0217",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:21.381995",
+      "camera_id": "cam_0218",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:21.396860",
+      "camera_id": "cam_0219",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:21.404059",
+      "camera_id": "cam_0220",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:21.404605",
+      "camera_id": "cam_0221",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:21.405301",
+      "camera_id": "cam_0222",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:21.412511",
+      "camera_id": "cam_0223",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:21.431075",
+      "camera_id": "cam_0224",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:21.446904",
+      "camera_id": "cam_0225",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:21.458734",
+      "camera_id": "cam_0226",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:21.477600",
+      "camera_id": "cam_0227",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:21.491242",
+      "camera_id": "cam_0228",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:21.501912",
+      "camera_id": "cam_0229",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:21.504267",
+      "camera_id": "cam_0230",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:21.541553",
+      "camera_id": "cam_0231",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:21.569828",
+      "camera_id": "cam_0232",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:21.572444",
+      "camera_id": "cam_0233",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:21.605518",
+      "camera_id": "cam_0234",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:21.605895",
+      "camera_id": "cam_0235",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:21.628737",
+      "camera_id": "cam_0236",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:21.632988",
+      "camera_id": "cam_0237",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:21.653945",
+      "camera_id": "cam_0238",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:21.655176",
+      "camera_id": "cam_0239",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:21.661092",
+      "camera_id": "cam_0240",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:21.672745",
+      "camera_id": "cam_0241",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:21.692948",
+      "camera_id": "cam_0242",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:21.695110",
+      "camera_id": "cam_0243",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:21.721816",
+      "camera_id": "cam_0244",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:21.732744",
+      "camera_id": "cam_0245",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:21.734627",
+      "camera_id": "cam_0246",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:21.749429",
+      "camera_id": "cam_0247",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:21.764396",
+      "camera_id": "cam_0248",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:21.767159",
+      "camera_id": "cam_0249",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:21.777639",
+      "camera_id": "cam_0250",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:22.290072",
+      "camera_id": "cam_0251",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:22.291304",
+      "camera_id": "cam_0252",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:22.294429",
+      "camera_id": "cam_0253",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:22.295448",
+      "camera_id": "cam_0254",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:22.297158",
+      "camera_id": "cam_0255",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:22.300013",
+      "camera_id": "cam_0256",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:22.303187",
+      "camera_id": "cam_0257",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:22.310407",
+      "camera_id": "cam_0258",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:22.314853",
+      "camera_id": "cam_0259",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:22.324144",
+      "camera_id": "cam_0260",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:22.336964",
+      "camera_id": "cam_0261",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:22.357020",
+      "camera_id": "cam_0262",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:22.365258",
+      "camera_id": "cam_0263",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:22.375553",
+      "camera_id": "cam_0264",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:22.383386",
+      "camera_id": "cam_0265",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:22.408774",
+      "camera_id": "cam_0266",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:22.412864",
+      "camera_id": "cam_0267",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:22.414219",
+      "camera_id": "cam_0268",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:22.420841",
+      "camera_id": "cam_0269",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:22.425520",
+      "camera_id": "cam_0270",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:22.431128",
+      "camera_id": "cam_0271",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:22.432122",
+      "camera_id": "cam_0272",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:22.432539",
+      "camera_id": "cam_0273",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:22.439044",
+      "camera_id": "cam_0274",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:22.442512",
+      "camera_id": "cam_0275",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:22.443333",
+      "camera_id": "cam_0276",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:22.459755",
+      "camera_id": "cam_0277",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:22.462537",
+      "camera_id": "cam_0278",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:22.464415",
+      "camera_id": "cam_0279",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:22.476510",
+      "camera_id": "cam_0280",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:22.481360",
+      "camera_id": "cam_0281",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:22.488507",
+      "camera_id": "cam_0282",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:22.496816",
+      "camera_id": "cam_0283",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:22.499701",
+      "camera_id": "cam_0284",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:22.514386",
+      "camera_id": "cam_0285",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:22.522365",
+      "camera_id": "cam_0286",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:22.542739",
+      "camera_id": "cam_0287",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:22.546954",
+      "camera_id": "cam_0288",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:22.548310",
+      "camera_id": "cam_0289",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:22.550966",
+      "camera_id": "cam_0290",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:22.564332",
+      "camera_id": "cam_0291",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:22.578074",
+      "camera_id": "cam_0292",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:22.623102",
+      "camera_id": "cam_0293",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:22.624769",
+      "camera_id": "cam_0294",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:22.642427",
+      "camera_id": "cam_0295",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:22.647838",
+      "camera_id": "cam_0296",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:22.657892",
+      "camera_id": "cam_0297",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:22.678265",
+      "camera_id": "cam_0298",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:22.682734",
+      "camera_id": "cam_0299",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:22.690676",
+      "camera_id": "cam_0300",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:23.199863",
+      "camera_id": "cam_0301",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:23.211385",
+      "camera_id": "cam_0302",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:23.211853",
+      "camera_id": "cam_0303",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:23.212619",
+      "camera_id": "cam_0304",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:23.226065",
+      "camera_id": "cam_0305",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:23.230096",
+      "camera_id": "cam_0306",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:23.237826",
+      "camera_id": "cam_0307",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:23.246230",
+      "camera_id": "cam_0308",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:23.258656",
+      "camera_id": "cam_0309",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:23.273472",
+      "camera_id": "cam_0310",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:23.316244",
+      "camera_id": "cam_0311",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:23.332666",
+      "camera_id": "cam_0312",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:23.355360",
+      "camera_id": "cam_0313",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:23.372966",
+      "camera_id": "cam_0314",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:23.380573",
+      "camera_id": "cam_0315",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:23.412983",
+      "camera_id": "cam_0316",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:23.414343",
+      "camera_id": "cam_0317",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:23.423185",
+      "camera_id": "cam_0318",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:23.424716",
+      "camera_id": "cam_0319",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:23.425335",
+      "camera_id": "cam_0320",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:23.435998",
+      "camera_id": "cam_0321",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:23.452790",
+      "camera_id": "cam_0322",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:23.463171",
+      "camera_id": "cam_0323",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:23.470493",
+      "camera_id": "cam_0324",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:23.500901",
+      "camera_id": "cam_0325",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:23.515897",
+      "camera_id": "cam_0326",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:23.528553",
+      "camera_id": "cam_0327",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:23.549974",
+      "camera_id": "cam_0328",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:23.557935",
+      "camera_id": "cam_0329",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:23.561457",
+      "camera_id": "cam_0330",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:23.564052",
+      "camera_id": "cam_0331",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:23.564929",
+      "camera_id": "cam_0332",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:23.567853",
+      "camera_id": "cam_0333",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:23.570096",
+      "camera_id": "cam_0334",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:23.571865",
+      "camera_id": "cam_0335",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:23.572577",
+      "camera_id": "cam_0336",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:23.575891",
+      "camera_id": "cam_0337",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:23.579245",
+      "camera_id": "cam_0338",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:23.579672",
+      "camera_id": "cam_0339",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:23.580039",
+      "camera_id": "cam_0340",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:23.580627",
+      "camera_id": "cam_0341",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:23.581959",
+      "camera_id": "cam_0342",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:23.587983",
+      "camera_id": "cam_0343",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:23.596670",
+      "camera_id": "cam_0344",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:23.598639",
+      "camera_id": "cam_0345",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:23.610827",
+      "camera_id": "cam_0346",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:23.612509",
+      "camera_id": "cam_0347",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:23.625258",
+      "camera_id": "cam_0348",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:23.630063",
+      "camera_id": "cam_0349",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:23.638922",
+      "camera_id": "cam_0350",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:24.159414",
+      "camera_id": "cam_0351",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:24.159876",
+      "camera_id": "cam_0352",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:24.162344",
+      "camera_id": "cam_0353",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:24.163703",
+      "camera_id": "cam_0354",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:24.168840",
+      "camera_id": "cam_0355",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:24.169670",
+      "camera_id": "cam_0356",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:24.179201",
+      "camera_id": "cam_0357",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:24.181946",
+      "camera_id": "cam_0358",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:24.193486",
+      "camera_id": "cam_0359",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:24.210576",
+      "camera_id": "cam_0360",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:24.219979",
+      "camera_id": "cam_0361",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:24.226699",
+      "camera_id": "cam_0362",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:24.240291",
+      "camera_id": "cam_0363",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:24.241590",
+      "camera_id": "cam_0364",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:24.247849",
+      "camera_id": "cam_0365",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:24.263249",
+      "camera_id": "cam_0366",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:24.280591",
+      "camera_id": "cam_0367",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:24.280942",
+      "camera_id": "cam_0368",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:24.281903",
+      "camera_id": "cam_0369",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:24.282498",
+      "camera_id": "cam_0370",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:24.291347",
+      "camera_id": "cam_0371",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:24.292860",
+      "camera_id": "cam_0372",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:24.301206",
+      "camera_id": "cam_0373",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:24.304619",
+      "camera_id": "cam_0374",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:24.308535",
+      "camera_id": "cam_0375",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:24.323263",
+      "camera_id": "cam_0376",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:24.327800",
+      "camera_id": "cam_0377",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:24.333509",
+      "camera_id": "cam_0378",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:24.370864",
+      "camera_id": "cam_0379",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:24.377386",
+      "camera_id": "cam_0380",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:24.380520",
+      "camera_id": "cam_0381",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:24.397713",
+      "camera_id": "cam_0382",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:24.416541",
+      "camera_id": "cam_0383",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:24.422134",
+      "camera_id": "cam_0384",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:24.426323",
+      "camera_id": "cam_0385",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:24.430610",
+      "camera_id": "cam_0386",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:24.443850",
+      "camera_id": "cam_0387",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:24.461536",
+      "camera_id": "cam_0388",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:24.463690",
+      "camera_id": "cam_0389",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:24.476022",
+      "camera_id": "cam_0390",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:24.476451",
+      "camera_id": "cam_0391",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:24.488484",
+      "camera_id": "cam_0392",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:24.504476",
+      "camera_id": "cam_0393",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:24.521289",
+      "camera_id": "cam_0394",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:24.559296",
+      "camera_id": "cam_0395",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:24.562581",
+      "camera_id": "cam_0396",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:24.579754",
+      "camera_id": "cam_0397",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:24.592561",
+      "camera_id": "cam_0398",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:24.632504",
+      "camera_id": "cam_0399",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:24.639543",
+      "camera_id": "cam_0400",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:25.166777",
+      "camera_id": "cam_0401",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:25.173542",
+      "camera_id": "cam_0402",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:25.174858",
+      "camera_id": "cam_0403",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:25.189164",
+      "camera_id": "cam_0404",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:25.198196",
+      "camera_id": "cam_0405",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:25.201463",
+      "camera_id": "cam_0406",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:25.202098",
+      "camera_id": "cam_0407",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:25.217319",
+      "camera_id": "cam_0408",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:25.231365",
+      "camera_id": "cam_0409",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:25.263683",
+      "camera_id": "cam_0410",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:25.275412",
+      "camera_id": "cam_0411",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:25.282640",
+      "camera_id": "cam_0412",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:25.298571",
+      "camera_id": "cam_0413",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:25.307446",
+      "camera_id": "cam_0414",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:25.308846",
+      "camera_id": "cam_0415",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:25.312486",
+      "camera_id": "cam_0416",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:25.341853",
+      "camera_id": "cam_0417",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:25.347198",
+      "camera_id": "cam_0418",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:25.371205",
+      "camera_id": "cam_0419",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:25.378323",
+      "camera_id": "cam_0420",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:25.394327",
+      "camera_id": "cam_0421",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:25.397768",
+      "camera_id": "cam_0422",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:25.415819",
+      "camera_id": "cam_0423",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:25.425914",
+      "camera_id": "cam_0424",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:25.436693",
+      "camera_id": "cam_0425",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:25.440302",
+      "camera_id": "cam_0426",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:25.455836",
+      "camera_id": "cam_0427",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:25.457251",
+      "camera_id": "cam_0428",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:25.463236",
+      "camera_id": "cam_0429",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:25.465996",
+      "camera_id": "cam_0430",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:25.479787",
+      "camera_id": "cam_0431",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:25.480953",
+      "camera_id": "cam_0432",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:25.496942",
+      "camera_id": "cam_0433",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:25.500198",
+      "camera_id": "cam_0434",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:25.521204",
+      "camera_id": "cam_0435",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:25.523681",
+      "camera_id": "cam_0436",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:25.536247",
+      "camera_id": "cam_0437",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:25.560710",
+      "camera_id": "cam_0438",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:25.563178",
+      "camera_id": "cam_0439",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:25.567286",
+      "camera_id": "cam_0440",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:25.605796",
+      "camera_id": "cam_0441",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:25.612087",
+      "camera_id": "cam_0442",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:25.613141",
+      "camera_id": "cam_0443",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:25.616863",
+      "camera_id": "cam_0444",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:25.620569",
+      "camera_id": "cam_0445",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:25.630232",
+      "camera_id": "cam_0446",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:25.650696",
+      "camera_id": "cam_0447",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:25.662824",
+      "camera_id": "cam_0448",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:25.664482",
+      "camera_id": "cam_0449",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:25.679518",
+      "camera_id": "cam_0450",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:26.239332",
+      "camera_id": "cam_0451",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:26.252675",
+      "camera_id": "cam_0452",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:26.267147",
+      "camera_id": "cam_0453",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:26.272251",
+      "camera_id": "cam_0454",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:26.281954",
+      "camera_id": "cam_0455",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:26.289191",
+      "camera_id": "cam_0456",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:26.292414",
+      "camera_id": "cam_0457",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:26.309253",
+      "camera_id": "cam_0458",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:26.310061",
+      "camera_id": "cam_0459",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:26.310647",
+      "camera_id": "cam_0460",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:26.316935",
+      "camera_id": "cam_0461",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:26.339048",
+      "camera_id": "cam_0462",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:26.348610",
+      "camera_id": "cam_0463",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:26.370435",
+      "camera_id": "cam_0464",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:26.383734",
+      "camera_id": "cam_0465",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:26.423493",
+      "camera_id": "cam_0466",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:26.425155",
+      "camera_id": "cam_0467",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:26.426185",
+      "camera_id": "cam_0468",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:26.432235",
+      "camera_id": "cam_0469",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:26.444106",
+      "camera_id": "cam_0470",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:26.446071",
+      "camera_id": "cam_0471",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:26.482450",
+      "camera_id": "cam_0472",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:26.495584",
+      "camera_id": "cam_0473",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:26.500526",
+      "camera_id": "cam_0474",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:26.521500",
+      "camera_id": "cam_0475",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:26.525640",
+      "camera_id": "cam_0476",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:26.531352",
+      "camera_id": "cam_0477",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:26.538454",
+      "camera_id": "cam_0478",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:26.538999",
+      "camera_id": "cam_0479",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:26.546822",
+      "camera_id": "cam_0480",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:26.550339",
+      "camera_id": "cam_0481",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:26.558348",
+      "camera_id": "cam_0482",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:26.569713",
+      "camera_id": "cam_0483",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:26.581852",
+      "camera_id": "cam_0484",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:26.600355",
+      "camera_id": "cam_0485",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:26.603223",
+      "camera_id": "cam_0486",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:26.608974",
+      "camera_id": "cam_0487",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:26.619454",
+      "camera_id": "cam_0488",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:26.627325",
+      "camera_id": "cam_0489",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:26.646570",
+      "camera_id": "cam_0490",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:26.663880",
+      "camera_id": "cam_0491",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:26.681350",
+      "camera_id": "cam_0492",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:26.692889",
+      "camera_id": "cam_0493",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:26.694300",
+      "camera_id": "cam_0494",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:26.697673",
+      "camera_id": "cam_0495",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:26.708805",
+      "camera_id": "cam_0496",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:26.710321",
+      "camera_id": "cam_0497",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:26.710874",
+      "camera_id": "cam_0498",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:26.726341",
+      "camera_id": "cam_0499",
+      "status": "STARTED",
+      "details": {}
+    },
+    {
+      "timestamp": "2026-01-19T13:24:26.728727",
+      "camera_id": "cam_0500",
+      "status": "STARTED",
+      "details": {}
+    }
+  ],
+  "errors": [],
+  "warnings": [],
+  "camera_stats": {},
+  "summary": {
+    "cpu": {
+      "avg_total_percent": 84.01,
+      "max_total_percent": 100.0,
+      "min_total_percent": 45.0,
+      "avg_process_percent": 26.21,
+      "max_process_percent": 79.6
+    },
+    "memory": {
+      "avg_process_mb": 842.97,
+      "max_process_mb": 1526.16,
+      "min_process_mb": 98.59,
+      "total_growth_mb": -8400.9,
+      "avg_growth_mb": -9084.09
+    },
+    "cameras": {
+      "total_configured": 500,
+      "total_errors": 0,
+      "total_warnings": 0,
+      "cameras_with_stats": 0
+    },
+    "threads": {
+      "max_active": 511,
+      "avg_active": 458.33
+    }
+  }
+}

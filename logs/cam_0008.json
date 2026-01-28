@@ -1,0 +1,6035 @@
+{
+  "camera_id": "cam_0008",
+  "events": [
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-23T15:38:25.992792",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "4023f0c8-b729-49d1-acf6-7cb66bab3323",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-23T15:38:25.973546",
+        "last_checked": "2026-01-23T15:38:25.973579",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-23T15:38:25.973546"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-23T15:38:34.388879",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "3162aa32-7568-4f2b-bd40-b5a45a142236",
+        "event_type": "BASELINE_MATCH",
+        "event_description": "Captured frame matches baseline - no anomalies detected",
+        "timestamp": "2026-01-23T15:38:34.161735",
+        "last_checked": "2026-01-23T15:38:34.161766",
+        "status": "PASS",
+        "meta_data": {
+          "similarity": null,
+          "difference_percent": null,
+          "brightness": 93.0968643904321,
+          "blur_score": 2026.2782870069375
+        }
+      },
+      "summary": {
+        "Vision_status": "PASS",
+        "Alert_active": false,
+        "Last_vision_check": "2026-01-23T15:38:34.161110"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-23T15:38:37.809097",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "e0e5a59c-53e7-49ed-b6d3-4ef06e19d677",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-23T15:38:37.792108",
+        "last_checked": "2026-01-23T15:38:37.792130",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-23T15:38:37.792108"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-23T15:38:44.554776",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "7f60938f-4d92-44a9-8cd6-e1e622ef31de",
+        "event_type": "BASELINE_MATCH",
+        "event_description": "Captured frame matches baseline - no anomalies detected",
+        "timestamp": "2026-01-23T15:38:44.545072",
+        "last_checked": "2026-01-23T15:38:44.545078",
+        "status": "PASS",
+        "meta_data": {
+          "similarity": null,
+          "difference_percent": null,
+          "brightness": 93.24874903549383,
+          "blur_score": 1944.563447106129
+        }
+      },
+      "summary": {
+        "Vision_status": "PASS",
+        "Alert_active": false,
+        "Last_vision_check": "2026-01-23T15:38:44.544900"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-23T15:38:52.829219",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "50c21db8-c653-455f-bc6d-451c41d90f46",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-23T15:38:52.813292",
+        "last_checked": "2026-01-23T15:38:52.813344",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-23T15:38:52.813292"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-23T15:39:07.935439",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "2ed24c7c-1f79-4941-9ae0-0a66ebc7474f",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-23T15:39:07.911727",
+        "last_checked": "2026-01-23T15:39:07.911741",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-23T15:39:07.911727"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-23T15:39:24.718982",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "f12fe262-c6f3-4411-99fa-ceb2a4bb5756",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-23T15:39:24.699885",
+        "last_checked": "2026-01-23T15:39:24.699928",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-23T15:39:24.699885"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-23T15:39:37.384267",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "c50f9bbe-67ee-42c1-afd4-0758118ab935",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-23T15:39:37.349516",
+        "last_checked": "2026-01-23T15:39:37.349560",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-23T15:39:37.349516"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-23T15:39:52.374536",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "dbbb333e-5fc5-4439-a45f-bc4c89fca6d2",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-23T15:39:52.334586",
+        "last_checked": "2026-01-23T15:39:52.334606",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-23T15:39:52.334586"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-23T15:40:07.581659",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "7ba664c6-9729-49a2-95ff-cbfa100294f1",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-23T15:40:07.437998",
+        "last_checked": "2026-01-23T15:40:07.438015",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-23T15:40:07.437998"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-23T15:40:24.999865",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "b9a0ef98-4a6c-4b5a-9a9f-938b5ee0a37d",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-23T15:40:24.988386",
+        "last_checked": "2026-01-23T15:40:24.988399",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-23T15:40:24.988386"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-23T15:40:29.697782",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "88216368-5ca1-4a1c-9903-6290bebea65d",
+        "event_type": "BASELINE_MATCH",
+        "event_description": "Captured frame matches baseline - no anomalies detected",
+        "timestamp": "2026-01-23T15:40:29.688489",
+        "last_checked": "2026-01-23T15:40:29.688493",
+        "status": "PASS",
+        "meta_data": {
+          "similarity": null,
+          "difference_percent": null,
+          "brightness": 93.66378616898149,
+          "blur_score": 1934.882611204849
+        }
+      },
+      "summary": {
+        "Vision_status": "PASS",
+        "Alert_active": false,
+        "Last_vision_check": "2026-01-23T15:40:29.688338"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-23T15:40:37.700791",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "0020fe5e-bc37-42a9-b67d-0c7d8ab0b7d0",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-23T15:40:37.684517",
+        "last_checked": "2026-01-23T15:40:37.684532",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-23T15:40:37.684517"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-23T15:40:52.486717",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "c60415ac-84bd-4707-b6b7-e5f4b3d18419",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-23T15:40:52.473151",
+        "last_checked": "2026-01-23T15:40:52.473160",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-23T15:40:52.473151"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:22:36.782150",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "d1594833-fb28-4fdb-9a6c-f836f87535be",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:22:36.773349",
+        "last_checked": "2026-01-24T10:22:36.773367",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:22:36.773349"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:22:43.564257",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "460866ff-49e7-4316-a0dc-b55faf9894f8",
+        "event_type": "BASELINE_MATCH",
+        "event_description": "Captured frame matches baseline - no anomalies detected",
+        "timestamp": "2026-01-24T10:22:43.545016",
+        "last_checked": "2026-01-24T10:22:43.545021",
+        "status": "PASS",
+        "meta_data": {
+          "similarity": null,
+          "difference_percent": null,
+          "brightness": 87.26971257716049,
+          "blur_score": 1907.2749172075255
+        }
+      },
+      "summary": {
+        "Vision_status": "PASS",
+        "Alert_active": false,
+        "Last_vision_check": "2026-01-24T10:22:43.544806"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:22:49.647508",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "35131502-bdb1-4291-bdd4-34b40b20795b",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:22:49.615160",
+        "last_checked": "2026-01-24T10:22:49.615175",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:22:49.615160"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:23:04.501172",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "2696ff97-1237-4486-8888-ad1f7ba4b61f",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:23:04.487923",
+        "last_checked": "2026-01-24T10:23:04.487938",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:23:04.487923"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:23:19.533303",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "dcc26f70-0165-4462-9914-804b590a6982",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:23:19.517865",
+        "last_checked": "2026-01-24T10:23:19.517894",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:23:19.517865"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:23:36.728501",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "f373747a-8f13-4a40-b9d4-fb7bf09ae7a1",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:23:36.717445",
+        "last_checked": "2026-01-24T10:23:36.717465",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:23:36.717445"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:23:49.582911",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "70f83b07-ad40-40a9-b4b5-96bf1a8dab1f",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:23:49.565734",
+        "last_checked": "2026-01-24T10:23:49.565745",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:23:49.565734"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:24:04.646311",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "22003907-5fcb-4a91-8550-410d5a96efa8",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:24:04.613340",
+        "last_checked": "2026-01-24T10:24:04.613361",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:24:04.613340"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:24:19.630402",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "4b790e10-a8aa-43c6-b49f-314ad2ef9163",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:24:19.619256",
+        "last_checked": "2026-01-24T10:24:19.619298",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:24:19.619256"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:24:36.847401",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "79be620e-4420-46bf-a784-2382fa3efec6",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:24:36.836098",
+        "last_checked": "2026-01-24T10:24:36.836207",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:24:36.836098"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:24:42.528764",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "e539079d-6d4a-47a9-83c4-d067c82ab8ca",
+        "event_type": "BASELINE_MATCH",
+        "event_description": "Captured frame matches baseline - no anomalies detected",
+        "timestamp": "2026-01-24T10:24:42.508531",
+        "last_checked": "2026-01-24T10:24:42.508537",
+        "status": "PASS",
+        "meta_data": {
+          "similarity": null,
+          "difference_percent": null,
+          "brightness": 89.18228250385802,
+          "blur_score": 1854.0935933513692
+        }
+      },
+      "summary": {
+        "Vision_status": "PASS",
+        "Alert_active": false,
+        "Last_vision_check": "2026-01-24T10:24:42.508311"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:24:49.672790",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "bb4e0b69-9052-42bb-a270-dc08f87bc6c7",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:24:49.653887",
+        "last_checked": "2026-01-24T10:24:49.653902",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:24:49.653887"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:25:04.707922",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "4e2bfec0-f314-4f7c-944c-09563ba4db88",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:25:04.694207",
+        "last_checked": "2026-01-24T10:25:04.694219",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:25:04.694207"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:25:19.916103",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "50861221-dc7f-4861-9cdb-41f30c59bd9c",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:25:19.903109",
+        "last_checked": "2026-01-24T10:25:19.903132",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:25:19.903109"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:25:36.825952",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "6022fc28-d78c-425a-8ad6-2f868365555f",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:25:36.818424",
+        "last_checked": "2026-01-24T10:25:36.818445",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:25:36.818424"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:25:50.042126",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "39de2660-9ff9-4408-bf92-270441a816a6",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:25:49.819442",
+        "last_checked": "2026-01-24T10:25:49.819467",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:25:49.819442"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:26:04.792405",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "e64daf72-63a0-44b3-9c29-5e81844ba5fb",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:26:04.779510",
+        "last_checked": "2026-01-24T10:26:04.779518",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:26:04.779510"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:26:19.831454",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "d2e715d9-eff4-4b88-afac-d9eb8b9e783d",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:26:19.815656",
+        "last_checked": "2026-01-24T10:26:19.815681",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:26:19.815656"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:26:37.024179",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "ac599a29-8e61-4596-b2a5-37e3ed75cea8",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:26:37.014145",
+        "last_checked": "2026-01-24T10:26:37.014158",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:26:37.014145"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:26:42.410047",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "20d66202-2eb5-434c-9b69-cb06170a0666",
+        "event_type": "BASELINE_MATCH",
+        "event_description": "Captured frame matches baseline - no anomalies detected",
+        "timestamp": "2026-01-24T10:26:42.396858",
+        "last_checked": "2026-01-24T10:26:42.396869",
+        "status": "PASS",
+        "meta_data": {
+          "similarity": null,
+          "difference_percent": null,
+          "brightness": 88.822550154321,
+          "blur_score": 1881.7248023557731
+        }
+      },
+      "summary": {
+        "Vision_status": "PASS",
+        "Alert_active": false,
+        "Last_vision_check": "2026-01-24T10:26:42.396431"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:26:49.899296",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "1ace0254-828a-40ec-968a-687e1c61e8d8",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:26:49.868495",
+        "last_checked": "2026-01-24T10:26:49.868621",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:26:49.868495"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:27:05.013614",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "5d625d46-d738-45d4-8e17-9ab1627dd849",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:27:04.965894",
+        "last_checked": "2026-01-24T10:27:04.965909",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:27:04.965894"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:27:20.215202",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "2a6732ce-9baf-4dbd-9565-03a4f03cec3f",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:27:20.189832",
+        "last_checked": "2026-01-24T10:27:20.189847",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:27:20.189832"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:27:37.008351",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "d3df6a93-d968-4d0b-a02c-a703b43e1cf2",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:27:36.994969",
+        "last_checked": "2026-01-24T10:27:36.994983",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:27:36.994969"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:27:50.007057",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "115ceb54-5308-43e5-9123-a81da8d7056e",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:27:49.992901",
+        "last_checked": "2026-01-24T10:27:49.992911",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:27:49.992901"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:28:05.041394",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "d4401948-0bd7-42cc-a9d9-2d265faeefc8",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:28:05.016715",
+        "last_checked": "2026-01-24T10:28:05.016726",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:28:05.016715"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:28:20.041272",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "0227207a-99e0-4db8-a30f-0b60423ba349",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:28:20.025770",
+        "last_checked": "2026-01-24T10:28:20.025808",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:28:20.025770"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:28:37.272043",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "190e4d42-a269-495e-b8fc-3f8ef7064253",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:28:37.258256",
+        "last_checked": "2026-01-24T10:28:37.258291",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:28:37.258256"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:28:42.303023",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "a482b817-0bd4-4334-b93a-96bb5c717082",
+        "event_type": "BASELINE_MATCH",
+        "event_description": "Captured frame matches baseline - no anomalies detected",
+        "timestamp": "2026-01-24T10:28:42.277740",
+        "last_checked": "2026-01-24T10:28:42.277743",
+        "status": "PASS",
+        "meta_data": {
+          "similarity": null,
+          "difference_percent": null,
+          "brightness": 88.75642361111112,
+          "blur_score": 1750.7037971378234
+        }
+      },
+      "summary": {
+        "Vision_status": "PASS",
+        "Alert_active": false,
+        "Last_vision_check": "2026-01-24T10:28:42.277573"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:28:49.144565",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "4f376c07-41a0-4c90-92ee-5bcc73524a31",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:28:49.130984",
+        "last_checked": "2026-01-24T10:28:49.130998",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:28:49.130984"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:29:04.322527",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "8418fcc6-3e53-4dfe-895e-ec430e202bab",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:29:04.312256",
+        "last_checked": "2026-01-24T10:29:04.312271",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:29:04.312256"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:29:19.149094",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "7e52ed41-3030-4994-b73e-0fb22de576d1",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:29:19.136547",
+        "last_checked": "2026-01-24T10:29:19.136559",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:29:19.136547"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:29:36.741193",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "45872a26-2991-4715-bbec-a3f6ab0a05b4",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:29:36.720838",
+        "last_checked": "2026-01-24T10:29:36.720857",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:29:36.720838"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:29:49.236658",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "fc7cea92-a00b-4a22-9ffa-a26fd6642fc6",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:29:49.213251",
+        "last_checked": "2026-01-24T10:29:49.213264",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:29:49.213251"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:30:04.266251",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "327d674e-f3c9-4b59-b100-619186f077bf",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:30:04.250505",
+        "last_checked": "2026-01-24T10:30:04.250533",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:30:04.250505"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:30:19.282895",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "30babf09-0f4b-4f68-9dd9-a036398e7178",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:30:19.255735",
+        "last_checked": "2026-01-24T10:30:19.255750",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:30:19.255735"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:30:36.561505",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "4e648501-819f-4847-92bc-f96f7ba17957",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:30:36.553011",
+        "last_checked": "2026-01-24T10:30:36.553018",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:30:36.553011"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:30:40.517323",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "4a5ebfc4-74a8-49d6-a5a2-3030ed9b8592",
+        "event_type": "BASELINE_MATCH",
+        "event_description": "Captured frame matches baseline - no anomalies detected",
+        "timestamp": "2026-01-24T10:30:40.511074",
+        "last_checked": "2026-01-24T10:30:40.511078",
+        "status": "PASS",
+        "meta_data": {
+          "similarity": null,
+          "difference_percent": null,
+          "brightness": 90.19798562885802,
+          "blur_score": 1835.988804521389
+        }
+      },
+      "summary": {
+        "Vision_status": "PASS",
+        "Alert_active": false,
+        "Last_vision_check": "2026-01-24T10:30:40.510922"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:30:49.378167",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "c10d47c3-6107-4d91-8c58-4c3249d51292",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:30:49.346180",
+        "last_checked": "2026-01-24T10:30:49.346188",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:30:49.346180"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:31:04.431236",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "02c2980d-6a71-488d-87e1-2f15046a0882",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:31:04.415396",
+        "last_checked": "2026-01-24T10:31:04.415420",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:31:04.415396"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:31:19.447023",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "06508aef-ed03-4378-b9fd-78ad79570c93",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:31:19.432589",
+        "last_checked": "2026-01-24T10:31:19.432607",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:31:19.432589"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:31:36.629338",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "e2c02d06-9371-42d7-865f-a7fa0567fa79",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:31:36.619356",
+        "last_checked": "2026-01-24T10:31:36.619378",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:31:36.619356"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:31:49.503904",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "2a9d3492-3da6-42a0-a88b-a19247b98999",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:31:49.492710",
+        "last_checked": "2026-01-24T10:31:49.492723",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:31:49.492710"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:32:04.552793",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "f31c7d8c-1694-46e4-90a2-558a7d131191",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:32:04.516383",
+        "last_checked": "2026-01-24T10:32:04.516394",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:32:04.516383"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:32:19.538766",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "9fc43f07-4da2-4235-9fa4-1c3a10d02181",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:32:19.515833",
+        "last_checked": "2026-01-24T10:32:19.515849",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:32:19.515833"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:32:37.017134",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "5eb08a6e-4d8a-4cd2-969c-2806868a5d9d",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:32:37.010154",
+        "last_checked": "2026-01-24T10:32:37.010170",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:32:37.010154"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:32:42.278459",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "cc51cc0d-9199-4808-8e90-79bb64cc2cbe",
+        "event_type": "BASELINE_MATCH",
+        "event_description": "Captured frame matches baseline - no anomalies detected",
+        "timestamp": "2026-01-24T10:32:42.269672",
+        "last_checked": "2026-01-24T10:32:42.269676",
+        "status": "PASS",
+        "meta_data": {
+          "similarity": null,
+          "difference_percent": null,
+          "brightness": 89.49476128472222,
+          "blur_score": 1876.5057651788024
+        }
+      },
+      "summary": {
+        "Vision_status": "PASS",
+        "Alert_active": false,
+        "Last_vision_check": "2026-01-24T10:32:42.269534"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:32:49.881653",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "27fc5b24-934e-48de-9a37-cb8b65ef2bdb",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:32:49.656975",
+        "last_checked": "2026-01-24T10:32:49.656996",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:32:49.656975"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:33:04.653949",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "2d92e8ab-3d58-4ef0-8959-b60216bc5bf9",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:33:04.632095",
+        "last_checked": "2026-01-24T10:33:04.632109",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:33:04.632095"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:33:19.928593",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "113149e7-aa14-4dbf-8cae-8ee44308317c",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:33:19.897987",
+        "last_checked": "2026-01-24T10:33:19.897999",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:33:19.897987"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:33:37.160943",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "896c2b00-a224-4928-a20b-c833a11dc149",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:33:37.145986",
+        "last_checked": "2026-01-24T10:33:37.145999",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:33:37.145986"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:33:49.748351",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "f1eea092-f495-4a4b-950f-b74dda406a61",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:33:49.727366",
+        "last_checked": "2026-01-24T10:33:49.727438",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:33:49.727366"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:34:04.731133",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "25e2ccaa-473f-4731-97ad-d0533f861f04",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:34:04.715891",
+        "last_checked": "2026-01-24T10:34:04.715910",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:34:04.715891"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:34:19.814777",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "8d177213-baec-4c33-a10f-0db073f2194e",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:34:19.784945",
+        "last_checked": "2026-01-24T10:34:19.785428",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:34:19.784945"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:34:37.061283",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "dbc2b511-397d-4fd3-8d31-a16e8e28ec45",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:34:37.046356",
+        "last_checked": "2026-01-24T10:34:37.046374",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:34:37.046356"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:34:42.458507",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "6c7578ce-f20b-483d-8cd1-9b247f2427eb",
+        "event_type": "BASELINE_MATCH",
+        "event_description": "Captured frame matches baseline - no anomalies detected",
+        "timestamp": "2026-01-24T10:34:42.447704",
+        "last_checked": "2026-01-24T10:34:42.447707",
+        "status": "PASS",
+        "meta_data": {
+          "similarity": null,
+          "difference_percent": null,
+          "brightness": 89.07229166666667,
+          "blur_score": 1765.2990098271116
+        }
+      },
+      "summary": {
+        "Vision_status": "PASS",
+        "Alert_active": false,
+        "Last_vision_check": "2026-01-24T10:34:42.447552"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:34:49.931963",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "0467006c-2b4d-4ddc-8548-3046fc2b5bb9",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:34:49.913161",
+        "last_checked": "2026-01-24T10:34:49.913170",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:34:49.913161"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:35:04.869854",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "c46fb842-2a74-4e65-ad7a-0a2bc4d6bb3c",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:35:04.857878",
+        "last_checked": "2026-01-24T10:35:04.857890",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:35:04.857878"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:35:19.937854",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "6e421d2e-7237-4d71-9ad4-3f64dbe4986a",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:35:19.918466",
+        "last_checked": "2026-01-24T10:35:19.918489",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:35:19.918466"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:35:37.103120",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "e92e3b6f-c8a6-4a17-850e-20100e3e4686",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:35:37.093455",
+        "last_checked": "2026-01-24T10:35:37.093502",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:35:37.093455"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:35:49.961454",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "393d19f6-250f-4bd6-a818-7fdc6cc3a4fc",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:35:49.940006",
+        "last_checked": "2026-01-24T10:35:49.940023",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:35:49.940006"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:36:04.970561",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "b0f5ae5a-23c3-42a9-82a0-5d63fa132172",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:36:04.932749",
+        "last_checked": "2026-01-24T10:36:04.932763",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:36:04.932749"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:36:20.187415",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "6a7d03a6-112a-4866-9615-595cadcd4aa8",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:36:19.974710",
+        "last_checked": "2026-01-24T10:36:19.974717",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:36:19.974710"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:36:37.306044",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "e2dc04e1-bb47-4bdd-b6f1-498bce534b75",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:36:37.295198",
+        "last_checked": "2026-01-24T10:36:37.295214",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:36:37.295198"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:36:42.435558",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "b1de8aa9-39a9-4da6-9c3e-45cf30fadcfc",
+        "event_type": "BASELINE_MATCH",
+        "event_description": "Captured frame matches baseline - no anomalies detected",
+        "timestamp": "2026-01-24T10:36:42.425594",
+        "last_checked": "2026-01-24T10:36:42.425599",
+        "status": "PASS",
+        "meta_data": {
+          "similarity": null,
+          "difference_percent": null,
+          "brightness": 87.3146807484568,
+          "blur_score": 1834.1918733652244
+        }
+      },
+      "summary": {
+        "Vision_status": "PASS",
+        "Alert_active": false,
+        "Last_vision_check": "2026-01-24T10:36:42.425349"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:36:50.070927",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "1463cdf9-60f9-4261-8bfc-b88d009b7ed2",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:36:50.052274",
+        "last_checked": "2026-01-24T10:36:50.052289",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:36:50.052274"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:37:05.055189",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "0275825b-f164-4896-8ca8-4ae3c55daf3e",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:37:05.012622",
+        "last_checked": "2026-01-24T10:37:05.012634",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:37:05.012622"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:37:20.291025",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "67de9379-7934-4159-8fd6-f1b8ebae7871",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:37:20.272568",
+        "last_checked": "2026-01-24T10:37:20.272582",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:37:20.272568"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:37:37.376926",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "ce927d3c-9f60-4574-b48e-41ea6444c5bc",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:37:37.364430",
+        "last_checked": "2026-01-24T10:37:37.364448",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:37:37.364430"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:37:49.165117",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "e4241e3c-c319-4116-95d4-cdb3515c636d",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:37:49.145773",
+        "last_checked": "2026-01-24T10:37:49.145800",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:37:49.145773"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:38:04.165706",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "13b2e844-2ba8-4d26-884f-6f7e605cec68",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:38:04.152106",
+        "last_checked": "2026-01-24T10:38:04.152120",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:38:04.152106"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:38:19.403613",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "2820c1cd-8d59-4d1b-aac9-e549f5a8f232",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:38:19.391968",
+        "last_checked": "2026-01-24T10:38:19.391981",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:38:19.391968"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:38:36.391084",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "7f97e979-e310-47c5-b741-856f38b6572c",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:38:36.379986",
+        "last_checked": "2026-01-24T10:38:36.380003",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:38:36.379986"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:38:41.821421",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "2150510c-e7f2-4f10-a81c-4395fefa4419",
+        "event_type": "BASELINE_MATCH",
+        "event_description": "Captured frame matches baseline - no anomalies detected",
+        "timestamp": "2026-01-24T10:38:41.601031",
+        "last_checked": "2026-01-24T10:38:41.601035",
+        "status": "PASS",
+        "meta_data": {
+          "similarity": null,
+          "difference_percent": null,
+          "brightness": 89.02512683256172,
+          "blur_score": 1881.345555845155
+        }
+      },
+      "summary": {
+        "Vision_status": "PASS",
+        "Alert_active": false,
+        "Last_vision_check": "2026-01-24T10:38:41.600867"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:38:49.246354",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "198aaa55-b860-43a3-a461-fd3b47dee330",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:38:49.208652",
+        "last_checked": "2026-01-24T10:38:49.208663",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:38:49.208652"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:39:04.307333",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "2d4d1f81-29c8-4231-9951-e78f5ede7c72",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:39:04.288789",
+        "last_checked": "2026-01-24T10:39:04.288804",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:39:04.288789"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:39:19.343247",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "eee93a6f-0367-4d7a-9d6c-4fe3a417f432",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:39:19.328657",
+        "last_checked": "2026-01-24T10:39:19.328672",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:39:19.328657"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:39:36.543888",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "75d9e1cf-1dca-4fc9-843c-c59366888d02",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:39:36.533619",
+        "last_checked": "2026-01-24T10:39:36.533638",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:39:36.533619"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:39:49.408624",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "2b0b1edd-0ac6-4ae3-8e43-e341e92459c2",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:39:49.390422",
+        "last_checked": "2026-01-24T10:39:49.390435",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:39:49.390422"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:40:04.410596",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "df48992d-d52d-4ca3-98cb-2d28e024bb60",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:40:04.394646",
+        "last_checked": "2026-01-24T10:40:04.394656",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:40:04.394646"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:40:19.444485",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "079f15f4-f203-486c-86c8-aabaa7b15230",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:40:19.423014",
+        "last_checked": "2026-01-24T10:40:19.423027",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:40:19.423014"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:40:36.828365",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "51c15f76-bde0-4042-9838-e4d34e4807d0",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:40:36.817927",
+        "last_checked": "2026-01-24T10:40:36.817950",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:40:36.817927"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:40:41.889368",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "6a9522ce-33aa-4d42-8041-940622f1a92b",
+        "event_type": "BASELINE_MATCH",
+        "event_description": "Captured frame matches baseline - no anomalies detected",
+        "timestamp": "2026-01-24T10:40:41.871061",
+        "last_checked": "2026-01-24T10:40:41.871065",
+        "status": "PASS",
+        "meta_data": {
+          "similarity": null,
+          "difference_percent": null,
+          "brightness": 89.05150800540123,
+          "blur_score": 1793.308085067303
+        }
+      },
+      "summary": {
+        "Vision_status": "PASS",
+        "Alert_active": false,
+        "Last_vision_check": "2026-01-24T10:40:41.870900"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:40:49.486641",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "a7f24b31-a71c-4530-89ea-1d592bab797f",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:40:49.470358",
+        "last_checked": "2026-01-24T10:40:49.470380",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:40:49.470358"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:41:04.518429",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "af74f059-871a-414c-851b-6bc216d53888",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:41:04.499594",
+        "last_checked": "2026-01-24T10:41:04.499608",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:41:04.499594"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:41:19.539189",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "4638b4e9-e962-4f74-9ebc-2aec81576073",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:41:19.504476",
+        "last_checked": "2026-01-24T10:41:19.504495",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:41:19.504476"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:41:36.700803",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "14a6c98c-64e9-44af-9839-2c1e67a15c3c",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:41:36.691039",
+        "last_checked": "2026-01-24T10:41:36.691048",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:41:36.691039"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:41:49.568703",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "42433df4-5167-413a-8bf1-0c2f568d82ce",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:41:49.551150",
+        "last_checked": "2026-01-24T10:41:49.551185",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:41:49.551150"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:42:04.639638",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "6a4b6d59-1a96-49ef-a66c-728e5cf94356",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:42:04.598210",
+        "last_checked": "2026-01-24T10:42:04.598240",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:42:04.598210"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:42:19.927762",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "e3e9d63f-0ac0-4cb6-bed0-45fe08a66846",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:42:19.883186",
+        "last_checked": "2026-01-24T10:42:19.883263",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:42:19.883186"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:42:37.205995",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "1b7b3ea6-6ef7-4f2f-a453-3efd2880d25e",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:42:37.169414",
+        "last_checked": "2026-01-24T10:42:37.169435",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:42:37.169414"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:42:42.303962",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "0e13a39b-5cfb-4154-afa3-2fc015a24655",
+        "event_type": "BASELINE_MATCH",
+        "event_description": "Captured frame matches baseline - no anomalies detected",
+        "timestamp": "2026-01-24T10:42:42.293345",
+        "last_checked": "2026-01-24T10:42:42.293348",
+        "status": "PASS",
+        "meta_data": {
+          "similarity": null,
+          "difference_percent": null,
+          "brightness": 90.12454764660494,
+          "blur_score": 1870.1853758682548
+        }
+      },
+      "summary": {
+        "Vision_status": "PASS",
+        "Alert_active": false,
+        "Last_vision_check": "2026-01-24T10:42:42.293204"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:42:49.953552",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "0369ee6f-49d4-4ead-98e1-86065948d260",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:42:49.936676",
+        "last_checked": "2026-01-24T10:42:49.936692",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:42:49.936676"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:43:04.789290",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "abf8b7af-0833-46da-970e-c94d49842e9b",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:43:04.768626",
+        "last_checked": "2026-01-24T10:43:04.768636",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:43:04.768626"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:43:19.889827",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "e27760e4-fbad-4164-b8d3-a55442faf5c1",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:43:19.862498",
+        "last_checked": "2026-01-24T10:43:19.862516",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:43:19.862498"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:43:37.108569",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "02200095-e3c1-4364-8c7b-f53c246fcdbd",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:43:37.101419",
+        "last_checked": "2026-01-24T10:43:37.101436",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:43:37.101419"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:43:49.839058",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "28ab3226-3833-45a0-b671-6a421d5c92fc",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:43:49.825870",
+        "last_checked": "2026-01-24T10:43:49.825883",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:43:49.825870"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:44:04.906398",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "8fdb11e3-6b83-49d3-82c7-1cb8583f6a86",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:44:04.891742",
+        "last_checked": "2026-01-24T10:44:04.891756",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:44:04.891742"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:44:20.169165",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "b4245fad-5bf3-4f51-a96e-f76fd6f3d5ad",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:44:20.149060",
+        "last_checked": "2026-01-24T10:44:20.149076",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:44:20.149060"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:44:37.317120",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "8472ecb6-42dd-4b4d-86af-7a1a1a2e7ba7",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:44:37.297280",
+        "last_checked": "2026-01-24T10:44:37.297332",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:44:37.297280"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:44:42.316165",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "98b86e12-b4d9-4cb8-86b0-e0c3e273917a",
+        "event_type": "BASELINE_MATCH",
+        "event_description": "Captured frame matches baseline - no anomalies detected",
+        "timestamp": "2026-01-24T10:44:42.303492",
+        "last_checked": "2026-01-24T10:44:42.303496",
+        "status": "PASS",
+        "meta_data": {
+          "similarity": null,
+          "difference_percent": null,
+          "brightness": 88.72585503472222,
+          "blur_score": 1808.6684943736984
+        }
+      },
+      "summary": {
+        "Vision_status": "PASS",
+        "Alert_active": false,
+        "Last_vision_check": "2026-01-24T10:44:42.303321"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:44:49.932133",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "b219c5f9-9d37-4be6-a2d9-1f4771a73b2d",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:44:49.919014",
+        "last_checked": "2026-01-24T10:44:49.919051",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:44:49.919014"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:45:04.960636",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "a90b649e-68ab-4d5d-acdc-70379f804a51",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:45:04.942877",
+        "last_checked": "2026-01-24T10:45:04.942890",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:45:04.942877"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:45:19.994184",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "7dcf541f-675c-45b8-a35b-bfd7d5645de1",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:45:19.975418",
+        "last_checked": "2026-01-24T10:45:19.975436",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:45:19.975418"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:45:37.237450",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "543c1ad0-71b0-46a5-82fa-7b56ef1238ee",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:45:37.226185",
+        "last_checked": "2026-01-24T10:45:37.226209",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:45:37.226185"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:45:50.238509",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "a68c46e2-ee6d-4a53-a7af-5ddd88b6660d",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:45:50.217650",
+        "last_checked": "2026-01-24T10:45:50.217671",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:45:50.217650"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:46:05.044208",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "771cfdf2-1324-4b46-9c09-9c2078b0c1af",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:46:05.034488",
+        "last_checked": "2026-01-24T10:46:05.034509",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:46:05.034488"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:46:20.106705",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "2bd86abf-45f4-496f-a56e-a37a552a8024",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:46:20.080846",
+        "last_checked": "2026-01-24T10:46:20.080946",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:46:20.080846"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:46:37.337607",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "5845d710-d7d9-4cce-abd9-06b7b03ca4a9",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:46:37.324720",
+        "last_checked": "2026-01-24T10:46:37.324734",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:46:37.324720"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:46:42.739110",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "9f89a5db-932c-4267-b93d-753647132f60",
+        "event_type": "BASELINE_MATCH",
+        "event_description": "Captured frame matches baseline - no anomalies detected",
+        "timestamp": "2026-01-24T10:46:42.728180",
+        "last_checked": "2026-01-24T10:46:42.728189",
+        "status": "PASS",
+        "meta_data": {
+          "similarity": null,
+          "difference_percent": null,
+          "brightness": 88.68047887731481,
+          "blur_score": 1774.031180980012
+        }
+      },
+      "summary": {
+        "Vision_status": "PASS",
+        "Alert_active": false,
+        "Last_vision_check": "2026-01-24T10:46:42.727775"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:46:49.148878",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "c8fef2c0-39a5-4e74-a011-f79e1ba65b75",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:46:49.126307",
+        "last_checked": "2026-01-24T10:46:49.126320",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:46:49.126307"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:47:04.463544",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "603d22e1-c2bf-4c84-88e7-2cedd3d87753",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:47:04.424289",
+        "last_checked": "2026-01-24T10:47:04.424309",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:47:04.424289"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:47:19.241163",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "48837591-2490-420d-b7e6-ea2e7ac1ff98",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:47:19.194104",
+        "last_checked": "2026-01-24T10:47:19.194120",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:47:19.194104"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:47:36.302642",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "419851ee-3375-4e96-ba34-52087213a9c1",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:47:36.286067",
+        "last_checked": "2026-01-24T10:47:36.286111",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:47:36.286067"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:47:49.226125",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "d33ac701-8b66-42f7-946f-25ddcda56034",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:47:49.209597",
+        "last_checked": "2026-01-24T10:47:49.209611",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:47:49.209597"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:48:04.269954",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "b0591fcf-ed14-430f-a16a-b3cc56c1507e",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:48:04.241519",
+        "last_checked": "2026-01-24T10:48:04.241528",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:48:04.241519"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:48:19.337342",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "06ec6bc8-8868-41ab-81e7-0692f161c56d",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:48:19.314712",
+        "last_checked": "2026-01-24T10:48:19.314735",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:48:19.314712"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:48:36.508165",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "10bae5d8-3ac0-44c3-8c87-fc8146131ae1",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:48:36.497505",
+        "last_checked": "2026-01-24T10:48:36.497523",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:48:36.497505"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:48:42.087094",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "ad1c1876-820b-4502-934d-c47147ffd640",
+        "event_type": "BASELINE_MATCH",
+        "event_description": "Captured frame matches baseline - no anomalies detected",
+        "timestamp": "2026-01-24T10:48:42.065964",
+        "last_checked": "2026-01-24T10:48:42.065967",
+        "status": "PASS",
+        "meta_data": {
+          "similarity": null,
+          "difference_percent": null,
+          "brightness": 88.8725245949074,
+          "blur_score": 1835.2590821512313
+        }
+      },
+      "summary": {
+        "Vision_status": "PASS",
+        "Alert_active": false,
+        "Last_vision_check": "2026-01-24T10:48:42.065817"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:48:49.399235",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "f91502ab-baa1-4f52-b24e-c3f5fa039e61",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:48:49.377612",
+        "last_checked": "2026-01-24T10:48:49.377631",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:48:49.377612"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:49:04.420564",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "b93cd4a2-7437-4c56-aa0f-de0a6db2c519",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:49:04.390004",
+        "last_checked": "2026-01-24T10:49:04.390073",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:49:04.390004"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:49:19.453103",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "4ada7d33-1aaa-4a1d-ae9f-de93ffd72c17",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:49:19.422559",
+        "last_checked": "2026-01-24T10:49:19.422594",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:49:19.422559"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:49:36.774420",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "1e93e218-7ca7-4910-b83a-97a2d2279ca2",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:49:36.764228",
+        "last_checked": "2026-01-24T10:49:36.764249",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:49:36.764228"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:49:49.457532",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "7f77a375-7906-4766-9a5a-ff6ddc1b21cd",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:49:49.413461",
+        "last_checked": "2026-01-24T10:49:49.413470",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:49:49.413461"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:50:04.517799",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "3c294b26-008c-48b2-8f04-7cbcb5b9c2d4",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:50:04.498129",
+        "last_checked": "2026-01-24T10:50:04.498148",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:50:04.498129"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:50:19.723162",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "d1d1f3fa-7089-4677-a8fb-fb1e817822a5",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:50:19.706109",
+        "last_checked": "2026-01-24T10:50:19.706127",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:50:19.706109"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:50:36.837393",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "d53627b2-3060-4dc9-b39c-acd0a2c515a3",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:50:36.826152",
+        "last_checked": "2026-01-24T10:50:36.826167",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:50:36.826152"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:50:41.823946",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "3463eef8-1f7a-4a3f-b62c-474624b9134d",
+        "event_type": "BASELINE_MATCH",
+        "event_description": "Captured frame matches baseline - no anomalies detected",
+        "timestamp": "2026-01-24T10:50:41.814167",
+        "last_checked": "2026-01-24T10:50:41.814170",
+        "status": "PASS",
+        "meta_data": {
+          "similarity": null,
+          "difference_percent": null,
+          "brightness": 89.00754918981481,
+          "blur_score": 1874.7299963225976
+        }
+      },
+      "summary": {
+        "Vision_status": "PASS",
+        "Alert_active": false,
+        "Last_vision_check": "2026-01-24T10:50:41.814032"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:50:49.781400",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "ac0333d7-0f62-454c-bc17-410b194c4bc7",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:50:49.758156",
+        "last_checked": "2026-01-24T10:50:49.758180",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:50:49.758156"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:51:04.615793",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "fa38ce16-e5fe-4bcb-9546-0d5049d79533",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:51:04.587855",
+        "last_checked": "2026-01-24T10:51:04.587872",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:51:04.587855"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:51:19.639333",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "398a34a3-b41e-4862-afa3-1762919d839e",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:51:19.613401",
+        "last_checked": "2026-01-24T10:51:19.613433",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:51:19.613401"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:51:37.137464",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "5a13903b-602b-4034-9df0-98bf85c2c84a",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:51:37.126814",
+        "last_checked": "2026-01-24T10:51:37.126833",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:51:37.126814"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:51:49.682049",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "cdb414b4-f720-45f4-bdc9-1ca6643d2b76",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:51:49.666346",
+        "last_checked": "2026-01-24T10:51:49.666365",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:51:49.666346"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:52:04.669183",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "745b7a09-2ca1-4439-8d40-f85f2b2716cd",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:52:04.654077",
+        "last_checked": "2026-01-24T10:52:04.654092",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:52:04.654077"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:52:19.688443",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "1fa56f57-2d01-4627-828b-1594c5c409d2",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:52:19.668592",
+        "last_checked": "2026-01-24T10:52:19.668623",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:52:19.668592"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:52:36.883296",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "7aad7b67-cc71-4c11-88de-d71d14e19bb4",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:52:36.870796",
+        "last_checked": "2026-01-24T10:52:36.870810",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:52:36.870796"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:52:41.976358",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "c362f90a-bbe5-4b37-99d7-115f005046a7",
+        "event_type": "BASELINE_MATCH",
+        "event_description": "Captured frame matches baseline - no anomalies detected",
+        "timestamp": "2026-01-24T10:52:41.955735",
+        "last_checked": "2026-01-24T10:52:41.955739",
+        "status": "PASS",
+        "meta_data": {
+          "similarity": null,
+          "difference_percent": null,
+          "brightness": 88.39206934799383,
+          "blur_score": 1809.3359322404165
+        }
+      },
+      "summary": {
+        "Vision_status": "PASS",
+        "Alert_active": false,
+        "Last_vision_check": "2026-01-24T10:52:41.955547"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:52:49.983982",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "9a47c9fe-e20d-4fe4-9479-44cfc3c5a572",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:52:49.756261",
+        "last_checked": "2026-01-24T10:52:49.756275",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:52:49.756261"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:53:04.788296",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "3bd5da90-f2ce-464a-9e01-5f25ad051e30",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:53:04.775886",
+        "last_checked": "2026-01-24T10:53:04.775899",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:53:04.775886"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:53:19.822104",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "aeed0820-82ea-4013-bfdc-9fa64b868e5b",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:53:19.806012",
+        "last_checked": "2026-01-24T10:53:19.806027",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:53:19.806012"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:53:37.004692",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "fd457543-75bc-4e16-924a-274def176852",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:53:36.995956",
+        "last_checked": "2026-01-24T10:53:36.996040",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:53:36.995956"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:53:49.930731",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "d63b9089-adc8-43d3-b510-679f3fc132a7",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:53:49.908649",
+        "last_checked": "2026-01-24T10:53:49.908656",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:53:49.908649"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:54:04.898454",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "eb5311c9-7d3b-471e-920c-b20ffe88e080",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:54:04.885931",
+        "last_checked": "2026-01-24T10:54:04.885937",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:54:04.885931"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:54:20.020793",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "9c564a3a-10d6-49ed-afa5-2ea41974d017",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:54:20.003346",
+        "last_checked": "2026-01-24T10:54:20.003358",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:54:20.003346"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:54:37.308541",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "fc5d10aa-baf1-4996-8775-c513b38fce17",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:54:37.282802",
+        "last_checked": "2026-01-24T10:54:37.282878",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:54:37.282802"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:54:42.337964",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "7e682033-e7bd-46f9-be45-acf1bf367084",
+        "event_type": "BASELINE_MATCH",
+        "event_description": "Captured frame matches baseline - no anomalies detected",
+        "timestamp": "2026-01-24T10:54:42.123156",
+        "last_checked": "2026-01-24T10:54:42.123160",
+        "status": "PASS",
+        "meta_data": {
+          "similarity": null,
+          "difference_percent": null,
+          "brightness": 88.46260706018519,
+          "blur_score": 1865.4968259471036
+        }
+      },
+      "summary": {
+        "Vision_status": "PASS",
+        "Alert_active": false,
+        "Last_vision_check": "2026-01-24T10:54:42.122997"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:54:49.987310",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "d719dedc-9b27-47d3-b328-5d1777249f74",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:54:49.967496",
+        "last_checked": "2026-01-24T10:54:49.967537",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:54:49.967496"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:55:05.003474",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "b67d9a10-0b71-493f-bfcb-2227b6e5b2c7",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:55:04.974033",
+        "last_checked": "2026-01-24T10:55:04.974045",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:55:04.974033"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:55:20.030148",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "ca2eb4ce-49a1-4785-97dd-e5e5613a6b37",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:55:20.008950",
+        "last_checked": "2026-01-24T10:55:20.008968",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:55:20.008950"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:55:37.443109",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "58a27470-23bb-4e15-85f4-63f66c422406",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:55:37.431121",
+        "last_checked": "2026-01-24T10:55:37.431138",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:55:37.431121"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:55:50.054569",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "edb9046f-7c47-4e6c-a4ef-e58f1dbf3599",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:55:50.037177",
+        "last_checked": "2026-01-24T10:55:50.037192",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:55:50.037177"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:56:05.079402",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "44ca89b3-76fa-47cf-a099-0397ce6241c9",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:56:05.064313",
+        "last_checked": "2026-01-24T10:56:05.064325",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:56:05.064313"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:56:20.077343",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "f59af5f9-4b21-4ab3-99ad-c08c4c46c11f",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:56:20.068715",
+        "last_checked": "2026-01-24T10:56:20.068724",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:56:20.068715"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:56:37.581289",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "34f1e5e5-57a3-4002-b47c-d254b4f8c04e",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:56:37.336017",
+        "last_checked": "2026-01-24T10:56:37.336031",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:56:37.336017"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:56:42.186107",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "149a01c3-3f18-4ee7-a0a5-5d13f8a225a6",
+        "event_type": "BASELINE_MATCH",
+        "event_description": "Captured frame matches baseline - no anomalies detected",
+        "timestamp": "2026-01-24T10:56:42.176210",
+        "last_checked": "2026-01-24T10:56:42.176214",
+        "status": "PASS",
+        "meta_data": {
+          "similarity": null,
+          "difference_percent": null,
+          "brightness": 89.26551601080247,
+          "blur_score": 1852.680713886388
+        }
+      },
+      "summary": {
+        "Vision_status": "PASS",
+        "Alert_active": false,
+        "Last_vision_check": "2026-01-24T10:56:42.176061"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:56:49.350327",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "cc561894-fb29-46d5-866f-376f2ee832d3",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:56:49.309248",
+        "last_checked": "2026-01-24T10:56:49.309262",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:56:49.309248"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:57:04.193552",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "0bf0cc97-d7bc-4fc3-8461-820737ac02a3",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:57:04.165508",
+        "last_checked": "2026-01-24T10:57:04.165527",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:57:04.165508"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:57:19.398866",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "cd721d1d-9cdf-4105-8033-0420ddb3f54a",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:57:19.389382",
+        "last_checked": "2026-01-24T10:57:19.389396",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:57:19.389382"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:57:36.731069",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "2b9aedb4-27b5-4742-9cb9-1007cd56b975",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:57:36.721753",
+        "last_checked": "2026-01-24T10:57:36.721810",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:57:36.721753"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:57:49.492969",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "c83ee47d-b8bc-4b87-9e6b-4118daa8ee83",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:57:49.275636",
+        "last_checked": "2026-01-24T10:57:49.275656",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:57:49.275636"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:58:04.341954",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "a1cf75c5-34bf-4726-abe4-7a571612abf0",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:58:04.329706",
+        "last_checked": "2026-01-24T10:58:04.329722",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:58:04.329706"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:58:19.378953",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "399e06b7-5f63-4189-8e59-3973b9cd2fda",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:58:19.325277",
+        "last_checked": "2026-01-24T10:58:19.325294",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:58:19.325277"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:58:36.598206",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "59ffcafd-b3f1-4672-8756-52260acf759d",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:58:36.587822",
+        "last_checked": "2026-01-24T10:58:36.587869",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:58:36.587822"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:58:40.066365",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "4184814c-22e2-44f8-9fde-e29a7c895ea3",
+        "event_type": "BASELINE_MATCH",
+        "event_description": "Captured frame matches baseline - no anomalies detected",
+        "timestamp": "2026-01-24T10:58:40.056597",
+        "last_checked": "2026-01-24T10:58:40.056600",
+        "status": "PASS",
+        "meta_data": {
+          "similarity": null,
+          "difference_percent": null,
+          "brightness": 88.35783564814815,
+          "blur_score": 1829.5449685533538
+        }
+      },
+      "summary": {
+        "Vision_status": "PASS",
+        "Alert_active": false,
+        "Last_vision_check": "2026-01-24T10:58:40.056447"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:58:49.376739",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "88a06112-cd58-464e-99c8-71d4de082cfc",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:58:49.357151",
+        "last_checked": "2026-01-24T10:58:49.357163",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:58:49.357151"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:59:04.374311",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "d7c6ddd9-016c-4fd5-a81e-c1d095ddb768",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:59:04.337398",
+        "last_checked": "2026-01-24T10:59:04.337408",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:59:04.337398"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:59:19.418468",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "2f320dcc-877e-41ec-a26c-87e5b940c212",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:59:19.401909",
+        "last_checked": "2026-01-24T10:59:19.401919",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:59:19.401909"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:59:36.617987",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "f1e46cf2-4300-41db-a04c-ed6f83964e09",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:59:36.611876",
+        "last_checked": "2026-01-24T10:59:36.611890",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:59:36.611876"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T10:59:49.532276",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "09ea2fa3-c3dd-490a-aefd-00d64f5613e5",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T10:59:49.505124",
+        "last_checked": "2026-01-24T10:59:49.505137",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T10:59:49.505124"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T11:00:04.559015",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "78c0343d-e40b-4c50-b9b4-8b4cea93225b",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T11:00:04.540670",
+        "last_checked": "2026-01-24T11:00:04.540687",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T11:00:04.540670"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T11:00:19.746315",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "4fd64c1a-03f7-4c84-b684-0137d2e5d413",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T11:00:19.729558",
+        "last_checked": "2026-01-24T11:00:19.729575",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T11:00:19.729558"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T11:00:36.991707",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "9239e230-08e1-4623-9c94-2c80ac764481",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T11:00:36.979984",
+        "last_checked": "2026-01-24T11:00:36.980051",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T11:00:36.979984"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T11:00:42.305445",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "a8110a2a-6644-44e1-8168-29e8a5e68225",
+        "event_type": "BASELINE_MATCH",
+        "event_description": "Captured frame matches baseline - no anomalies detected",
+        "timestamp": "2026-01-24T11:00:42.289956",
+        "last_checked": "2026-01-24T11:00:42.289961",
+        "status": "PASS",
+        "meta_data": {
+          "similarity": null,
+          "difference_percent": null,
+          "brightness": 89.56147810570988,
+          "blur_score": 1902.5735712884195
+        }
+      },
+      "summary": {
+        "Vision_status": "PASS",
+        "Alert_active": false,
+        "Last_vision_check": "2026-01-24T11:00:42.289753"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T11:00:49.721598",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "143fc1d4-af40-45b9-b61c-de6be6acdd1a",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T11:00:49.676947",
+        "last_checked": "2026-01-24T11:00:49.677066",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T11:00:49.676947"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T11:01:04.763260",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "fc8fd2ea-214c-4965-a1c3-0109b8645d94",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T11:01:04.737094",
+        "last_checked": "2026-01-24T11:01:04.737108",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T11:01:04.737094"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T11:01:19.763586",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "53fd8234-2d3e-4977-9511-9e59a862837d",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T11:01:19.730396",
+        "last_checked": "2026-01-24T11:01:19.730414",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T11:01:19.730396"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T11:01:37.116771",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "5b97080f-fff6-4052-9d1b-71a5cfa5a74e",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T11:01:37.096830",
+        "last_checked": "2026-01-24T11:01:37.096852",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T11:01:37.096830"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T11:01:49.818327",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "501b3c25-387b-42a7-aad4-c0cf6af406fd",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T11:01:49.799833",
+        "last_checked": "2026-01-24T11:01:49.799851",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T11:01:49.799833"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T11:02:04.851614",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "67e6f787-0b6b-4248-8b17-089e29dd9c10",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T11:02:04.814741",
+        "last_checked": "2026-01-24T11:02:04.814771",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T11:02:04.814741"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T11:02:19.901089",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "faeaa024-d8eb-484f-aee6-f7ba3eefc58e",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T11:02:19.872354",
+        "last_checked": "2026-01-24T11:02:19.872371",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T11:02:19.872354"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T11:02:37.475033",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "8678bcf6-6cdf-4150-8124-eb66ec21e0de",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T11:02:37.240168",
+        "last_checked": "2026-01-24T11:02:37.240188",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T11:02:37.240168"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T11:02:40.964956",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "e1d17207-2cb0-43d3-a206-185bdff084a6",
+        "event_type": "BASELINE_MATCH",
+        "event_description": "Captured frame matches baseline - no anomalies detected",
+        "timestamp": "2026-01-24T11:02:40.954355",
+        "last_checked": "2026-01-24T11:02:40.954359",
+        "status": "PASS",
+        "meta_data": {
+          "similarity": null,
+          "difference_percent": null,
+          "brightness": 89.3802488425926,
+          "blur_score": 1921.0906651345083
+        }
+      },
+      "summary": {
+        "Vision_status": "PASS",
+        "Alert_active": false,
+        "Last_vision_check": "2026-01-24T11:02:40.954193"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T11:02:50.147308",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "0240effb-90e4-41a2-8f41-9bf2096239fd",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T11:02:50.112909",
+        "last_checked": "2026-01-24T11:02:50.112932",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T11:02:50.112909"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T11:03:04.964514",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "82c35337-541c-4e3d-95e0-416d49e34bee",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T11:03:04.936156",
+        "last_checked": "2026-01-24T11:03:04.936169",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T11:03:04.936156"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T11:03:19.988467",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "6fa58d3b-b2ca-4dc4-acbb-e0de8aa0972b",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T11:03:19.971726",
+        "last_checked": "2026-01-24T11:03:19.971740",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T11:03:19.971726"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T11:03:37.389660",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "6df2c1ba-2221-486d-9607-8ab837f14126",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T11:03:37.363179",
+        "last_checked": "2026-01-24T11:03:37.363201",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T11:03:37.363179"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T11:03:50.290408",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "8516f491-6807-4502-b75f-e5254e3a0e9b",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T11:03:50.073605",
+        "last_checked": "2026-01-24T11:03:50.073621",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T11:03:50.073605"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T11:04:05.028427",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "51ac135c-f362-4ccf-a308-8e854ad14c1b",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T11:04:05.016992",
+        "last_checked": "2026-01-24T11:04:05.017005",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T11:04:05.016992"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T11:04:20.143947",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "42038773-d1a3-466c-a846-5b21b92f731b",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T11:04:20.114389",
+        "last_checked": "2026-01-24T11:04:20.114409",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T11:04:20.114389"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T11:09:25.831981",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "d64fd87a-2cf6-4a46-b0d7-a3cd669957f0",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T11:09:25.813114",
+        "last_checked": "2026-01-24T11:09:25.813133",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T11:09:25.813114"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T12:03:22.083272",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "449cdc03-c86b-43d1-8ab0-e23e379ec101",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T12:03:22.068446",
+        "last_checked": "2026-01-24T12:03:22.068500",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T12:03:22.068446"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T12:03:26.236969",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "d94100c6-a2cd-4c57-a57e-05a2462aebf9",
+        "event_type": "BASELINE_MATCH",
+        "event_description": "Captured frame matches baseline - no anomalies detected",
+        "timestamp": "2026-01-24T12:03:26.223818",
+        "last_checked": "2026-01-24T12:03:26.223822",
+        "status": "PASS",
+        "meta_data": {
+          "similarity": null,
+          "difference_percent": null,
+          "brightness": 88.95222945601851,
+          "blur_score": 1897.4809800664968
+        }
+      },
+      "summary": {
+        "Vision_status": "PASS",
+        "Alert_active": false,
+        "Last_vision_check": "2026-01-24T12:03:26.223670"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T12:03:33.328517",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "c9596599-ab44-457d-a310-291c41fc1289",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T12:03:33.303877",
+        "last_checked": "2026-01-24T12:03:33.303901",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T12:03:33.303877"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T12:03:35.779736",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "69aa97e4-01ef-4037-bbbc-1414dc51c838",
+        "event_type": "BASELINE_MATCH",
+        "event_description": "Captured frame matches baseline - no anomalies detected",
+        "timestamp": "2026-01-24T12:03:35.770420",
+        "last_checked": "2026-01-24T12:03:35.770424",
+        "status": "PASS",
+        "meta_data": {
+          "similarity": null,
+          "difference_percent": null,
+          "brightness": 88.69825472608025,
+          "blur_score": 1860.40503159816
+        }
+      },
+      "summary": {
+        "Vision_status": "PASS",
+        "Alert_active": false,
+        "Last_vision_check": "2026-01-24T12:03:35.770273"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T12:03:48.298926",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "cb417374-49e2-4f41-9435-e7ba64d0bab3",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T12:03:48.263073",
+        "last_checked": "2026-01-24T12:03:48.263097",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T12:03:48.263073"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T12:04:03.337897",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "72c69bdc-8baf-4d72-b202-78b59f8ea711",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T12:04:03.324928",
+        "last_checked": "2026-01-24T12:04:03.324946",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T12:04:03.324928"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T12:04:20.397092",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "9db18d7f-4cd3-4a67-8f51-b76397c43e86",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T12:04:20.388221",
+        "last_checked": "2026-01-24T12:04:20.388260",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T12:04:20.388221"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T12:04:33.342359",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "2b70ca0f-ca4d-46c5-a68e-2cf5b1cde361",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T12:04:33.325243",
+        "last_checked": "2026-01-24T12:04:33.325261",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T12:04:33.325243"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T12:04:48.728917",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "d05d4ac1-eca2-4f70-9a43-62f2fd7d91dd",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T12:04:48.514674",
+        "last_checked": "2026-01-24T12:04:48.514692",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T12:04:48.514674"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T12:05:03.452220",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "c6cf8e81-aa40-4391-83cf-eafe1ff19124",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T12:05:03.428466",
+        "last_checked": "2026-01-24T12:05:03.428484",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T12:05:03.428466"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T12:05:20.704388",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "2320dce2-9729-45ac-b435-b969e025bafd",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T12:05:20.691466",
+        "last_checked": "2026-01-24T12:05:20.691488",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T12:05:20.691466"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T12:05:26.228332",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "6b98c41b-5b8a-4623-a214-8622a3afa53a",
+        "event_type": "BASELINE_MATCH",
+        "event_description": "Captured frame matches baseline - no anomalies detected",
+        "timestamp": "2026-01-24T12:05:26.214509",
+        "last_checked": "2026-01-24T12:05:26.214514",
+        "status": "PASS",
+        "meta_data": {
+          "similarity": null,
+          "difference_percent": null,
+          "brightness": 90.09692611882716,
+          "blur_score": 1950.270000993388
+        }
+      },
+      "summary": {
+        "Vision_status": "PASS",
+        "Alert_active": false,
+        "Last_vision_check": "2026-01-24T12:05:26.214246"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T12:05:33.568545",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "a4d3edd3-ad9b-4a67-bf33-3661834b2169",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T12:05:33.536250",
+        "last_checked": "2026-01-24T12:05:33.536272",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T12:05:33.536250"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T12:05:48.571210",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "00f5e309-1165-4d99-8faa-d8621c6cfed0",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T12:05:48.557115",
+        "last_checked": "2026-01-24T12:05:48.557136",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T12:05:48.557115"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T12:06:03.607996",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "5ad9ca37-4865-4cee-a572-1005c9e08641",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T12:06:03.580988",
+        "last_checked": "2026-01-24T12:06:03.581008",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T12:06:03.580988"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T12:06:20.919482",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "df2fa506-bbf7-4987-aa2d-0c0973cb8333",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T12:06:20.911995",
+        "last_checked": "2026-01-24T12:06:20.912012",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T12:06:20.911995"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T12:06:33.836796",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "66d336be-4159-47be-9704-c973670b8004",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T12:06:33.600933",
+        "last_checked": "2026-01-24T12:06:33.600954",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T12:06:33.600933"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T12:06:48.648041",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "7c753a55-11ef-48e3-9bf3-072cacace2e8",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T12:06:48.590118",
+        "last_checked": "2026-01-24T12:06:48.590130",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T12:06:48.590118"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T12:07:03.773231",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "9d1b47cc-c0e9-4303-9b9b-3c6e95102938",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T12:07:03.730130",
+        "last_checked": "2026-01-24T12:07:03.730146",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T12:07:03.730130"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T12:07:20.930932",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "960e6185-5b4d-429f-9a79-6c32a3084669",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T12:07:20.923339",
+        "last_checked": "2026-01-24T12:07:20.923355",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T12:07:20.923339"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T12:07:25.992938",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "e27e61a7-f41b-43af-9b3a-751f379ab290",
+        "event_type": "BASELINE_MATCH",
+        "event_description": "Captured frame matches baseline - no anomalies detected",
+        "timestamp": "2026-01-24T12:07:25.972355",
+        "last_checked": "2026-01-24T12:07:25.972359",
+        "status": "PASS",
+        "meta_data": {
+          "similarity": null,
+          "difference_percent": null,
+          "brightness": 88.57266348379629,
+          "blur_score": 1763.2512519216161
+        }
+      },
+      "summary": {
+        "Vision_status": "PASS",
+        "Alert_active": false,
+        "Last_vision_check": "2026-01-24T12:07:25.972210"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T12:07:33.864708",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "f9e4cad3-f46e-4d84-8ae7-0ff04d7be2b2",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T12:07:33.846774",
+        "last_checked": "2026-01-24T12:07:33.846791",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T12:07:33.846774"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T12:07:48.844788",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "53df13b5-381a-4249-bc35-2882564cc73a",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T12:07:48.818378",
+        "last_checked": "2026-01-24T12:07:48.818401",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T12:07:48.818378"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T12:08:03.944163",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "f394fff9-2bf6-4a0e-a3eb-e919b1fff17f",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T12:08:03.922437",
+        "last_checked": "2026-01-24T12:08:03.922470",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T12:08:03.922437"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T12:08:21.140907",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "8635fd48-9165-47a9-9f25-b0d5aecf0fa5",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T12:08:21.134721",
+        "last_checked": "2026-01-24T12:08:21.134739",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T12:08:21.134721"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T12:08:34.210129",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "50ce792d-e197-408a-b596-57e618b79438",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T12:08:34.182920",
+        "last_checked": "2026-01-24T12:08:34.182933",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T12:08:34.182920"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T12:08:48.989114",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "597f8717-9e4d-478d-9b85-7b4c05dd97bf",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T12:08:48.976963",
+        "last_checked": "2026-01-24T12:08:48.976983",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T12:08:48.976963"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T12:09:04.137315",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "a0c81b10-7b21-4e55-abb9-618ac44c8eb8",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T12:09:04.111764",
+        "last_checked": "2026-01-24T12:09:04.111788",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T12:09:04.111764"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T12:09:21.175191",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "b273c46e-d60b-4080-b5f3-15f63b01cb9d",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T12:09:21.148053",
+        "last_checked": "2026-01-24T12:09:21.148063",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T12:09:21.148053"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T12:09:27.298774",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "48f44ca1-9205-4c95-ba99-87126c6fda83",
+        "event_type": "BASELINE_MATCH",
+        "event_description": "Captured frame matches baseline - no anomalies detected",
+        "timestamp": "2026-01-24T12:09:27.083955",
+        "last_checked": "2026-01-24T12:09:27.083959",
+        "status": "PASS",
+        "meta_data": {
+          "similarity": null,
+          "difference_percent": null,
+          "brightness": 91.46241174768518,
+          "blur_score": 1984.2184172090674
+        }
+      },
+      "summary": {
+        "Vision_status": "PASS",
+        "Alert_active": false,
+        "Last_vision_check": "2026-01-24T12:09:27.083766"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T12:09:34.035463",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "365c7708-f163-486a-b9e8-512b7e44262d",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T12:09:34.007185",
+        "last_checked": "2026-01-24T12:09:34.007440",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T12:09:34.007185"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T12:09:49.110801",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "ab327267-220f-45da-be56-5fc97eae6962",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T12:09:49.087712",
+        "last_checked": "2026-01-24T12:09:49.087728",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T12:09:49.087712"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T12:10:04.158700",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "2e072b9c-e33e-4252-a3d2-b365569eb414",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T12:10:04.143399",
+        "last_checked": "2026-01-24T12:10:04.143414",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T12:10:04.143399"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T12:10:21.267012",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "33cec72a-00ee-4216-9c0d-34e94fd7ec80",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T12:10:21.252925",
+        "last_checked": "2026-01-24T12:10:21.252933",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T12:10:21.252925"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T12:10:34.402796",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "a61575ba-3f85-4044-986c-32ec3890cea3",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T12:10:34.381610",
+        "last_checked": "2026-01-24T12:10:34.381628",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T12:10:34.381610"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T12:10:48.536632",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "3680c401-e057-4a8e-a0f2-dfd436a69449",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T12:10:48.293147",
+        "last_checked": "2026-01-24T12:10:48.293159",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T12:10:48.293147"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T12:11:03.723917",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "f43ac642-68c7-42be-a19f-34743307f7c0",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T12:11:03.715765",
+        "last_checked": "2026-01-24T12:11:03.715796",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T12:11:03.715765"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T12:11:21.034946",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "c1bb9dca-d3cb-46d7-94ba-3b9e1e0dddef",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T12:11:21.026767",
+        "last_checked": "2026-01-24T12:11:21.026790",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T12:11:21.026767"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T12:11:26.369072",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "ea9469fa-a7ab-43c1-b63e-fdb2c1cf6b06",
+        "event_type": "BASELINE_MATCH",
+        "event_description": "Captured frame matches baseline - no anomalies detected",
+        "timestamp": "2026-01-24T12:11:26.355793",
+        "last_checked": "2026-01-24T12:11:26.355798",
+        "status": "PASS",
+        "meta_data": {
+          "similarity": null,
+          "difference_percent": null,
+          "brightness": 90.52414448302468,
+          "blur_score": 1804.2458587879055
+        }
+      },
+      "summary": {
+        "Vision_status": "PASS",
+        "Alert_active": false,
+        "Last_vision_check": "2026-01-24T12:11:26.355537"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T12:11:33.783825",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "d03bcb64-2db8-48a7-8043-4e24ee2a44e9",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T12:11:33.751826",
+        "last_checked": "2026-01-24T12:11:33.751840",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T12:11:33.751826"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T13:22:06.624440",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "bfcefdf5-2e42-411e-9eb3-f84878ccfff7",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T13:22:06.615752",
+        "last_checked": "2026-01-24T13:22:06.615766",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T13:22:06.615752"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T13:39:07.790523",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "a976d4e4-a302-4490-b5b6-b2a01cabf403",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T13:39:07.774505",
+        "last_checked": "2026-01-24T13:39:07.774520",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T13:39:07.774505"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T13:39:08.807923",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "012d4e14-ad69-4b07-864e-f8e398c95be6",
+        "event_type": "BASELINE_MATCH",
+        "event_description": "Captured frame matches baseline - no anomalies detected",
+        "timestamp": "2026-01-24T13:39:08.662126",
+        "last_checked": "2026-01-24T13:39:08.662131",
+        "status": "PASS",
+        "meta_data": {
+          "similarity": null,
+          "difference_percent": null,
+          "brightness": 91.34601755401235,
+          "blur_score": 1740.9273351396623
+        }
+      },
+      "summary": {
+        "Vision_status": "PASS",
+        "Alert_active": false,
+        "Last_vision_check": "2026-01-24T13:39:08.661960"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T13:39:18.494950",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "30b245da-2326-46f9-a79e-c67d5be0c0ad",
+        "event_type": "BASELINE_MATCH",
+        "event_description": "Captured frame matches baseline - no anomalies detected",
+        "timestamp": "2026-01-24T13:39:18.482064",
+        "last_checked": "2026-01-24T13:39:18.482067",
+        "status": "PASS",
+        "meta_data": {
+          "similarity": null,
+          "difference_percent": null,
+          "brightness": 91.79565489969136,
+          "blur_score": 1844.920700171168
+        }
+      },
+      "summary": {
+        "Vision_status": "PASS",
+        "Alert_active": false,
+        "Last_vision_check": "2026-01-24T13:39:18.481915"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T13:39:20.659539",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "e41dff21-1c21-4baa-8da4-83bcfbf2e6fa",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T13:39:20.624232",
+        "last_checked": "2026-01-24T13:39:20.624240",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T13:39:20.624232"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T13:39:35.670142",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "d811157e-0e2e-4d0a-8732-8aa9099c5505",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T13:39:35.622758",
+        "last_checked": "2026-01-24T13:39:35.622777",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T13:39:35.622758"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T13:39:50.707112",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "d3c1fbf1-573c-497e-a77b-3d9d00100db1",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T13:39:50.686698",
+        "last_checked": "2026-01-24T13:39:50.686719",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T13:39:50.686698"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T13:40:08.163656",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "e908e074-98d7-4705-9d07-92c5a332bda2",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T13:40:08.150145",
+        "last_checked": "2026-01-24T13:40:08.150161",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T13:40:08.150145"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T13:40:20.642314",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "fbc6d60c-7b97-48bd-a5b9-52d8a583ac0c",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T13:40:20.622323",
+        "last_checked": "2026-01-24T13:40:20.622339",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T13:40:20.622323"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T13:40:35.935149",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "c4be58ab-a00f-46b1-8230-29ebb8862847",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T13:40:35.707492",
+        "last_checked": "2026-01-24T13:40:35.707503",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T13:40:35.707492"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T13:40:50.689126",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "18cff7cc-4c1a-4e06-aea0-ae361c3b5653",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T13:40:50.657557",
+        "last_checked": "2026-01-24T13:40:50.657572",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T13:40:50.657557"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T13:41:08.358239",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "7cd6fe20-1f4e-469f-9fe7-c7d2857a2e21",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T13:41:08.342111",
+        "last_checked": "2026-01-24T13:41:08.342132",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T13:41:08.342111"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T13:41:12.660941",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "99a028c0-fbb7-436b-aa8e-3c718c2cf352",
+        "event_type": "BASELINE_MATCH",
+        "event_description": "Captured frame matches baseline - no anomalies detected",
+        "timestamp": "2026-01-24T13:41:12.654736",
+        "last_checked": "2026-01-24T13:41:12.654740",
+        "status": "PASS",
+        "meta_data": {
+          "similarity": null,
+          "difference_percent": null,
+          "brightness": 91.51340084876543,
+          "blur_score": 1735.8843199694704
+        }
+      },
+      "summary": {
+        "Vision_status": "PASS",
+        "Alert_active": false,
+        "Last_vision_check": "2026-01-24T13:41:12.654600"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T13:41:20.808474",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "86240ac9-8d25-4689-94ea-84cdd6d95f0d",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T13:41:20.789134",
+        "last_checked": "2026-01-24T13:41:20.789148",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T13:41:20.789134"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T13:41:35.817344",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "b57628e4-a38c-4949-835d-6135593db6b4",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T13:41:35.798088",
+        "last_checked": "2026-01-24T13:41:35.798107",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T13:41:35.798088"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T13:41:50.847150",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "ad286ff3-16b7-4574-afd2-74177a72471c",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T13:41:50.814906",
+        "last_checked": "2026-01-24T13:41:50.814926",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T13:41:50.814906"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T13:42:08.370625",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "1f3495fb-ee78-482d-8b0c-e3e73f3d2cab",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T13:42:08.360572",
+        "last_checked": "2026-01-24T13:42:08.360593",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T13:42:08.360572"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T13:42:20.942712",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "1f70e4aa-ee09-43b1-8402-65dbdc88c168",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T13:42:20.898319",
+        "last_checked": "2026-01-24T13:42:20.898337",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T13:42:20.898319"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T13:42:35.951939",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "46756b41-cf07-4a0f-ac05-664c55b6fd79",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T13:42:35.928975",
+        "last_checked": "2026-01-24T13:42:35.928999",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T13:42:35.928975"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T13:42:50.984407",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "483bcfc4-4e0d-4bd3-988e-04def7dfbf4d",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T13:42:50.957125",
+        "last_checked": "2026-01-24T13:42:50.957174",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T13:42:50.957125"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T13:43:06.398757",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "c4138275-70cb-4e7f-8f86-ec83819e5988",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T13:43:06.388371",
+        "last_checked": "2026-01-24T13:43:06.388386",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T13:43:06.388371"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T13:48:47.110524",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "d3eff4e8-390d-4932-be62-d3702725499d",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T13:48:47.074798",
+        "last_checked": "2026-01-24T13:48:47.074817",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T13:48:47.074798"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T13:48:56.505228",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "35358a67-bf11-4502-bf2d-b9a4439803a9",
+        "event_type": "BASELINE_MATCH",
+        "event_description": "Captured frame matches baseline - no anomalies detected",
+        "timestamp": "2026-01-24T13:48:56.491325",
+        "last_checked": "2026-01-24T13:48:56.491329",
+        "status": "PASS",
+        "meta_data": {
+          "similarity": null,
+          "difference_percent": null,
+          "brightness": 85.4963565779321,
+          "blur_score": 1544.2082639426367
+        }
+      },
+      "summary": {
+        "Vision_status": "PASS",
+        "Alert_active": false,
+        "Last_vision_check": "2026-01-24T13:48:56.491174"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T13:48:59.143534",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "0031a522-e7d1-4532-9c4d-377f45219ac8",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T13:48:59.130349",
+        "last_checked": "2026-01-24T13:48:59.130388",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T13:48:59.130349"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T13:49:14.384906",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "e843a9de-f3f3-41af-a5fb-7e93e0a1576e",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T13:49:14.366006",
+        "last_checked": "2026-01-24T13:49:14.366082",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T13:49:14.366006"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T13:49:29.386112",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "0e409273-c1bd-4455-b7e9-f5981031486a",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T13:49:29.372982",
+        "last_checked": "2026-01-24T13:49:29.372994",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T13:49:29.372982"
+      }
+    },
+    {
+      "camera_id": "cam_0008",
+      "timestamp": "2026-01-24T13:49:47.168822",
+      "event": {
+        "camera_id": "cam_0008",
+        "event_id": "5fe9a6c5-70b9-4dd1-b98e-0d68b26e34f0",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-24T13:49:47.138455",
+        "last_checked": "2026-01-24T13:49:47.138470",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-24T13:49:47.138455"
+      }
+    }
+  ]
+}

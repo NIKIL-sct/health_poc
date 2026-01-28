@@ -1,0 +1,824 @@
+{
+  "test_info": {
+    "target_cameras": 500,
+    "start_time": "2026-01-21T15:13:29.915331",
+    "end_time": "2026-01-21T15:16:28.191337",
+    "duration_sec": 178.28
+  },
+  "system_metrics": [
+    {
+      "timestamp": "2026-01-21T15:13:29.917728",
+      "elapsed_sec": 0.0,
+      "cpu_percent": 97.6,
+      "memory_mb": 31.14,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-21T15:13:40.155185",
+      "elapsed_sec": 10.24,
+      "cpu_percent": 85.4,
+      "memory_mb": 31.14,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-21T15:13:50.392993",
+      "elapsed_sec": 20.48,
+      "cpu_percent": 37.0,
+      "memory_mb": 31.14,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-21T15:14:00.606985",
+      "elapsed_sec": 30.69,
+      "cpu_percent": 45.6,
+      "memory_mb": 31.27,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-21T15:14:10.820982",
+      "elapsed_sec": 40.91,
+      "cpu_percent": 51.9,
+      "memory_mb": 31.27,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-21T15:14:21.035297",
+      "elapsed_sec": 51.12,
+      "cpu_percent": 34.2,
+      "memory_mb": 31.27,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-21T15:14:31.248968",
+      "elapsed_sec": 61.33,
+      "cpu_percent": 48.8,
+      "memory_mb": 31.27,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-21T15:14:41.462995",
+      "elapsed_sec": 71.55,
+      "cpu_percent": 44.4,
+      "memory_mb": 31.27,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-21T15:14:51.679910",
+      "elapsed_sec": 81.76,
+      "cpu_percent": 17.7,
+      "memory_mb": 31.27,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-21T15:15:01.893941",
+      "elapsed_sec": 91.98,
+      "cpu_percent": 52.6,
+      "memory_mb": 31.27,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-21T15:15:12.108002",
+      "elapsed_sec": 102.19,
+      "cpu_percent": 56.3,
+      "memory_mb": 31.27,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-21T15:15:22.321965",
+      "elapsed_sec": 112.41,
+      "cpu_percent": 29.1,
+      "memory_mb": 31.27,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-21T15:15:32.535963",
+      "elapsed_sec": 122.62,
+      "cpu_percent": 31.6,
+      "memory_mb": 31.27,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-21T15:15:42.749974",
+      "elapsed_sec": 132.83,
+      "cpu_percent": 43.9,
+      "memory_mb": 31.27,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-21T15:15:52.968971",
+      "elapsed_sec": 143.05,
+      "cpu_percent": 36.2,
+      "memory_mb": 31.27,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-21T15:16:03.183043",
+      "elapsed_sec": 153.27,
+      "cpu_percent": 40.5,
+      "memory_mb": 31.27,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-21T15:16:13.398092",
+      "elapsed_sec": 163.48,
+      "cpu_percent": 81.3,
+      "memory_mb": 31.27,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-21T15:16:23.613957",
+      "elapsed_sec": 173.7,
+      "cpu_percent": 70.9,
+      "memory_mb": 31.27,
+      "threads": 2
+    }
+  ],
+  "redis_metrics": [
+    {
+      "network_queue": 0,
+      "vision_queue": 0,
+      "active_cameras": 12
+    },
+    {
+      "network_queue": 0,
+      "vision_queue": 337,
+      "active_cameras": 353
+    },
+    {
+      "network_queue": 0,
+      "vision_queue": 489,
+      "active_cameras": 500
+    },
+    {
+      "network_queue": 0,
+      "vision_queue": 486,
+      "active_cameras": 500
+    },
+    {
+      "network_queue": 0,
+      "vision_queue": 486,
+      "active_cameras": 500
+    },
+    {
+      "network_queue": 0,
+      "vision_queue": 486,
+      "active_cameras": 500
+    },
+    {
+      "network_queue": 0,
+      "vision_queue": 483,
+      "active_cameras": 500
+    },
+    {
+      "network_queue": 0,
+      "vision_queue": 483,
+      "active_cameras": 500
+    },
+    {
+      "network_queue": 0,
+      "vision_queue": 483,
+      "active_cameras": 500
+    },
+    {
+      "network_queue": 0,
+      "vision_queue": 480,
+      "active_cameras": 500
+    },
+    {
+      "network_queue": 0,
+      "vision_queue": 480,
+      "active_cameras": 500
+    },
+    {
+      "network_queue": 0,
+      "vision_queue": 480,
+      "active_cameras": 500
+    },
+    {
+      "network_queue": 0,
+      "vision_queue": 569,
+      "active_cameras": 500
+    },
+    {
+      "network_queue": 0,
+      "vision_queue": 877,
+      "active_cameras": 500
+    },
+    {
+      "network_queue": 0,
+      "vision_queue": 977,
+      "active_cameras": 500
+    },
+    {
+      "network_queue": 0,
+      "vision_queue": 977,
+      "active_cameras": 500
+    },
+    {
+      "network_queue": 0,
+      "vision_queue": 976,
+      "active_cameras": 500
+    },
+    {
+      "network_queue": 0,
+      "vision_queue": 975,
+      "active_cameras": 500
+    }
+  ],
+  "api_health": [
+    {
+      "status": "healthy",
+      "timestamp": "2026-01-21T15:13:30.140272",
+      "active_cameras": 12,
+      "queues": {
+        "network": 0,
+        "vision": 0
+      },
+      "scheduling": {
+        "ip_in_wheel": 12,
+        "port_in_wheel": 12,
+        "vision_in_wheel": 12,
+        "method": "ZSET time-wheel (O(log N))"
+      },
+      "workers": {
+        "scheduler_running": true,
+        "network_workers": 3,
+        "network_poller": "active",
+        "vision_workers": 3,
+        "distribution": "fair (internal queue)"
+      },
+      "storage": {
+        "method": "append-only JSONL",
+        "summary": "separate JSON",
+        "performance": "~1ms per event"
+      },
+      "optimizations": [
+        "\u2713 ZSET time-wheel scheduling",
+        "\u2713 Fair task distribution",
+        "\u2713 Append-only event logs",
+        "\u2713 Per-task memory tracking"
+      ]
+    },
+    {
+      "status": "healthy",
+      "timestamp": "2026-01-21T15:13:40.380782",
+      "active_cameras": 353,
+      "queues": {
+        "network": 0,
+        "vision": 337
+      },
+      "scheduling": {
+        "ip_in_wheel": 353,
+        "port_in_wheel": 353,
+        "vision_in_wheel": 354,
+        "method": "ZSET time-wheel (O(log N))"
+      },
+      "workers": {
+        "scheduler_running": true,
+        "network_workers": 3,
+        "network_poller": "active",
+        "vision_workers": 3,
+        "distribution": "fair (internal queue)"
+      },
+      "storage": {
+        "method": "append-only JSONL",
+        "summary": "separate JSON",
+        "performance": "~1ms per event"
+      },
+      "optimizations": [
+        "\u2713 ZSET time-wheel scheduling",
+        "\u2713 Fair task distribution",
+        "\u2713 Append-only event logs",
+        "\u2713 Per-task memory tracking"
+      ]
+    },
+    {
+      "status": "healthy",
+      "timestamp": "2026-01-21T15:13:50.596201",
+      "active_cameras": 500,
+      "queues": {
+        "network": 0,
+        "vision": 489
+      },
+      "scheduling": {
+        "ip_in_wheel": 500,
+        "port_in_wheel": 500,
+        "vision_in_wheel": 500,
+        "method": "ZSET time-wheel (O(log N))"
+      },
+      "workers": {
+        "scheduler_running": true,
+        "network_workers": 3,
+        "network_poller": "active",
+        "vision_workers": 3,
+        "distribution": "fair (internal queue)"
+      },
+      "storage": {
+        "method": "append-only JSONL",
+        "summary": "separate JSON",
+        "performance": "~1ms per event"
+      },
+      "optimizations": [
+        "\u2713 ZSET time-wheel scheduling",
+        "\u2713 Fair task distribution",
+        "\u2713 Append-only event logs",
+        "\u2713 Per-task memory tracking"
+      ]
+    },
+    {
+      "status": "healthy",
+      "timestamp": "2026-01-21T15:14:00.810019",
+      "active_cameras": 500,
+      "queues": {
+        "network": 0,
+        "vision": 486
+      },
+      "scheduling": {
+        "ip_in_wheel": 500,
+        "port_in_wheel": 500,
+        "vision_in_wheel": 500,
+        "method": "ZSET time-wheel (O(log N))"
+      },
+      "workers": {
+        "scheduler_running": true,
+        "network_workers": 3,
+        "network_poller": "active",
+        "vision_workers": 3,
+        "distribution": "fair (internal queue)"
+      },
+      "storage": {
+        "method": "append-only JSONL",
+        "summary": "separate JSON",
+        "performance": "~1ms per event"
+      },
+      "optimizations": [
+        "\u2713 ZSET time-wheel scheduling",
+        "\u2713 Fair task distribution",
+        "\u2713 Append-only event logs",
+        "\u2713 Per-task memory tracking"
+      ]
+    },
+    {
+      "status": "healthy",
+      "timestamp": "2026-01-21T15:14:11.024068",
+      "active_cameras": 500,
+      "queues": {
+        "network": 0,
+        "vision": 486
+      },
+      "scheduling": {
+        "ip_in_wheel": 500,
+        "port_in_wheel": 500,
+        "vision_in_wheel": 500,
+        "method": "ZSET time-wheel (O(log N))"
+      },
+      "workers": {
+        "scheduler_running": true,
+        "network_workers": 3,
+        "network_poller": "active",
+        "vision_workers": 3,
+        "distribution": "fair (internal queue)"
+      },
+      "storage": {
+        "method": "append-only JSONL",
+        "summary": "separate JSON",
+        "performance": "~1ms per event"
+      },
+      "optimizations": [
+        "\u2713 ZSET time-wheel scheduling",
+        "\u2713 Fair task distribution",
+        "\u2713 Append-only event logs",
+        "\u2713 Per-task memory tracking"
+      ]
+    },
+    {
+      "status": "healthy",
+      "timestamp": "2026-01-21T15:14:21.238755",
+      "active_cameras": 500,
+      "queues": {
+        "network": 0,
+        "vision": 486
+      },
+      "scheduling": {
+        "ip_in_wheel": 500,
+        "port_in_wheel": 500,
+        "vision_in_wheel": 500,
+        "method": "ZSET time-wheel (O(log N))"
+      },
+      "workers": {
+        "scheduler_running": true,
+        "network_workers": 3,
+        "network_poller": "active",
+        "vision_workers": 3,
+        "distribution": "fair (internal queue)"
+      },
+      "storage": {
+        "method": "append-only JSONL",
+        "summary": "separate JSON",
+        "performance": "~1ms per event"
+      },
+      "optimizations": [
+        "\u2713 ZSET time-wheel scheduling",
+        "\u2713 Fair task distribution",
+        "\u2713 Append-only event logs",
+        "\u2713 Per-task memory tracking"
+      ]
+    },
+    {
+      "status": "healthy",
+      "timestamp": "2026-01-21T15:14:31.452140",
+      "active_cameras": 500,
+      "queues": {
+        "network": 0,
+        "vision": 483
+      },
+      "scheduling": {
+        "ip_in_wheel": 500,
+        "port_in_wheel": 500,
+        "vision_in_wheel": 500,
+        "method": "ZSET time-wheel (O(log N))"
+      },
+      "workers": {
+        "scheduler_running": true,
+        "network_workers": 3,
+        "network_poller": "active",
+        "vision_workers": 3,
+        "distribution": "fair (internal queue)"
+      },
+      "storage": {
+        "method": "append-only JSONL",
+        "summary": "separate JSON",
+        "performance": "~1ms per event"
+      },
+      "optimizations": [
+        "\u2713 ZSET time-wheel scheduling",
+        "\u2713 Fair task distribution",
+        "\u2713 Append-only event logs",
+        "\u2713 Per-task memory tracking"
+      ]
+    },
+    {
+      "status": "healthy",
+      "timestamp": "2026-01-21T15:14:41.668749",
+      "active_cameras": 500,
+      "queues": {
+        "network": 0,
+        "vision": 483
+      },
+      "scheduling": {
+        "ip_in_wheel": 500,
+        "port_in_wheel": 500,
+        "vision_in_wheel": 500,
+        "method": "ZSET time-wheel (O(log N))"
+      },
+      "workers": {
+        "scheduler_running": true,
+        "network_workers": 3,
+        "network_poller": "active",
+        "vision_workers": 3,
+        "distribution": "fair (internal queue)"
+      },
+      "storage": {
+        "method": "append-only JSONL",
+        "summary": "separate JSON",
+        "performance": "~1ms per event"
+      },
+      "optimizations": [
+        "\u2713 ZSET time-wheel scheduling",
+        "\u2713 Fair task distribution",
+        "\u2713 Append-only event logs",
+        "\u2713 Per-task memory tracking"
+      ]
+    },
+    {
+      "status": "healthy",
+      "timestamp": "2026-01-21T15:14:51.883028",
+      "active_cameras": 500,
+      "queues": {
+        "network": 0,
+        "vision": 483
+      },
+      "scheduling": {
+        "ip_in_wheel": 500,
+        "port_in_wheel": 500,
+        "vision_in_wheel": 500,
+        "method": "ZSET time-wheel (O(log N))"
+      },
+      "workers": {
+        "scheduler_running": true,
+        "network_workers": 3,
+        "network_poller": "active",
+        "vision_workers": 3,
+        "distribution": "fair (internal queue)"
+      },
+      "storage": {
+        "method": "append-only JSONL",
+        "summary": "separate JSON",
+        "performance": "~1ms per event"
+      },
+      "optimizations": [
+        "\u2713 ZSET time-wheel scheduling",
+        "\u2713 Fair task distribution",
+        "\u2713 Append-only event logs",
+        "\u2713 Per-task memory tracking"
+      ]
+    },
+    {
+      "status": "healthy",
+      "timestamp": "2026-01-21T15:15:02.096937",
+      "active_cameras": 500,
+      "queues": {
+        "network": 0,
+        "vision": 480
+      },
+      "scheduling": {
+        "ip_in_wheel": 500,
+        "port_in_wheel": 500,
+        "vision_in_wheel": 500,
+        "method": "ZSET time-wheel (O(log N))"
+      },
+      "workers": {
+        "scheduler_running": true,
+        "network_workers": 3,
+        "network_poller": "active",
+        "vision_workers": 3,
+        "distribution": "fair (internal queue)"
+      },
+      "storage": {
+        "method": "append-only JSONL",
+        "summary": "separate JSON",
+        "performance": "~1ms per event"
+      },
+      "optimizations": [
+        "\u2713 ZSET time-wheel scheduling",
+        "\u2713 Fair task distribution",
+        "\u2713 Append-only event logs",
+        "\u2713 Per-task memory tracking"
+      ]
+    },
+    {
+      "status": "healthy",
+      "timestamp": "2026-01-21T15:15:12.311365",
+      "active_cameras": 500,
+      "queues": {
+        "network": 0,
+        "vision": 480
+      },
+      "scheduling": {
+        "ip_in_wheel": 500,
+        "port_in_wheel": 500,
+        "vision_in_wheel": 500,
+        "method": "ZSET time-wheel (O(log N))"
+      },
+      "workers": {
+        "scheduler_running": true,
+        "network_workers": 3,
+        "network_poller": "active",
+        "vision_workers": 3,
+        "distribution": "fair (internal queue)"
+      },
+      "storage": {
+        "method": "append-only JSONL",
+        "summary": "separate JSON",
+        "performance": "~1ms per event"
+      },
+      "optimizations": [
+        "\u2713 ZSET time-wheel scheduling",
+        "\u2713 Fair task distribution",
+        "\u2713 Append-only event logs",
+        "\u2713 Per-task memory tracking"
+      ]
+    },
+    {
+      "status": "healthy",
+      "timestamp": "2026-01-21T15:15:22.524900",
+      "active_cameras": 500,
+      "queues": {
+        "network": 0,
+        "vision": 480
+      },
+      "scheduling": {
+        "ip_in_wheel": 500,
+        "port_in_wheel": 500,
+        "vision_in_wheel": 500,
+        "method": "ZSET time-wheel (O(log N))"
+      },
+      "workers": {
+        "scheduler_running": true,
+        "network_workers": 3,
+        "network_poller": "active",
+        "vision_workers": 3,
+        "distribution": "fair (internal queue)"
+      },
+      "storage": {
+        "method": "append-only JSONL",
+        "summary": "separate JSON",
+        "performance": "~1ms per event"
+      },
+      "optimizations": [
+        "\u2713 ZSET time-wheel scheduling",
+        "\u2713 Fair task distribution",
+        "\u2713 Append-only event logs",
+        "\u2713 Per-task memory tracking"
+      ]
+    },
+    {
+      "status": "healthy",
+      "timestamp": "2026-01-21T15:15:32.739488",
+      "active_cameras": 500,
+      "queues": {
+        "network": 0,
+        "vision": 569
+      },
+      "scheduling": {
+        "ip_in_wheel": 500,
+        "port_in_wheel": 500,
+        "vision_in_wheel": 500,
+        "method": "ZSET time-wheel (O(log N))"
+      },
+      "workers": {
+        "scheduler_running": true,
+        "network_workers": 3,
+        "network_poller": "active",
+        "vision_workers": 3,
+        "distribution": "fair (internal queue)"
+      },
+      "storage": {
+        "method": "append-only JSONL",
+        "summary": "separate JSON",
+        "performance": "~1ms per event"
+      },
+      "optimizations": [
+        "\u2713 ZSET time-wheel scheduling",
+        "\u2713 Fair task distribution",
+        "\u2713 Append-only event logs",
+        "\u2713 Per-task memory tracking"
+      ]
+    },
+    {
+      "status": "healthy",
+      "timestamp": "2026-01-21T15:15:42.957760",
+      "active_cameras": 500,
+      "queues": {
+        "network": 0,
+        "vision": 877
+      },
+      "scheduling": {
+        "ip_in_wheel": 500,
+        "port_in_wheel": 500,
+        "vision_in_wheel": 500,
+        "method": "ZSET time-wheel (O(log N))"
+      },
+      "workers": {
+        "scheduler_running": true,
+        "network_workers": 3,
+        "network_poller": "active",
+        "vision_workers": 3,
+        "distribution": "fair (internal queue)"
+      },
+      "storage": {
+        "method": "append-only JSONL",
+        "summary": "separate JSON",
+        "performance": "~1ms per event"
+      },
+      "optimizations": [
+        "\u2713 ZSET time-wheel scheduling",
+        "\u2713 Fair task distribution",
+        "\u2713 Append-only event logs",
+        "\u2713 Per-task memory tracking"
+      ]
+    },
+    {
+      "status": "healthy",
+      "timestamp": "2026-01-21T15:15:53.171967",
+      "active_cameras": 500,
+      "queues": {
+        "network": 0,
+        "vision": 977
+      },
+      "scheduling": {
+        "ip_in_wheel": 500,
+        "port_in_wheel": 500,
+        "vision_in_wheel": 500,
+        "method": "ZSET time-wheel (O(log N))"
+      },
+      "workers": {
+        "scheduler_running": true,
+        "network_workers": 3,
+        "network_poller": "active",
+        "vision_workers": 3,
+        "distribution": "fair (internal queue)"
+      },
+      "storage": {
+        "method": "append-only JSONL",
+        "summary": "separate JSON",
+        "performance": "~1ms per event"
+      },
+      "optimizations": [
+        "\u2713 ZSET time-wheel scheduling",
+        "\u2713 Fair task distribution",
+        "\u2713 Append-only event logs",
+        "\u2713 Per-task memory tracking"
+      ]
+    },
+    {
+      "status": "healthy",
+      "timestamp": "2026-01-21T15:16:03.386064",
+      "active_cameras": 500,
+      "queues": {
+        "network": 0,
+        "vision": 977
+      },
+      "scheduling": {
+        "ip_in_wheel": 500,
+        "port_in_wheel": 500,
+        "vision_in_wheel": 500,
+        "method": "ZSET time-wheel (O(log N))"
+      },
+      "workers": {
+        "scheduler_running": true,
+        "network_workers": 3,
+        "network_poller": "active",
+        "vision_workers": 3,
+        "distribution": "fair (internal queue)"
+      },
+      "storage": {
+        "method": "append-only JSONL",
+        "summary": "separate JSON",
+        "performance": "~1ms per event"
+      },
+      "optimizations": [
+        "\u2713 ZSET time-wheel scheduling",
+        "\u2713 Fair task distribution",
+        "\u2713 Append-only event logs",
+        "\u2713 Per-task memory tracking"
+      ]
+    },
+    {
+      "status": "healthy",
+      "timestamp": "2026-01-21T15:16:13.601252",
+      "active_cameras": 500,
+      "queues": {
+        "network": 0,
+        "vision": 976
+      },
+      "scheduling": {
+        "ip_in_wheel": 500,
+        "port_in_wheel": 500,
+        "vision_in_wheel": 500,
+        "method": "ZSET time-wheel (O(log N))"
+      },
+      "workers": {
+        "scheduler_running": true,
+        "network_workers": 3,
+        "network_poller": "active",
+        "vision_workers": 3,
+        "distribution": "fair (internal queue)"
+      },
+      "storage": {
+        "method": "append-only JSONL",
+        "summary": "separate JSON",
+        "performance": "~1ms per event"
+      },
+      "optimizations": [
+        "\u2713 ZSET time-wheel scheduling",
+        "\u2713 Fair task distribution",
+        "\u2713 Append-only event logs",
+        "\u2713 Per-task memory tracking"
+      ]
+    },
+    {
+      "status": "healthy",
+      "timestamp": "2026-01-21T15:16:23.817236",
+      "active_cameras": 500,
+      "queues": {
+        "network": 0,
+        "vision": 975
+      },
+      "scheduling": {
+        "ip_in_wheel": 500,
+        "port_in_wheel": 500,
+        "vision_in_wheel": 500,
+        "method": "ZSET time-wheel (O(log N))"
+      },
+      "workers": {
+        "scheduler_running": true,
+        "network_workers": 3,
+        "network_poller": "active",
+        "vision_workers": 3,
+        "distribution": "fair (internal queue)"
+      },
+      "storage": {
+        "method": "append-only JSONL",
+        "summary": "separate JSON",
+        "performance": "~1ms per event"
+      },
+      "optimizations": [
+        "\u2713 ZSET time-wheel scheduling",
+        "\u2713 Fair task distribution",
+        "\u2713 Append-only event logs",
+        "\u2713 Per-task memory tracking"
+      ]
+    }
+  ]
+}

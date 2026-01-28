@@ -1,0 +1,201 @@
+{
+  "camera_id": "cam_9801",
+  "events": [
+    {
+      "camera_id": "cam_9801",
+      "timestamp": "2026-01-28T17:31:12.404503",
+      "event": {
+        "camera_id": "cam_9801",
+        "event_id": "3b68c51c-dd6e-414d-a7ec-8300029c0bfc",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-28T17:31:12.397856",
+        "last_checked": "2026-01-28T17:31:12.397867",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "is_accessible": false,
+          "attempts": 3,
+          "success_count": 0,
+          "connection_success_rate": 0.0,
+          "latency_avg_ms": null,
+          "latency_min_ms": null,
+          "latency_max_ms": null
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-28T17:31:12.397856"
+      }
+    },
+    {
+      "camera_id": "cam_9801",
+      "timestamp": "2026-01-28T17:31:27.417924",
+      "event": {
+        "camera_id": "cam_9801",
+        "event_id": "67cf1dab-f53d-4949-903e-2239338e0499",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-28T17:31:27.413852",
+        "last_checked": "2026-01-28T17:31:27.413864",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "is_accessible": false,
+          "attempts": 3,
+          "success_count": 0,
+          "connection_success_rate": 0.0,
+          "latency_avg_ms": null,
+          "latency_min_ms": null,
+          "latency_max_ms": null
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-28T17:31:27.413852"
+      }
+    },
+    {
+      "camera_id": "cam_9801",
+      "timestamp": "2026-01-28T17:31:42.447658",
+      "event": {
+        "camera_id": "cam_9801",
+        "event_id": "7cc48044-c8bf-4e0e-9acd-282e2a91e39b",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-28T17:31:42.441469",
+        "last_checked": "2026-01-28T17:31:42.441480",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "is_accessible": false,
+          "attempts": 3,
+          "success_count": 0,
+          "connection_success_rate": 0.0,
+          "latency_avg_ms": null,
+          "latency_min_ms": null,
+          "latency_max_ms": null
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-28T17:31:42.441469"
+      }
+    },
+    {
+      "camera_id": "cam_9801",
+      "timestamp": "2026-01-28T17:31:57.457014",
+      "event": {
+        "camera_id": "cam_9801",
+        "event_id": "d2354d92-b22b-4cc7-9fe6-8caaf1a17a6f",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-28T17:31:57.451869",
+        "last_checked": "2026-01-28T17:31:57.451880",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "is_accessible": false,
+          "attempts": 3,
+          "success_count": 0,
+          "connection_success_rate": 0.0,
+          "latency_avg_ms": null,
+          "latency_min_ms": null,
+          "latency_max_ms": null
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-28T17:31:57.451869"
+      }
+    },
+    {
+      "camera_id": "cam_9801",
+      "timestamp": "2026-01-28T17:32:12.479474",
+      "event": {
+        "camera_id": "cam_9801",
+        "event_id": "8f422d9d-5a3b-44fc-a0d3-1cd7b552cbd7",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-28T17:32:12.474912",
+        "last_checked": "2026-01-28T17:32:12.474928",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "is_accessible": false,
+          "attempts": 3,
+          "success_count": 0,
+          "connection_success_rate": 0.0,
+          "latency_avg_ms": null,
+          "latency_min_ms": null,
+          "latency_max_ms": null
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-28T17:32:12.474912"
+      }
+    },
+    {
+      "camera_id": "cam_9801",
+      "timestamp": "2026-01-28T17:32:27.525292",
+      "event": {
+        "camera_id": "cam_9801",
+        "event_id": "d1aeb53d-cfe6-4678-8b0e-d54e4844c641",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-28T17:32:27.511699",
+        "last_checked": "2026-01-28T17:32:27.511726",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "is_accessible": false,
+          "attempts": 3,
+          "success_count": 0,
+          "connection_success_rate": 0.0,
+          "latency_avg_ms": null,
+          "latency_min_ms": null,
+          "latency_max_ms": null
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-28T17:32:27.511699"
+      }
+    },
+    {
+      "camera_id": "cam_9801",
+      "timestamp": "2026-01-28T17:32:42.546279",
+      "event": {
+        "camera_id": "cam_9801",
+        "event_id": "8ab0afa0-6eb7-4007-ad7b-80273cc58034",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-28T17:32:42.540820",
+        "last_checked": "2026-01-28T17:32:42.540832",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "is_accessible": false,
+          "attempts": 3,
+          "success_count": 0,
+          "connection_success_rate": 0.0,
+          "latency_avg_ms": null,
+          "latency_min_ms": null,
+          "latency_max_ms": null
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-28T17:32:42.540820"
+      }
+    }
+  ]
+}

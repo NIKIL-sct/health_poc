@@ -1,0 +1,28 @@
+{
+  "camera_id": "10.10.2.11",
+  "events": [
+    {
+      "camera_id": "10.10.2.11",
+      "timestamp": "2026-01-28T17:23:17.787548",
+      "event": {
+        "camera_id": "10.10.2.11",
+        "event_type": "PORT_CHECK",
+        "status": 554,
+        "event_description": false,
+        "meta_data": {
+          "is_accessible": false,
+          "attempts": 3,
+          "success_count": 0,
+          "connection_success_rate": 0.0,
+          "latency_avg_ms": null,
+          "latency_min_ms": null,
+          "latency_max_ms": null
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-28T11:53:17.776313"
+      }
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "test_info": {
+    "target_cameras": 13,
+    "start_time": "2026-01-21T16:07:42.292600",
+    "end_time": "2026-01-21T16:09:35.396780",
+    "duration_sec": 113.1
+  },
+  "system_metrics": [
+    {
+      "timestamp": "2026-01-21T16:07:42.294739",
+      "elapsed_sec": 0.0,
+      "cpu_percent": 96.2,
+      "memory_mb": 30.99,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-21T16:07:52.511256",
+      "elapsed_sec": 10.22,
+      "cpu_percent": 91.4,
+      "memory_mb": 31.49,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-21T16:08:02.727980",
+      "elapsed_sec": 20.44,
+      "cpu_percent": 57.0,
+      "memory_mb": 31.49,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-21T16:08:12.940963",
+      "elapsed_sec": 30.65,
+      "cpu_percent": 53.8,
+      "memory_mb": 31.49,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-21T16:08:23.153928",
+      "elapsed_sec": 40.86,
+      "cpu_percent": 72.5,
+      "memory_mb": 31.49,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-21T16:08:33.391937",
+      "elapsed_sec": 51.1,
+      "cpu_percent": 80.0,
+      "memory_mb": 31.49,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-21T16:08:43.607190",
+      "elapsed_sec": 61.31,
+      "cpu_percent": 88.5,
+      "memory_mb": 31.49,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-21T16:08:53.832991",
+      "elapsed_sec": 71.54,
+      "cpu_percent": 71.6,
+      "memory_mb": 31.49,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-21T16:09:04.047007",
+      "elapsed_sec": 81.75,
+      "cpu_percent": 49.4,
+      "memory_mb": 31.49,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-21T16:09:14.259969",
+      "elapsed_sec": 91.97,
+      "cpu_percent": 54.4,
+      "memory_mb": 31.49,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-21T16:09:24.473159",
+      "elapsed_sec": 102.18,
+      "cpu_percent": 24.7,
+      "memory_mb": 31.49,
+      "threads": 2
+    }
+  ],
+  "redis_metrics": [
+    {
+      "network_queue": 0,
+      "vision_queue": 0,
+      "active_cameras": 13
+    },
+    {
+      "network_queue": 0,
+      "vision_queue": 0,
+      "active_cameras": 13
+    },
+    {
+      "network_queue": 0,
+      "vision_queue": 0,
+      "active_cameras": 13
+    },
+    {
+      "network_queue": 0,
+      "vision_queue": 0,
+      "active_cameras": 13
+    },
+    {
+      "network_queue": 0,
+      "vision_queue": 0,
+      "active_cameras": 13
+    },
+    {
+      "network_queue": 0,
+      "vision_queue": 0,
+      "active_cameras": 13
+    },
+    {
+      "network_queue": 8,
+      "vision_queue": 0,
+      "active_cameras": 14
+    },
+    {
+      "network_queue": 0,
+      "vision_queue": 0,
+      "active_cameras": 14
+    },
+    {
+      "network_queue": 0,
+      "vision_queue": 0,
+      "active_cameras": 14
+    },
+    {
+      "network_queue": 0,
+      "vision_queue": 0,
+      "active_cameras": 14
+    },
+    {
+      "network_queue": 0,
+      "vision_queue": 0,
+      "active_cameras": 14
+    }
+  ],
+  "api_health": [
+    {
+      "detail": "Not Found"
+    },
+    {
+      "detail": "Not Found"
+    },
+    {
+      "detail": "Not Found"
+    },
+    {
+      "detail": "Not Found"
+    },
+    {
+      "detail": "Not Found"
+    },
+    {
+      "detail": "Not Found"
+    },
+    {
+      "detail": "Not Found"
+    },
+    {
+      "detail": "Not Found"
+    },
+    {
+      "detail": "Not Found"
+    },
+    {
+      "detail": "Not Found"
+    },
+    {
+      "detail": "Not Found"
+    }
+  ]
+}

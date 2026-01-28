@@ -1,0 +1,5153 @@
+{
+  "camera_id": "cam_4412",
+  "events": [
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-23T15:38:27.598020",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "0345c12d-ecff-4797-b0df-e0ce52d05860",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-23T15:38:27.586422",
+        "last_checked": "2026-01-23T15:38:27.586436",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-23T15:38:27.586422"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-23T15:38:39.832830",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "0cdcef2a-ba38-4be1-8a35-095cac556def",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-23T15:38:39.778000",
+        "last_checked": "2026-01-23T15:38:39.778016",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-23T15:38:39.778000"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-23T15:38:54.823542",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "39777132-8b4d-46ca-9739-c78335c9cd27",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-23T15:38:54.806025",
+        "last_checked": "2026-01-23T15:38:54.806034",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-23T15:38:54.806025"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-23T15:39:14.213113",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "8eff83cb-f3b2-4b3d-9651-2387f972fb76",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-23T15:39:14.182454",
+        "last_checked": "2026-01-23T15:39:14.182461",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-23T15:39:14.182454"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-23T15:39:26.661161",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "71d37c58-6e32-42a3-a4f9-49876d829510",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-23T15:39:26.654401",
+        "last_checked": "2026-01-23T15:39:26.654414",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-23T15:39:26.654401"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-23T15:39:39.313457",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "3ca95e9c-6bae-4d57-8335-5495e7c74f51",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-23T15:39:39.297899",
+        "last_checked": "2026-01-23T15:39:39.297914",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-23T15:39:39.297899"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-23T15:39:54.420513",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "969b7293-6cd8-4df9-913c-5379c0a881d4",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-23T15:39:54.402738",
+        "last_checked": "2026-01-23T15:39:54.402760",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-23T15:39:54.402738"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-23T15:40:09.605070",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "58041b3f-a250-40b5-8e01-da24befcf9c2",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-23T15:40:09.588575",
+        "last_checked": "2026-01-23T15:40:09.588589",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-23T15:40:09.588575"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-23T15:40:26.566720",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "6d18188f-ea4c-46e2-91a0-447f673daa89",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-23T15:40:26.544689",
+        "last_checked": "2026-01-23T15:40:26.544735",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-23T15:40:26.544689"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-23T15:40:39.665929",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "73e1ca67-5258-483a-93cc-a80e4e2d1dee",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-23T15:40:39.659043",
+        "last_checked": "2026-01-23T15:40:39.659049",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-23T15:40:39.659043"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:22:38.605855",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "b4481fa9-cd51-447b-a912-3fe5804d38f7",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:22:38.594237",
+        "last_checked": "2026-01-24T10:22:38.594259",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:22:38.594237"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:22:51.575745",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "389d1dc6-a83f-42e5-bcb4-595c51b3678d",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:22:51.566924",
+        "last_checked": "2026-01-24T10:22:51.566934",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:22:51.566924"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:23:06.470801",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "88773f00-38a3-4832-9715-e31adfa1419c",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:23:06.462068",
+        "last_checked": "2026-01-24T10:23:06.462081",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:23:06.462068"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:23:21.492271",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "c03ea074-d318-469a-ae19-6ad42d4b4c1f",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:23:21.477559",
+        "last_checked": "2026-01-24T10:23:21.477576",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:23:21.477559"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:23:38.649587",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "2e4812a3-3c0f-4390-b8b1-822b44329116",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:23:38.642196",
+        "last_checked": "2026-01-24T10:23:38.642212",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:23:38.642196"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:23:51.543638",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "971a9d98-61ee-40c4-a502-12168c49e978",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:23:51.531045",
+        "last_checked": "2026-01-24T10:23:51.531054",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:23:51.531045"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:24:06.614988",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "07f56b29-ec5d-4fdb-87d2-89035cfcada0",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:24:06.608466",
+        "last_checked": "2026-01-24T10:24:06.608483",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:24:06.608466"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:24:21.584278",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "05f5d03e-4d80-44f0-928a-ebd5ab22a1ab",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:24:21.576142",
+        "last_checked": "2026-01-24T10:24:21.576150",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:24:21.576142"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:24:38.745766",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "ebef9b04-6e0d-45ad-ac32-3ceab8ffd091",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:24:38.733055",
+        "last_checked": "2026-01-24T10:24:38.733069",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:24:38.733055"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:24:51.648574",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "427087a2-8975-4f4b-8775-8c7872d8fab4",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:24:51.639697",
+        "last_checked": "2026-01-24T10:24:51.639715",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:24:51.639697"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:25:06.692236",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "a6318e4b-5692-4ec8-a457-810df1dc5874",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:25:06.659913",
+        "last_checked": "2026-01-24T10:25:06.659948",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:25:06.659913"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:25:21.691743",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "a3861c5e-0cb7-4332-9ce5-22b2a3f52e36",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:25:21.681210",
+        "last_checked": "2026-01-24T10:25:21.681222",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:25:21.681210"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:25:38.867437",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "b558237f-69dc-428c-8664-8756febbf65f",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:25:38.860056",
+        "last_checked": "2026-01-24T10:25:38.860068",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:25:38.860056"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:25:51.765551",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "fa2c3c0f-2b9c-41c1-88be-f4b093fd3d7c",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:25:51.756927",
+        "last_checked": "2026-01-24T10:25:51.756938",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:25:51.756927"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:26:06.777094",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "7caaf18c-79ee-4fd7-8c71-899c573dbc38",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:26:06.762917",
+        "last_checked": "2026-01-24T10:26:06.762925",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:26:06.762917"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:26:22.010122",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "a7fbd66d-1068-4efe-9800-e4af6db253c5",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:26:21.792457",
+        "last_checked": "2026-01-24T10:26:21.792467",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:26:21.792457"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:26:38.968156",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "bb5d4f00-8084-4e7c-82dc-14ef397504da",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:26:38.962039",
+        "last_checked": "2026-01-24T10:26:38.962051",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:26:38.962039"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:26:51.933711",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "4893957d-1a22-40c3-8c9f-745dbf06f9b7",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:26:51.922651",
+        "last_checked": "2026-01-24T10:26:51.922663",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:26:51.922651"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:27:07.131577",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "90e51b45-03c1-4581-9bf2-3acd2e13c74b",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:27:07.103205",
+        "last_checked": "2026-01-24T10:27:07.103224",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:27:07.103205"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:27:22.177165",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "3561ef9a-415b-4314-b09f-f67fe989f69e",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:27:22.168558",
+        "last_checked": "2026-01-24T10:27:22.168574",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:27:22.168558"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:27:39.035851",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "dd143412-a9b1-41a9-a39a-83d28a69b602",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:27:39.019598",
+        "last_checked": "2026-01-24T10:27:39.019647",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:27:39.019598"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:27:51.988466",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "f8d0dd30-c228-460e-86a5-b425fbb28cbf",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:27:51.970509",
+        "last_checked": "2026-01-24T10:27:51.970538",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:27:51.970509"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:28:07.025277",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "47eb9dfc-06e4-4541-877d-541b88efd71a",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:28:07.014121",
+        "last_checked": "2026-01-24T10:28:07.014133",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:28:07.014121"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:28:22.039042",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "b92f5aef-324c-456e-aa11-27dab7e6ecf2",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:28:22.006861",
+        "last_checked": "2026-01-24T10:28:22.006895",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:28:22.006861"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:28:39.179520",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "866fccd5-ac29-4f82-b763-d48696f75da0",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:28:39.173336",
+        "last_checked": "2026-01-24T10:28:39.173348",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:28:39.173336"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:28:51.078892",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "20977735-e9f8-4d5d-9b1d-aa2d8401dbb0",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:28:51.069011",
+        "last_checked": "2026-01-24T10:28:51.069024",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:28:51.069011"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:29:06.115389",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "7c948ac9-ccba-4bfd-9625-6464198651b0",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:29:06.105829",
+        "last_checked": "2026-01-24T10:29:06.105837",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:29:06.105829"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:29:21.112516",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "69ca0f50-6e73-4a1a-aaaa-d2fd798d6988",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:29:21.104148",
+        "last_checked": "2026-01-24T10:29:21.104157",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:29:21.104148"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:29:38.429628",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "7e26c7c2-ab07-4a8e-a26d-57b2919fad39",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:29:38.418060",
+        "last_checked": "2026-01-24T10:29:38.418076",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:29:38.418060"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:29:51.199360",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "04ec0b9c-b368-4b62-b2e7-0186b3d931cc",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:29:51.192808",
+        "last_checked": "2026-01-24T10:29:51.192816",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:29:51.192808"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:30:06.428272",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "6077d848-8fa1-4e5c-846d-0c945667be16",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:30:06.206047",
+        "last_checked": "2026-01-24T10:30:06.206059",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:30:06.206047"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:30:21.245250",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "fd32381d-9bc6-4a9b-8c29-71c9e8b084cc",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:30:21.234967",
+        "last_checked": "2026-01-24T10:30:21.234983",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:30:21.234967"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:30:38.448301",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "1c371a1f-7db4-40ab-aa9f-644757b03366",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:30:38.442233",
+        "last_checked": "2026-01-24T10:30:38.442277",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:30:38.442233"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:30:51.399271",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "4a920193-b443-4170-bfc4-22df5ba5b48e",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:30:51.383380",
+        "last_checked": "2026-01-24T10:30:51.383400",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:30:51.383380"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:31:06.425438",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "7274ad53-326e-4d88-9334-dab8c21149d8",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:31:06.418834",
+        "last_checked": "2026-01-24T10:31:06.418921",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:31:06.418834"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:31:21.396096",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "263af6d3-24c9-4ae4-b9bb-fa933a1aa9c5",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:31:21.386349",
+        "last_checked": "2026-01-24T10:31:21.386360",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:31:21.386349"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:31:38.542273",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "a8cbcaa7-000c-484b-beeb-72736b8b65ea",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:31:38.536035",
+        "last_checked": "2026-01-24T10:31:38.536047",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:31:38.536035"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:31:51.452702",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "e811075d-7b8f-4ae3-82d4-105451c200c7",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:31:51.439244",
+        "last_checked": "2026-01-24T10:31:51.439256",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:31:51.439244"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:32:06.615839",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "f3eb549f-0a53-470d-ae3f-d1aeb86474f9",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:32:06.596372",
+        "last_checked": "2026-01-24T10:32:06.596383",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:32:06.596372"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:32:21.509932",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "d316edfc-ea38-4c82-93d2-2262b24da453",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:32:21.497072",
+        "last_checked": "2026-01-24T10:32:21.497088",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:32:21.497072"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:32:38.738183",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "5a771120-485a-4111-8abe-5cf834b34d5e",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:32:38.732074",
+        "last_checked": "2026-01-24T10:32:38.732089",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:32:38.732074"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:32:51.705929",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "c36202fd-7610-4699-bd44-7aab4b6db48b",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:32:51.696164",
+        "last_checked": "2026-01-24T10:32:51.696176",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:32:51.696164"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:33:06.644376",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "88c7547a-4016-4735-a600-baa01287d5ef",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:33:06.615893",
+        "last_checked": "2026-01-24T10:33:06.615926",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:33:06.615893"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:33:21.878438",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "75e91427-988f-43f7-bbbd-e75c4b43212c",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:33:21.867053",
+        "last_checked": "2026-01-24T10:33:21.867062",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:33:21.867053"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:33:38.757111",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "cac90080-7335-412e-b3cb-d418e386fc73",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:33:38.750076",
+        "last_checked": "2026-01-24T10:33:38.750091",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:33:38.750076"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:33:51.690016",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "36b267cd-62d4-4d9c-ba69-a0f7473e13b8",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:33:51.678023",
+        "last_checked": "2026-01-24T10:33:51.678036",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:33:51.678023"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:34:06.703497",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "98c03907-e89c-4fb5-82e6-3ec1089687b1",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:34:06.692041",
+        "last_checked": "2026-01-24T10:34:06.692052",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:34:06.692041"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:34:21.841734",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "253f3f47-dd70-44e0-9e1d-04ada2a5e860",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:34:21.822651",
+        "last_checked": "2026-01-24T10:34:21.822680",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:34:21.822651"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:34:38.939703",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "6eba05f0-6fec-441a-aebc-4b43880d78e6",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:34:38.933034",
+        "last_checked": "2026-01-24T10:34:38.933047",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:34:38.933034"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:34:51.846494",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "7e11c014-a2a9-464f-970f-ef469ff73ead",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:34:51.837398",
+        "last_checked": "2026-01-24T10:34:51.837415",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:34:51.837398"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:35:06.869357",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "bb5ab4d3-7bb2-4b2c-9287-a836df3fbab7",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:35:06.842201",
+        "last_checked": "2026-01-24T10:35:06.842243",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:35:06.842201"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:35:21.915832",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "1146a34a-8006-497f-aae2-0a58ed9da798",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:35:21.904041",
+        "last_checked": "2026-01-24T10:35:21.904052",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:35:21.904041"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:35:39.038109",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "869608df-a982-4668-9c68-c9bd8e91acf4",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:35:39.032037",
+        "last_checked": "2026-01-24T10:35:39.032049",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:35:39.032037"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:35:51.926015",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "064d64e7-3434-46d0-a306-0482c1990604",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:35:51.917274",
+        "last_checked": "2026-01-24T10:35:51.917290",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:35:51.917274"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:36:07.000878",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "2ba76801-e913-4211-bd0f-0c8e03c59507",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:36:06.993033",
+        "last_checked": "2026-01-24T10:36:06.993044",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:36:06.993033"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:36:21.949432",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "a9bb0ba7-a03a-4874-a9fc-ca7431ea7c6b",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:36:21.930044",
+        "last_checked": "2026-01-24T10:36:21.930054",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:36:21.930044"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:36:39.102987",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "b55744ef-a596-41bb-95df-80436dc93ff9",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:36:39.097075",
+        "last_checked": "2026-01-24T10:36:39.097090",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:36:39.097075"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:36:52.208011",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "085c550a-fdd5-4be2-a6e0-d759dfe9eadc",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:36:51.989356",
+        "last_checked": "2026-01-24T10:36:51.989368",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:36:51.989356"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:37:07.078238",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "18494e3b-3e33-431e-9979-d32d44e06201",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:37:07.063045",
+        "last_checked": "2026-01-24T10:37:07.063063",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:37:07.063045"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:37:22.046773",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "14123907-975c-4767-ac94-fcfebf3ea477",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:37:22.035397",
+        "last_checked": "2026-01-24T10:37:22.035405",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:37:22.035397"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:37:39.185371",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "eb521029-6554-41b5-8fa7-452c090244a2",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:37:39.178073",
+        "last_checked": "2026-01-24T10:37:39.178086",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:37:39.178073"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:37:51.136269",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "0b70f2ba-c188-4f1b-94fd-5b891508734a",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:37:51.128092",
+        "last_checked": "2026-01-24T10:37:51.128100",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:37:51.128092"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:38:06.137865",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "58588dae-3800-493b-9f42-1c3966639d2f",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:38:06.124952",
+        "last_checked": "2026-01-24T10:38:06.124960",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:38:06.124952"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:38:21.164231",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "88dacb45-cd6c-4ce0-8791-bfbad479b039",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:38:21.157992",
+        "last_checked": "2026-01-24T10:38:21.158001",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:38:21.157992"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:38:38.339214",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "8eee3014-a200-4cca-9d32-a49a60985689",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:38:38.333067",
+        "last_checked": "2026-01-24T10:38:38.333081",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:38:38.333067"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:38:51.296085",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "58afba00-980b-46d6-8cbc-7e45c801c52a",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:38:51.283040",
+        "last_checked": "2026-01-24T10:38:51.283052",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:38:51.283040"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:39:06.281503",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "5dde7e97-9837-48e3-9256-ea25d031c193",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:39:06.272669",
+        "last_checked": "2026-01-24T10:39:06.272682",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:39:06.272669"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:39:21.312192",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "9db9f94f-afb2-4a65-bad8-aa0f7c1c31e3",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:39:21.293393",
+        "last_checked": "2026-01-24T10:39:21.293404",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:39:21.293393"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:39:38.432622",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "6689e559-43e8-4448-90a9-b212085c941b",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:39:38.426070",
+        "last_checked": "2026-01-24T10:39:38.426081",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:39:38.426070"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:39:51.359033",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "fd8a562a-9a79-4e03-922f-dcc6d5155d32",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:39:51.341394",
+        "last_checked": "2026-01-24T10:39:51.341480",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:39:51.341394"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:40:06.412079",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "f448c5bd-4e54-493c-a7fa-7c01adb32cd0",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:40:06.386531",
+        "last_checked": "2026-01-24T10:40:06.386586",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:40:06.386531"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:40:21.395227",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "e4a4970a-1448-4233-8fd7-03026023e17b",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:40:21.372989",
+        "last_checked": "2026-01-24T10:40:21.373000",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:40:21.372989"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:40:38.635201",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "cf6dfd4c-b763-41be-b600-b91bbe08b2b9",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:40:38.629044",
+        "last_checked": "2026-01-24T10:40:38.629055",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:40:38.629044"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:40:51.447062",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "4871127e-40e8-4fda-b884-8fdbdae73767",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:40:51.438107",
+        "last_checked": "2026-01-24T10:40:51.438116",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:40:51.438107"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:41:06.468311",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "2024641a-7fcd-412f-904c-b67767da47da",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:41:06.460593",
+        "last_checked": "2026-01-24T10:41:06.460607",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:41:06.460593"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:41:21.471246",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "0fa41170-1d7b-4568-8b64-a6754370174c",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:41:21.462058",
+        "last_checked": "2026-01-24T10:41:21.462070",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:41:21.462058"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:41:38.653118",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "1918f863-a3da-4aa9-b93b-79a8c1e69295",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:41:38.647046",
+        "last_checked": "2026-01-24T10:41:38.647058",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:41:38.647046"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:41:51.525369",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "cad7a1dc-386a-4ff6-8adc-e71d7f1c56be",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:41:51.511983",
+        "last_checked": "2026-01-24T10:41:51.511992",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:41:51.511983"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:42:06.683093",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "8953c641-84f3-415f-a233-364869bd0cfa",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:42:06.671060",
+        "last_checked": "2026-01-24T10:42:06.671112",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:42:06.671060"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:42:21.846441",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "7ad2501c-b45e-466f-abcc-534fe7d3551b",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:42:21.836195",
+        "last_checked": "2026-01-24T10:42:21.836217",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:42:21.836195"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:42:38.726990",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "59e5b0b9-2f48-4a52-9572-0f716b7985ee",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:42:38.719182",
+        "last_checked": "2026-01-24T10:42:38.719226",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:42:38.719182"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:42:51.923584",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "5cf81ae8-32b3-4c00-ba8d-6129f1dee311",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:42:51.907038",
+        "last_checked": "2026-01-24T10:42:51.907052",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:42:51.907038"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:43:06.740969",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "a37a1a09-39a5-4b1c-936b-9f488a080f68",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:43:06.719891",
+        "last_checked": "2026-01-24T10:43:06.719928",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:43:06.719891"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:43:21.801272",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "02181aad-b365-4990-9bc6-a5b4045eb664",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:43:21.794253",
+        "last_checked": "2026-01-24T10:43:21.794262",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:43:21.794253"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:43:39.123661",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "6cd38c43-9515-4acd-94af-476521d9a849",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:43:39.118173",
+        "last_checked": "2026-01-24T10:43:39.118183",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:43:39.118173"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:43:51.797754",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "5b27d767-7ae5-4aca-871d-cf214d3705c4",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:43:51.787214",
+        "last_checked": "2026-01-24T10:43:51.787222",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:43:51.787214"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:44:06.762663",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "01430192-747a-4b50-ad5e-43c5470f8ae9",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:44:06.754633",
+        "last_checked": "2026-01-24T10:44:06.754641",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:44:06.754633"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:44:22.116209",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "8afdb7f6-ca28-4c2b-b251-4d770da2f7a5",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:44:22.105756",
+        "last_checked": "2026-01-24T10:44:22.105775",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:44:22.105756"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:44:38.985864",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "d8646d38-07cb-4218-b3cb-b6f6aa871d52",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:44:38.979048",
+        "last_checked": "2026-01-24T10:44:38.979059",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:44:38.979048"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:44:51.901476",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "0af6bd49-adc2-40b9-9fd6-27be33aa87db",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:44:51.889051",
+        "last_checked": "2026-01-24T10:44:51.889063",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:44:51.889051"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:45:06.941335",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "d6405eee-da0c-4371-8ee7-2a12f61776ce",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:45:06.926082",
+        "last_checked": "2026-01-24T10:45:06.926096",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:45:06.926082"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:45:21.950859",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "8028e6df-9f54-46d9-8054-15378ae39d4c",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:45:21.938236",
+        "last_checked": "2026-01-24T10:45:21.938246",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:45:21.938236"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:45:39.050769",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "89e98f4b-f09a-4156-b9b6-ced87ca5a30d",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:45:39.044060",
+        "last_checked": "2026-01-24T10:45:39.044073",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:45:39.044060"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:45:52.005265",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "c90c5473-f588-4b32-85ea-6f63ea3e2a2a",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:45:51.977832",
+        "last_checked": "2026-01-24T10:45:51.977866",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:45:51.977832"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:46:07.061641",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "12a99a73-00b2-445c-8452-7f6b37129de4",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:46:07.036020",
+        "last_checked": "2026-01-24T10:46:07.036036",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:46:07.036020"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:46:22.086562",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "af5dd842-094e-4d81-b704-e63c490cd8cc",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:46:22.075943",
+        "last_checked": "2026-01-24T10:46:22.075958",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:46:22.075943"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:46:39.155810",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "7b6c9358-3cde-4479-88f7-14771dd750c0",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:46:39.143502",
+        "last_checked": "2026-01-24T10:46:39.143540",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:46:39.143502"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:46:51.144608",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "5831cdd4-78fe-4e9e-9a11-a2f9cd81a415",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:46:51.138049",
+        "last_checked": "2026-01-24T10:46:51.138062",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:46:51.138049"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:47:06.502039",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "2b4e20be-17b7-4162-9e93-ec4fa5bf03cf",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:47:06.487037",
+        "last_checked": "2026-01-24T10:47:06.487045",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:47:06.487037"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:47:21.160703",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "4f03fdfd-8c52-412a-b83a-b7b8216772f9",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:47:21.152070",
+        "last_checked": "2026-01-24T10:47:21.152077",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:47:21.152070"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:47:38.381403",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "69c51354-aa4e-417d-b3b5-41183344cb4e",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:47:38.373098",
+        "last_checked": "2026-01-24T10:47:38.373113",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:47:38.373098"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:47:51.193437",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "8477e7a3-ef87-428d-bd28-06bfc7d9d938",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:47:51.177645",
+        "last_checked": "2026-01-24T10:47:51.177673",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:47:51.177645"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:48:06.228624",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "d90d5521-e156-4886-b13b-aa2a41fba276",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:48:06.216044",
+        "last_checked": "2026-01-24T10:48:06.216084",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:48:06.216044"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:48:21.337335",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "715d3a06-39e9-4693-a593-035d06551b06",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:48:21.317827",
+        "last_checked": "2026-01-24T10:48:21.317866",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:48:21.317827"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:48:38.451051",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "3ee6c7ae-0bfc-4740-ae01-95b9c1b12213",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:48:38.438997",
+        "last_checked": "2026-01-24T10:48:38.439028",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:48:38.438997"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:48:51.344610",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "fb3a20af-8609-4c4a-80eb-9a94064dc8c0",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:48:51.335323",
+        "last_checked": "2026-01-24T10:48:51.335331",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:48:51.335323"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:49:06.360405",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "1ec1a034-7732-465f-a9e5-bad8e3a8b1b1",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:49:06.345942",
+        "last_checked": "2026-01-24T10:49:06.345950",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:49:06.345942"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:49:21.389255",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "5006a764-5d4d-4145-8089-59fe1d019493",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:49:21.376135",
+        "last_checked": "2026-01-24T10:49:21.376146",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:49:21.376135"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:49:38.499654",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "24eabac8-b917-4312-a6cf-1dec953abdd3",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:49:38.493078",
+        "last_checked": "2026-01-24T10:49:38.493093",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:49:38.493078"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:49:51.565399",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "2e002076-a0a9-4f57-b002-8ac5722fc3c7",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:49:51.541535",
+        "last_checked": "2026-01-24T10:49:51.541548",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:49:51.541535"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:50:06.467320",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "1a0ed649-0325-4596-ab75-1f5359c95499",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:50:06.454065",
+        "last_checked": "2026-01-24T10:50:06.454079",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:50:06.454065"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:50:21.502792",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "97a72546-eb72-4c8a-9de5-11be05e3ec9c",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:50:21.487954",
+        "last_checked": "2026-01-24T10:50:21.487968",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:50:21.487954"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:50:38.616876",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "36f19897-a064-484d-af67-b8c7c73cf0d6",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:50:38.609201",
+        "last_checked": "2026-01-24T10:50:38.609213",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:50:38.609201"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:50:51.547612",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "ab26b866-7a63-4fa5-a258-efaf2eae27b4",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:50:51.534379",
+        "last_checked": "2026-01-24T10:50:51.534392",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:50:51.534379"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:51:06.559208",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "a57ce3b2-54b5-4a35-8e61-b78f00f13222",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:51:06.544528",
+        "last_checked": "2026-01-24T10:51:06.544541",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:51:06.544528"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:51:21.569874",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "12af5092-4def-47b0-8a1e-07eb2e5e9995",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:51:21.559980",
+        "last_checked": "2026-01-24T10:51:21.559987",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:51:21.559980"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:51:38.696777",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "ca3b27ef-dd35-4031-94b9-6cc49d0ff146",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:51:38.690042",
+        "last_checked": "2026-01-24T10:51:38.690055",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:51:38.690042"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:51:51.656220",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "603ec6c5-b65d-47bf-beb0-b81a998b4d9b",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:51:51.618181",
+        "last_checked": "2026-01-24T10:51:51.618217",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:51:51.618181"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:52:06.617914",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "07d5c477-774b-484c-a0e4-f37c82200c8d",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:52:06.608093",
+        "last_checked": "2026-01-24T10:52:06.608106",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:52:06.608093"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:52:21.658818",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "3c67eaea-59c6-4328-b845-06c7be4924df",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:52:21.644120",
+        "last_checked": "2026-01-24T10:52:21.644148",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:52:21.644120"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:52:38.789696",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "55fecf64-d294-4c42-a4dd-8abfa021b275",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:52:38.783560",
+        "last_checked": "2026-01-24T10:52:38.783577",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:52:38.783560"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:52:51.754393",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "42a463db-8aad-4fe6-aa04-03a74b70b438",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:52:51.745014",
+        "last_checked": "2026-01-24T10:52:51.745026",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:52:51.745014"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:53:06.772622",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "eb5b8de6-a565-4fd6-a2d4-67b3892d3062",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:53:06.764317",
+        "last_checked": "2026-01-24T10:53:06.764331",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:53:06.764317"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:53:21.757093",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "e62cbd9d-bd94-4cb4-a769-735442acaaf7",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:53:21.746270",
+        "last_checked": "2026-01-24T10:53:21.746279",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:53:21.746270"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:53:38.862689",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "376f1348-34c8-4901-83cf-70c60de6e817",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:53:38.855182",
+        "last_checked": "2026-01-24T10:53:38.855194",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:53:38.855182"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:53:51.833604",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "c05cdc06-315a-4f63-abee-365334830d57",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:53:51.823985",
+        "last_checked": "2026-01-24T10:53:51.823995",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:53:51.823985"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:54:06.906695",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "9be0a9db-7a61-4cd5-8539-cfbb1801d218",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:54:06.892868",
+        "last_checked": "2026-01-24T10:54:06.892891",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:54:06.892868"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:54:21.962415",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "0a3ca431-7e62-42da-ae66-b9826ac447b7",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:54:21.948037",
+        "last_checked": "2026-01-24T10:54:21.948050",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:54:21.948037"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:54:39.259562",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "2236e4d6-1860-45aa-a8d6-767446253a80",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:54:39.038072",
+        "last_checked": "2026-01-24T10:54:39.038087",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:54:39.038072"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:54:51.960634",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "037c0955-7a8a-49ae-86d9-ecdf7853961f",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:54:51.953004",
+        "last_checked": "2026-01-24T10:54:51.953018",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:54:51.953004"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:55:07.011010",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "1645a8be-26ed-4526-9560-8e4408796b41",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:55:06.968819",
+        "last_checked": "2026-01-24T10:55:06.968855",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:55:06.968819"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:55:21.967985",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "e50abae8-5bf7-4516-bb2e-5bdf3d9655be",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:55:21.954280",
+        "last_checked": "2026-01-24T10:55:21.954292",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:55:21.954280"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:55:39.264020",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "9f1687b9-c200-4ac7-bc9b-d0a76563bcd8",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:55:39.255049",
+        "last_checked": "2026-01-24T10:55:39.255066",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:55:39.255049"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:55:52.006681",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "710e7fb4-c1b4-44cf-8a27-b166040c0e59",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:55:51.989702",
+        "last_checked": "2026-01-24T10:55:51.989710",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:55:51.989702"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:56:07.056760",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "0bf516e4-8b98-4f79-9033-72b5c2f087cb",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:56:07.047641",
+        "last_checked": "2026-01-24T10:56:07.047655",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:56:07.047641"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:56:22.051224",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "2f39100f-460b-46e6-9615-06f512ab7049",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:56:22.040855",
+        "last_checked": "2026-01-24T10:56:22.040866",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:56:22.040855"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:56:39.194717",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "1782c5bd-6d99-4ada-b086-5c25913eb996",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:56:39.186085",
+        "last_checked": "2026-01-24T10:56:39.186101",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:56:39.186085"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:56:51.350521",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "a04a11b1-3cd5-4fe5-958c-1ee14b5135ea",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:56:51.338079",
+        "last_checked": "2026-01-24T10:56:51.338095",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:56:51.338079"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:57:06.156602",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "2af705c5-3b4b-4a0f-90c0-255ee75a6b1a",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:57:06.151059",
+        "last_checked": "2026-01-24T10:57:06.151074",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:57:06.151059"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:57:21.163953",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "7d1194a8-789a-40ab-a0a0-a70d7d2079d2",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:57:21.154603",
+        "last_checked": "2026-01-24T10:57:21.154611",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:57:21.154603"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:57:38.550937",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "1250e536-c78b-477a-b452-49c6b7046629",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:57:38.534135",
+        "last_checked": "2026-01-24T10:57:38.534146",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:57:38.534135"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:57:51.251144",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "b2fe5ea1-e4a0-485c-8e8e-61433b15d3c1",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:57:51.237003",
+        "last_checked": "2026-01-24T10:57:51.237012",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:57:51.237003"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:58:06.321308",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "df68b78f-f12f-423c-9cc5-1a53c13c68eb",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:58:06.311083",
+        "last_checked": "2026-01-24T10:58:06.311095",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:58:06.311083"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:58:21.441062",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "d80bb329-1d40-4a00-9e0d-fb1206da2253",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:58:21.424657",
+        "last_checked": "2026-01-24T10:58:21.424688",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:58:21.424657"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:58:38.416969",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "8c40e3ba-38f3-4d6c-bddd-3d3277aa8a7a",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:58:38.410748",
+        "last_checked": "2026-01-24T10:58:38.410767",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:58:38.410748"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:58:51.395158",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "54d9c7d1-0009-47dd-976e-f52c87100169",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:58:51.355482",
+        "last_checked": "2026-01-24T10:58:51.355491",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:58:51.355482"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:59:06.434972",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "b4b6fbb0-3c5e-429e-9891-84a7d295adcc",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:59:06.421583",
+        "last_checked": "2026-01-24T10:59:06.421664",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:59:06.421583"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:59:21.395418",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "9b82721c-62c3-4cff-b906-e3653b98db94",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:59:21.373458",
+        "last_checked": "2026-01-24T10:59:21.373484",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:59:21.373458"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:59:38.539839",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "34c98fe5-690c-4cdb-be33-19be796214ba",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:59:38.533041",
+        "last_checked": "2026-01-24T10:59:38.533053",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:59:38.533041"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T10:59:51.465964",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "94d920fd-2d15-46d1-81b2-5ef745c62a7c",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T10:59:51.454998",
+        "last_checked": "2026-01-24T10:59:51.455007",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T10:59:51.454998"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T11:00:06.460752",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "895b07b2-c14b-40ea-8e14-c63493318271",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T11:00:06.454999",
+        "last_checked": "2026-01-24T11:00:06.455007",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T11:00:06.454999"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T11:00:21.481599",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "6c4c6049-e27f-438c-b608-6df0b456c739",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T11:00:21.472094",
+        "last_checked": "2026-01-24T11:00:21.472102",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T11:00:21.472094"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T11:00:38.809624",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "a0fddb5d-1009-4aaf-bf40-822bbbea985b",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T11:00:38.803068",
+        "last_checked": "2026-01-24T11:00:38.803080",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T11:00:38.803068"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T11:00:51.645748",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "dd9f2a11-8829-46d1-bad7-e4ccc528e3ae",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T11:00:51.634182",
+        "last_checked": "2026-01-24T11:00:51.634244",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T11:00:51.634182"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T11:01:06.686984",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "45d4067d-9d90-443d-9f43-d86fa0c44ea5",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T11:01:06.673872",
+        "last_checked": "2026-01-24T11:01:06.673887",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T11:01:06.673872"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T11:01:21.670718",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "e3f8e92f-c682-4f03-bdb0-f8ac178d4220",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T11:01:21.656098",
+        "last_checked": "2026-01-24T11:01:21.656114",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T11:01:21.656098"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T11:01:38.774168",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "eb0754ba-5c5a-4d45-a43a-48a8041db59b",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T11:01:38.767231",
+        "last_checked": "2026-01-24T11:01:38.767251",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T11:01:38.767231"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T11:01:51.726727",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "7059a7c2-8ee1-432f-b410-bedbd8b4d0a6",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T11:01:51.715448",
+        "last_checked": "2026-01-24T11:01:51.715487",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T11:01:51.715448"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T11:02:06.768512",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "6f5314bc-80f7-47fc-b4b1-b11c101d0a93",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T11:02:06.758324",
+        "last_checked": "2026-01-24T11:02:06.758355",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T11:02:06.758324"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T11:02:21.792645",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "2d61a3a1-920c-4585-8db1-0835e21b9434",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T11:02:21.779206",
+        "last_checked": "2026-01-24T11:02:21.779238",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T11:02:21.779206"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T11:02:38.985254",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "5f8a276c-7f23-419e-922c-1475dd12054f",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T11:02:38.978072",
+        "last_checked": "2026-01-24T11:02:38.978088",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T11:02:38.978072"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T11:02:51.982447",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "0c6bd5a8-2e88-4cfd-87da-b5851d0c2a6f",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T11:02:51.969152",
+        "last_checked": "2026-01-24T11:02:51.969167",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T11:02:51.969152"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T11:03:06.923227",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "b38a4337-dcf7-4fbc-a247-7c0efff3fb88",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T11:03:06.905215",
+        "last_checked": "2026-01-24T11:03:06.905224",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T11:03:06.905215"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T11:03:21.945441",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "13abea45-62db-4277-bfb2-3fb9c25d70b3",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T11:03:21.928003",
+        "last_checked": "2026-01-24T11:03:21.928018",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T11:03:21.928003"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T11:03:39.046264",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "e249c56e-efe6-4d61-a3a2-11d36f507b13",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T11:03:39.040069",
+        "last_checked": "2026-01-24T11:03:39.040083",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T11:03:39.040069"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T11:03:51.983797",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "92ce60eb-8b3c-4e19-914b-9e7c3dede23b",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T11:03:51.971016",
+        "last_checked": "2026-01-24T11:03:51.971024",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T11:03:51.971016"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T11:04:07.002501",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "51221a8f-8b12-406b-8a2d-a997a3de479d",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T11:04:06.988334",
+        "last_checked": "2026-01-24T11:04:06.988344",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T11:04:06.988334"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T11:04:22.099800",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "fe819276-974a-4df0-b017-d177da691c98",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T11:04:22.088112",
+        "last_checked": "2026-01-24T11:04:22.088123",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T11:04:22.088112"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T12:03:23.568870",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "1c9673c1-1198-4f60-88b5-bec8df1f5df3",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T12:03:23.347156",
+        "last_checked": "2026-01-24T12:03:23.347174",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T12:03:23.347156"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T12:03:35.154517",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "defab405-ca4f-4d38-92ed-2eb28350fc60",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T12:03:35.143913",
+        "last_checked": "2026-01-24T12:03:35.143920",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T12:03:35.143913"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T12:03:50.308231",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "5908dc5f-7b7f-4aae-b0f3-fc8b8143865c",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T12:03:50.298029",
+        "last_checked": "2026-01-24T12:03:50.298041",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T12:03:50.298029"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T12:04:05.523501",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "5e0a1d35-1ce8-4a40-8114-854c56d11bb8",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T12:04:05.304049",
+        "last_checked": "2026-01-24T12:04:05.304064",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T12:04:05.304049"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T12:04:22.574450",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "8375cecc-25b0-4c9f-a125-f1bb2c58acfe",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T12:04:22.344612",
+        "last_checked": "2026-01-24T12:04:22.344651",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T12:04:22.344612"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T12:04:35.296805",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "1b62881f-612d-4188-b31f-c218b0256698",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T12:04:35.285624",
+        "last_checked": "2026-01-24T12:04:35.285641",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T12:04:35.285624"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T12:04:50.401809",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "f631d536-517e-486b-95cd-ec333ea49ea8",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T12:04:50.390550",
+        "last_checked": "2026-01-24T12:04:50.390566",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T12:04:50.390550"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T12:05:05.359691",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "883b55f8-ef9e-435b-b193-566714338f92",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T12:05:05.337986",
+        "last_checked": "2026-01-24T12:05:05.338013",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T12:05:05.337986"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T12:05:22.521112",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "4a684e95-67a0-48db-a0eb-f2c7da220214",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T12:05:22.515116",
+        "last_checked": "2026-01-24T12:05:22.515134",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T12:05:22.515116"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T12:05:35.502733",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "7865176c-e77b-4024-bf86-55982cb08315",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T12:05:35.478048",
+        "last_checked": "2026-01-24T12:05:35.478056",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T12:05:35.478048"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T12:05:50.517980",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "ba8da45b-129b-4c1d-90c3-574828def16b",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T12:05:50.494608",
+        "last_checked": "2026-01-24T12:05:50.494616",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T12:05:50.494608"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T12:06:05.587299",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "76020ded-cf77-46dc-8615-595386db7530",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T12:06:05.527143",
+        "last_checked": "2026-01-24T12:06:05.527160",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T12:06:05.527143"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T12:06:22.649421",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "15e4f627-b4cf-452b-bbb2-99b1ed272afb",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T12:06:22.635916",
+        "last_checked": "2026-01-24T12:06:22.635956",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T12:06:22.635916"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T12:06:35.874251",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "c9d49397-fc9b-4cc4-b001-407d1a2e123e",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T12:06:35.862208",
+        "last_checked": "2026-01-24T12:06:35.862218",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T12:06:35.862208"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T12:06:50.687916",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "43b36da0-ef5d-4769-b461-fd2a876937af",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T12:06:50.677373",
+        "last_checked": "2026-01-24T12:06:50.677386",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T12:06:50.677373"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T12:07:05.883126",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "672abdfb-cb0b-46f6-a655-c794cae1ca20",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T12:07:05.668727",
+        "last_checked": "2026-01-24T12:07:05.668743",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T12:07:05.668727"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T12:07:22.775826",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "16650a8f-2280-45b8-8e81-d03a67734b4b",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T12:07:22.770034",
+        "last_checked": "2026-01-24T12:07:22.770045",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T12:07:22.770034"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T12:07:35.809816",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "5f56826c-b023-4ac7-adf4-99e84bb81ae6",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T12:07:35.790528",
+        "last_checked": "2026-01-24T12:07:35.790559",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T12:07:35.790528"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T12:07:50.781117",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "efb92dc7-29e1-4999-b9d9-03d004116a43",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T12:07:50.760952",
+        "last_checked": "2026-01-24T12:07:50.760965",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T12:07:50.760952"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T12:08:05.888829",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "3b676387-c59a-4b6a-8a2a-fbb475e36146",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T12:08:05.879137",
+        "last_checked": "2026-01-24T12:08:05.879149",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T12:08:05.879137"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T12:08:22.967304",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "4449cb1d-d8f4-448d-bc70-f500ed3ba23d",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T12:08:22.961075",
+        "last_checked": "2026-01-24T12:08:22.961086",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T12:08:22.961075"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T12:08:36.152498",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "f3e54c39-f0ef-4072-af9b-2e0191c1f437",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T12:08:36.132157",
+        "last_checked": "2026-01-24T12:08:36.132215",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T12:08:36.132157"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T12:08:50.885013",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "f00eb3a4-69fe-4924-8d1f-9179b9ffbdb0",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T12:08:50.875211",
+        "last_checked": "2026-01-24T12:08:50.875223",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T12:08:50.875211"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T12:09:06.089000",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "78d2c5f5-7787-4971-bf31-22e8429c1e95",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T12:09:06.081077",
+        "last_checked": "2026-01-24T12:09:06.081090",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T12:09:06.081077"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T12:09:23.264847",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "65446c12-ef10-40eb-8a3e-9ca2c7cf98fc",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T12:09:23.254188",
+        "last_checked": "2026-01-24T12:09:23.254208",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T12:09:23.254188"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T12:09:35.986689",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "bed01f91-c82f-437b-b617-2e8101277bd9",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T12:09:35.967028",
+        "last_checked": "2026-01-24T12:09:35.967038",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T12:09:35.967028"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T12:09:51.044491",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "cd636737-3e0d-489c-852b-1834a02ab64a",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T12:09:51.037474",
+        "last_checked": "2026-01-24T12:09:51.037483",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T12:09:51.037474"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T12:10:06.142812",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "68ee5f0f-10bf-40fd-bdf7-f23801cdec52",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T12:10:06.134272",
+        "last_checked": "2026-01-24T12:10:06.134295",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T12:10:06.134272"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T12:10:23.117654",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "f52d164c-f8f1-42f3-8dce-d876b8afd1bd",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T12:10:23.111071",
+        "last_checked": "2026-01-24T12:10:23.111086",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T12:10:23.111071"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T12:10:36.343234",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "6e88a528-675d-456c-ad56-c8182c5755b7",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T12:10:36.329077",
+        "last_checked": "2026-01-24T12:10:36.329087",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T12:10:36.329077"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T12:11:05.882246",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "66f5ae28-e546-41e4-b9d3-7906f37e6cbb",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T12:11:05.669067",
+        "last_checked": "2026-01-24T12:11:05.669088",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T12:11:05.669067"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T12:11:22.910913",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "c9d724fd-f23d-4db5-8b0e-e951ab236fee",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T12:11:22.904516",
+        "last_checked": "2026-01-24T12:11:22.904529",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T12:11:22.904516"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T12:11:35.753121",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "4368bc96-a3f1-4988-86de-946ce4a7a36a",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T12:11:35.739976",
+        "last_checked": "2026-01-24T12:11:35.739998",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T12:11:35.739976"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T13:22:08.213166",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "fb1a856a-4625-4d47-a7fb-c9d47c1f32fe",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T13:22:08.205049",
+        "last_checked": "2026-01-24T13:22:08.205061",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T13:22:08.205049"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T13:39:09.785996",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "8be1f9c8-de88-494d-8410-e26d306a0605",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T13:39:09.771001",
+        "last_checked": "2026-01-24T13:39:09.771057",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T13:39:09.771001"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T13:39:22.574029",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "53e664cb-084d-4ae2-afc5-d36a1b357d73",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T13:39:22.511554",
+        "last_checked": "2026-01-24T13:39:22.511582",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T13:39:22.511554"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T13:39:37.538611",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "434079ca-d72f-4ba2-83e7-8289952c90d9",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T13:39:37.525487",
+        "last_checked": "2026-01-24T13:39:37.525494",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T13:39:37.525487"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T13:39:52.524514",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "364defc2-af14-4329-9ead-a97d1a2645c7",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T13:39:52.504281",
+        "last_checked": "2026-01-24T13:39:52.504290",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T13:39:52.504281"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T13:40:09.740741",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "e0de268a-0dba-43a5-91b8-bb66364764ca",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T13:40:09.718545",
+        "last_checked": "2026-01-24T13:40:09.718567",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T13:40:09.718545"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T13:40:22.588306",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "5f174f55-e480-4ebe-b147-a2c47711e17f",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T13:40:22.577760",
+        "last_checked": "2026-01-24T13:40:22.577772",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T13:40:22.577760"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T13:40:37.743709",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "63ea44bd-c5fb-4303-ab2f-3a6da3fefb7e",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T13:40:37.734383",
+        "last_checked": "2026-01-24T13:40:37.734391",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T13:40:37.734383"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T13:40:52.684994",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "60333f17-38df-48e7-80b7-bb2daf341759",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T13:40:52.668896",
+        "last_checked": "2026-01-24T13:40:52.668916",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T13:40:52.668896"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T13:41:09.952354",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "a3fd44c4-7433-4f25-9ffc-411f3bd43ae4",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T13:41:09.943075",
+        "last_checked": "2026-01-24T13:41:09.943089",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T13:41:09.943075"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T13:41:22.805985",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "a835a053-529e-42fc-956d-920092250bd0",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T13:41:22.792057",
+        "last_checked": "2026-01-24T13:41:22.792069",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T13:41:22.792057"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T13:41:37.747415",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "5b6651b5-2a02-4025-83f6-758e6d343594",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T13:41:37.736247",
+        "last_checked": "2026-01-24T13:41:37.736255",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T13:41:37.736247"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T13:41:52.748456",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "b2eaf68c-8f3e-4cd5-b900-15728efda66f",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T13:41:52.740302",
+        "last_checked": "2026-01-24T13:41:52.740313",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T13:41:52.740302"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T13:42:09.965564",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "5f3dd218-3c70-4a75-83fd-4e299fdd59b3",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T13:42:09.957163",
+        "last_checked": "2026-01-24T13:42:09.957177",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T13:42:09.957163"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T13:42:23.024418",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "940b548e-2149-4f31-bf65-4bbc35d7bcdf",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T13:42:23.016045",
+        "last_checked": "2026-01-24T13:42:23.016057",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T13:42:23.016045"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T13:42:37.966374",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "f3315062-6133-4a7b-88c7-6e7f59c55b20",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T13:42:37.914369",
+        "last_checked": "2026-01-24T13:42:37.914409",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T13:42:37.914369"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T13:42:52.898881",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "cc489ef4-cdbe-47d8-be5e-b116c4396537",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T13:42:52.875763",
+        "last_checked": "2026-01-24T13:42:52.875773",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T13:42:52.875763"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T13:43:10.096748",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "d92828f7-3f7e-480e-9ff1-16dd34bd4b09",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T13:43:10.088139",
+        "last_checked": "2026-01-24T13:43:10.088149",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T13:43:10.088139"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T13:48:48.793924",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "dbdc8cfc-62de-4fda-934c-23e01760e851",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T13:48:48.738311",
+        "last_checked": "2026-01-24T13:48:48.738330",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T13:48:48.738311"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T13:49:01.030963",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "32d9b62e-f710-4fd8-9266-acf8bc790b00",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T13:49:01.022167",
+        "last_checked": "2026-01-24T13:49:01.022195",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T13:49:01.022167"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T13:49:16.308270",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "8332208e-8c9b-43ed-9c5e-c65577273f93",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T13:49:16.083495",
+        "last_checked": "2026-01-24T13:49:16.083503",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T13:49:16.083495"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T13:49:31.254365",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "e92f4219-edf6-4ccd-b173-d574d1caf966",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T13:49:31.237558",
+        "last_checked": "2026-01-24T13:49:31.237572",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T13:49:31.237558"
+      }
+    },
+    {
+      "camera_id": "cam_4412",
+      "timestamp": "2026-01-24T13:49:48.991100",
+      "event": {
+        "camera_id": "cam_4412",
+        "event_id": "83735814-073f-4306-be5e-ea73ac3c28f8",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-24T13:49:48.956954",
+        "last_checked": "2026-01-24T13:49:48.956982",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-24T13:49:48.956954"
+      }
+    }
+  ]
+}

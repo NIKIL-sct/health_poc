@@ -1,0 +1,227 @@
+{
+  "Latest_summary": {
+    "Ip_status": "UP",
+    "Port_status": "UP",
+    "Vision_status": "PASS",
+    "Alert_active": false,
+    "Last_ip_check": "2026-01-19T19:13:09.413481",
+    "Last_port_check": "2026-01-19T19:13:09.413481",
+    "Last_vision_check": "2026-01-19T19:13:09.413481",
+    "Memory_mb": 210.0
+  },
+  "Events": [
+    {
+      "camera_id": "cam1",
+      "event_id": "956b5da7-49fa-4eac-b57d-0e283697f72e",
+      "event_type": "STARTUP",
+      "event_description": "Camera monitoring worker started",
+      "timestamp": "2026-01-19T19:11:08.835604",
+      "last_checked": "2026-01-19T19:11:08.835563",
+      "status": "PASS",
+      "metadata": {
+        "camera_info": {
+          "id": "cam1",
+          "ip": "154.210.224.77",
+          "rtsp_port": 8011,
+          "rtsp_url": "rtsp://viewer:Matrix%40123@154.210.224.77:8011/unicaststream/1"
+        }
+      }
+    },
+    {
+      "camera_id": "cam1",
+      "event_id": "6dfe2dd3-5da2-45e3-97ff-db079038f6d1",
+      "event_type": "IP",
+      "event_description": "IP 154.210.224.77 is reachable",
+      "timestamp": "2026-01-19T19:11:08.856325",
+      "last_checked": "2026-01-19T19:11:08.836431",
+      "status": "PASS",
+      "metadata": {
+        "ip": "154.210.224.77",
+        "reachable": true
+      }
+    },
+    {
+      "camera_id": "cam1",
+      "event_id": "c51bcdf2-9d11-4652-8876-475faa902aac",
+      "event_type": "PORT",
+      "event_description": "Port 8011 on 154.210.224.77 is accessible",
+      "timestamp": "2026-01-19T19:11:08.875090",
+      "last_checked": "2026-01-19T19:11:08.836431",
+      "status": "PASS",
+      "metadata": {
+        "ip": "154.210.224.77",
+        "port": 8011,
+        "accessible": true
+      }
+    },
+    {
+      "camera_id": "cam1",
+      "event_id": "99bf5c65-98be-4490-bea2-77cbb0fec9ed",
+      "event_type": "BASELINE_MATCH",
+      "event_description": "Captured frame matches baseline - no anomalies detected",
+      "timestamp": "2026-01-19T19:11:10.146382",
+      "last_checked": "2026-01-19T19:11:08.836431",
+      "status": "PASS",
+      "metadata": {
+        "similarity": 0.5190272170029232,
+        "difference_percent": 21.385514296667417,
+        "brightness": 121.55654996141975,
+        "blur_score": 468.87086844637946
+      }
+    },
+    {
+      "camera_id": "cam1",
+      "event_id": "d729a5ac-0b7f-40a3-9291-b9c488628641",
+      "event_type": "PORT",
+      "event_description": "Port 8011 on 154.210.224.77 is accessible",
+      "timestamp": "2026-01-19T19:11:24.177538",
+      "last_checked": "2026-01-19T19:11:24.160461",
+      "status": "PASS",
+      "metadata": {
+        "ip": "154.210.224.77",
+        "port": 8011,
+        "accessible": true
+      }
+    },
+    {
+      "camera_id": "cam1",
+      "event_id": "ef24ad79-ab2c-4b37-bce7-2ffbf506fcc0",
+      "event_type": "PORT",
+      "event_description": "Port 8011 on 154.210.224.77 is accessible",
+      "timestamp": "2026-01-19T19:11:39.210667",
+      "last_checked": "2026-01-19T19:11:39.193463",
+      "status": "PASS",
+      "metadata": {
+        "ip": "154.210.224.77",
+        "port": 8011,
+        "accessible": true
+      }
+    },
+    {
+      "camera_id": "cam1",
+      "event_id": "6073f8fb-8c90-4e2c-b116-a1f94a889808",
+      "event_type": "PORT",
+      "event_description": "Port 8011 on 154.210.224.77 is accessible",
+      "timestamp": "2026-01-19T19:11:54.242625",
+      "last_checked": "2026-01-19T19:11:54.225463",
+      "status": "PASS",
+      "metadata": {
+        "ip": "154.210.224.77",
+        "port": 8011,
+        "accessible": true
+      }
+    },
+    {
+      "camera_id": "cam1",
+      "event_id": "e6799557-b732-47bd-82a5-69af824a24e7",
+      "event_type": "IP",
+      "event_description": "IP 154.210.224.77 is reachable",
+      "timestamp": "2026-01-19T19:12:09.277963",
+      "last_checked": "2026-01-19T19:12:09.259490",
+      "status": "PASS",
+      "metadata": {
+        "ip": "154.210.224.77",
+        "reachable": true
+      }
+    },
+    {
+      "camera_id": "cam1",
+      "event_id": "4fb265e1-3881-42d9-91be-0e4e68e44e05",
+      "event_type": "PORT",
+      "event_description": "Port 8011 on 154.210.224.77 is accessible",
+      "timestamp": "2026-01-19T19:12:09.296021",
+      "last_checked": "2026-01-19T19:12:09.259490",
+      "status": "PASS",
+      "metadata": {
+        "ip": "154.210.224.77",
+        "port": 8011,
+        "accessible": true
+      }
+    },
+    {
+      "camera_id": "cam1",
+      "event_id": "fd59e7f6-b31a-4038-a8d5-084fab11e2ba",
+      "event_type": "PORT",
+      "event_description": "Port 8011 on 154.210.224.77 is accessible",
+      "timestamp": "2026-01-19T19:12:24.331773",
+      "last_checked": "2026-01-19T19:12:24.313493",
+      "status": "PASS",
+      "metadata": {
+        "ip": "154.210.224.77",
+        "port": 8011,
+        "accessible": true
+      }
+    },
+    {
+      "camera_id": "cam1",
+      "event_id": "f1e63393-68eb-4561-a1f3-9a95b8d53484",
+      "event_type": "PORT",
+      "event_description": "Port 8011 on 154.210.224.77 is accessible",
+      "timestamp": "2026-01-19T19:12:39.364516",
+      "last_checked": "2026-01-19T19:12:39.347466",
+      "status": "PASS",
+      "metadata": {
+        "ip": "154.210.224.77",
+        "port": 8011,
+        "accessible": true
+      }
+    },
+    {
+      "camera_id": "cam1",
+      "event_id": "9fd4d1e7-52b5-4f68-9676-9ea93a923fe5",
+      "event_type": "PORT",
+      "event_description": "Port 8011 on 154.210.224.77 is accessible",
+      "timestamp": "2026-01-19T19:12:54.397755",
+      "last_checked": "2026-01-19T19:12:54.379438",
+      "status": "PASS",
+      "metadata": {
+        "ip": "154.210.224.77",
+        "port": 8011,
+        "accessible": true
+      }
+    },
+    {
+      "camera_id": "cam1",
+      "event_id": "4d5bd524-e0da-4a02-8ece-116e939a2277",
+      "event_type": "IP",
+      "event_description": "IP 154.210.224.77 is reachable",
+      "timestamp": "2026-01-19T19:13:09.432532",
+      "last_checked": "2026-01-19T19:13:09.413481",
+      "status": "PASS",
+      "metadata": {
+        "ip": "154.210.224.77",
+        "reachable": true
+      }
+    },
+    {
+      "camera_id": "cam1",
+      "event_id": "359516bb-b026-4d34-b8f8-29921b470a14",
+      "event_type": "PORT",
+      "event_description": "Port 8011 on 154.210.224.77 is accessible",
+      "timestamp": "2026-01-19T19:13:09.451504",
+      "last_checked": "2026-01-19T19:13:09.413481",
+      "status": "PASS",
+      "metadata": {
+        "ip": "154.210.224.77",
+        "port": 8011,
+        "accessible": true
+      }
+    },
+    {
+      "camera_id": "cam1",
+      "event_id": "b1cb7d39-a3c4-43f4-a561-bc3ec66c5380",
+      "event_type": "BASELINE_MATCH",
+      "event_description": "Captured frame matches baseline - no anomalies detected",
+      "timestamp": "2026-01-19T19:13:10.707618",
+      "last_checked": "2026-01-19T19:13:09.413481",
+      "status": "PASS",
+      "metadata": {
+        "similarity": 0.519089239804769,
+        "difference_percent": 21.305096919463647,
+        "brightness": 121.44462143132716,
+        "blur_score": 470.08043734186657
+      }
+    }
+  ],
+  "Total_events_count": 15
+}

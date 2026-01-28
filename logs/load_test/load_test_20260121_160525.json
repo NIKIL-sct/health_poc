@@ -1,0 +1,89 @@
+{
+  "test_info": {
+    "target_cameras": 13,
+    "start_time": "2026-01-21T16:04:37.653012",
+    "end_time": "2026-01-21T16:05:25.690822",
+    "duration_sec": 48.04
+  },
+  "system_metrics": [
+    {
+      "timestamp": "2026-01-21T16:04:37.653574",
+      "elapsed_sec": 0.0,
+      "cpu_percent": 100.0,
+      "memory_mb": 30.86,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-21T16:04:47.875970",
+      "elapsed_sec": 10.22,
+      "cpu_percent": 68.4,
+      "memory_mb": 31.24,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-21T16:04:58.091978",
+      "elapsed_sec": 20.44,
+      "cpu_percent": 43.7,
+      "memory_mb": 31.24,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-21T16:05:08.305836",
+      "elapsed_sec": 30.65,
+      "cpu_percent": 79.5,
+      "memory_mb": 31.24,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-21T16:05:18.533399",
+      "elapsed_sec": 40.88,
+      "cpu_percent": 44.9,
+      "memory_mb": 31.24,
+      "threads": 2
+    }
+  ],
+  "redis_metrics": [
+    {
+      "network_queue": 0,
+      "vision_queue": 0,
+      "active_cameras": 7
+    },
+    {
+      "network_queue": 0,
+      "vision_queue": 1,
+      "active_cameras": 13
+    },
+    {
+      "network_queue": 0,
+      "vision_queue": 0,
+      "active_cameras": 13
+    },
+    {
+      "network_queue": 0,
+      "vision_queue": 0,
+      "active_cameras": 13
+    },
+    {
+      "network_queue": 0,
+      "vision_queue": 0,
+      "active_cameras": 13
+    }
+  ],
+  "api_health": [
+    {
+      "detail": "Not Found"
+    },
+    {
+      "detail": "Not Found"
+    },
+    {
+      "detail": "Not Found"
+    },
+    {
+      "detail": "Not Found"
+    },
+    {
+      "detail": "Not Found"
+    }
+  ]
+}

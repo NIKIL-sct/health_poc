@@ -1,0 +1,428 @@
+{
+  "test_info": {
+    "target_cameras": 15,
+    "start_time": "2026-01-21T12:34:20.910579",
+    "end_time": "2026-01-21T12:37:17.464822",
+    "duration_sec": 176.55
+  },
+  "system_metrics": [
+    {
+      "timestamp": "2026-01-21T12:34:20.913290",
+      "elapsed_sec": 0.0,
+      "cpu_percent": 78.5,
+      "memory_mb": 28.32,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-21T12:34:31.130977",
+      "elapsed_sec": 10.22,
+      "cpu_percent": 31.6,
+      "memory_mb": 28.57,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-21T12:34:41.345882",
+      "elapsed_sec": 20.44,
+      "cpu_percent": 35.8,
+      "memory_mb": 28.57,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-21T12:34:51.558954",
+      "elapsed_sec": 30.65,
+      "cpu_percent": 37.8,
+      "memory_mb": 28.57,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-21T12:35:01.774984",
+      "elapsed_sec": 40.86,
+      "cpu_percent": 34.9,
+      "memory_mb": 28.57,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-21T12:35:11.989013",
+      "elapsed_sec": 51.08,
+      "cpu_percent": 37.0,
+      "memory_mb": 28.57,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-21T12:35:22.201973",
+      "elapsed_sec": 61.29,
+      "cpu_percent": 30.4,
+      "memory_mb": 28.57,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-21T12:35:32.415967",
+      "elapsed_sec": 71.51,
+      "cpu_percent": 6.3,
+      "memory_mb": 28.57,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-21T12:35:42.637254",
+      "elapsed_sec": 81.73,
+      "cpu_percent": 38.8,
+      "memory_mb": 28.57,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-21T12:35:52.850978",
+      "elapsed_sec": 91.94,
+      "cpu_percent": 38.0,
+      "memory_mb": 28.57,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-21T12:36:03.063952",
+      "elapsed_sec": 102.15,
+      "cpu_percent": 28.7,
+      "memory_mb": 28.57,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-21T12:36:13.276976",
+      "elapsed_sec": 112.37,
+      "cpu_percent": 37.2,
+      "memory_mb": 28.57,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-21T12:36:23.493348",
+      "elapsed_sec": 122.58,
+      "cpu_percent": 30.0,
+      "memory_mb": 28.7,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-21T12:36:33.707351",
+      "elapsed_sec": 132.8,
+      "cpu_percent": 12.5,
+      "memory_mb": 28.7,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-21T12:36:43.922967",
+      "elapsed_sec": 143.01,
+      "cpu_percent": 52.6,
+      "memory_mb": 28.7,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-21T12:36:54.139950",
+      "elapsed_sec": 153.23,
+      "cpu_percent": 43.0,
+      "memory_mb": 28.7,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-21T12:37:04.356390",
+      "elapsed_sec": 163.45,
+      "cpu_percent": 31.2,
+      "memory_mb": 28.7,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-21T12:37:14.570324",
+      "elapsed_sec": 173.66,
+      "cpu_percent": 38.8,
+      "memory_mb": 28.7,
+      "threads": 2
+    }
+  ],
+  "redis_metrics": [
+    {
+      "network_queue": 0,
+      "vision_queue": 0,
+      "active_cameras": 15
+    },
+    {
+      "network_queue": 0,
+      "vision_queue": 0,
+      "active_cameras": 15
+    },
+    {
+      "network_queue": 0,
+      "vision_queue": 0,
+      "active_cameras": 15
+    },
+    {
+      "network_queue": 0,
+      "vision_queue": 0,
+      "active_cameras": 15
+    },
+    {
+      "network_queue": 0,
+      "vision_queue": 0,
+      "active_cameras": 15
+    },
+    {
+      "network_queue": 0,
+      "vision_queue": 0,
+      "active_cameras": 15
+    },
+    {
+      "network_queue": 0,
+      "vision_queue": 0,
+      "active_cameras": 15
+    },
+    {
+      "network_queue": 0,
+      "vision_queue": 0,
+      "active_cameras": 15
+    },
+    {
+      "network_queue": 0,
+      "vision_queue": 0,
+      "active_cameras": 15
+    },
+    {
+      "network_queue": 0,
+      "vision_queue": 0,
+      "active_cameras": 15
+    },
+    {
+      "network_queue": 0,
+      "vision_queue": 0,
+      "active_cameras": 15
+    },
+    {
+      "network_queue": 0,
+      "vision_queue": 0,
+      "active_cameras": 15
+    },
+    {
+      "network_queue": 0,
+      "vision_queue": 0,
+      "active_cameras": 15
+    },
+    {
+      "network_queue": 0,
+      "vision_queue": 0,
+      "active_cameras": 15
+    },
+    {
+      "network_queue": 0,
+      "vision_queue": 0,
+      "active_cameras": 15
+    },
+    {
+      "network_queue": 0,
+      "vision_queue": 0,
+      "active_cameras": 15
+    },
+    {
+      "network_queue": 0,
+      "vision_queue": 0,
+      "active_cameras": 15
+    },
+    {
+      "network_queue": 0,
+      "vision_queue": 0,
+      "active_cameras": 0
+    }
+  ],
+  "api_health": [
+    {
+      "status": "healthy",
+      "timestamp": "2026-01-21T12:34:21.120703",
+      "active_cameras": 15,
+      "queues": {
+        "network": 0,
+        "vision": 0
+      },
+      "scheduler_running": true,
+      "network_workers": 3,
+      "vision_workers": 3
+    },
+    {
+      "status": "healthy",
+      "timestamp": "2026-01-21T12:34:31.333744",
+      "active_cameras": 15,
+      "queues": {
+        "network": 0,
+        "vision": 0
+      },
+      "scheduler_running": true,
+      "network_workers": 3,
+      "vision_workers": 3
+    },
+    {
+      "status": "healthy",
+      "timestamp": "2026-01-21T12:34:41.548795",
+      "active_cameras": 15,
+      "queues": {
+        "network": 0,
+        "vision": 0
+      },
+      "scheduler_running": true,
+      "network_workers": 3,
+      "vision_workers": 3
+    },
+    {
+      "status": "healthy",
+      "timestamp": "2026-01-21T12:34:51.764423",
+      "active_cameras": 15,
+      "queues": {
+        "network": 0,
+        "vision": 0
+      },
+      "scheduler_running": true,
+      "network_workers": 3,
+      "vision_workers": 3
+    },
+    {
+      "status": "healthy",
+      "timestamp": "2026-01-21T12:35:01.977692",
+      "active_cameras": 15,
+      "queues": {
+        "network": 0,
+        "vision": 0
+      },
+      "scheduler_running": true,
+      "network_workers": 3,
+      "vision_workers": 3
+    },
+    {
+      "status": "healthy",
+      "timestamp": "2026-01-21T12:35:12.191827",
+      "active_cameras": 15,
+      "queues": {
+        "network": 0,
+        "vision": 0
+      },
+      "scheduler_running": true,
+      "network_workers": 3,
+      "vision_workers": 3
+    },
+    {
+      "status": "healthy",
+      "timestamp": "2026-01-21T12:35:22.404614",
+      "active_cameras": 15,
+      "queues": {
+        "network": 0,
+        "vision": 0
+      },
+      "scheduler_running": true,
+      "network_workers": 3,
+      "vision_workers": 3
+    },
+    {
+      "status": "healthy",
+      "timestamp": "2026-01-21T12:35:32.624631",
+      "active_cameras": 15,
+      "queues": {
+        "network": 0,
+        "vision": 0
+      },
+      "scheduler_running": true,
+      "network_workers": 3,
+      "vision_workers": 3
+    },
+    {
+      "status": "healthy",
+      "timestamp": "2026-01-21T12:35:42.840408",
+      "active_cameras": 15,
+      "queues": {
+        "network": 0,
+        "vision": 0
+      },
+      "scheduler_running": true,
+      "network_workers": 3,
+      "vision_workers": 3
+    },
+    {
+      "status": "healthy",
+      "timestamp": "2026-01-21T12:35:53.053786",
+      "active_cameras": 15,
+      "queues": {
+        "network": 0,
+        "vision": 0
+      },
+      "scheduler_running": true,
+      "network_workers": 3,
+      "vision_workers": 3
+    },
+    {
+      "status": "healthy",
+      "timestamp": "2026-01-21T12:36:03.266824",
+      "active_cameras": 15,
+      "queues": {
+        "network": 0,
+        "vision": 0
+      },
+      "scheduler_running": true,
+      "network_workers": 3,
+      "vision_workers": 3
+    },
+    {
+      "status": "healthy",
+      "timestamp": "2026-01-21T12:36:13.482324",
+      "active_cameras": 15,
+      "queues": {
+        "network": 0,
+        "vision": 0
+      },
+      "scheduler_running": true,
+      "network_workers": 3,
+      "vision_workers": 3
+    },
+    {
+      "status": "healthy",
+      "timestamp": "2026-01-21T12:36:23.696297",
+      "active_cameras": 15,
+      "queues": {
+        "network": 0,
+        "vision": 0
+      },
+      "scheduler_running": true,
+      "network_workers": 3,
+      "vision_workers": 3
+    },
+    {
+      "status": "UNREACHABLE"
+    },
+    {
+      "status": "healthy",
+      "timestamp": "2026-01-21T12:36:44.129011",
+      "active_cameras": 15,
+      "queues": {
+        "network": 0,
+        "vision": 0
+      },
+      "scheduler_running": true,
+      "network_workers": 3,
+      "vision_workers": 3
+    },
+    {
+      "status": "healthy",
+      "timestamp": "2026-01-21T12:36:54.342747",
+      "active_cameras": 15,
+      "queues": {
+        "network": 0,
+        "vision": 0
+      },
+      "scheduler_running": true,
+      "network_workers": 3,
+      "vision_workers": 3
+    },
+    {
+      "status": "healthy",
+      "timestamp": "2026-01-21T12:37:04.559330",
+      "active_cameras": 15,
+      "queues": {
+        "network": 0,
+        "vision": 0
+      },
+      "scheduler_running": true,
+      "network_workers": 3,
+      "vision_workers": 3
+    },
+    {
+      "status": "UNREACHABLE"
+    }
+  ]
+}

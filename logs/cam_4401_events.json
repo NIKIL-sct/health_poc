@@ -1,0 +1,27 @@
+{
+  "camera_id": "cam_4401",
+  "events": [
+    {
+      "camera_id": "cam_4401",
+      "timestamp": "2026-01-23T15:32:55.221253",
+      "event": {
+        "camera_id": "cam_4401",
+        "event_id": "8db4a956-0231-4ee8-880a-3cdefadae74f",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 10.10.2.11 is not accessible",
+        "timestamp": "2026-01-23T15:32:55.201433",
+        "last_checked": "2026-01-23T15:32:55.201453",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "10.10.2.11",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-23T15:32:55.201433"
+      }
+    }
+  ]
+}

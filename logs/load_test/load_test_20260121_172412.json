@@ -1,0 +1,59 @@
+{
+  "test_info": {
+    "target_cameras": 13,
+    "start_time": "2026-01-21T17:23:49.998913",
+    "end_time": "2026-01-21T17:24:12.798819",
+    "duration_sec": 22.8
+  },
+  "system_metrics": [
+    {
+      "timestamp": "2026-01-21T17:23:50.000631",
+      "elapsed_sec": 0.0,
+      "cpu_percent": 58.2,
+      "memory_mb": 30.86,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-21T17:24:00.214428",
+      "elapsed_sec": 10.22,
+      "cpu_percent": 56.8,
+      "memory_mb": 31.23,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-21T17:24:10.426975",
+      "elapsed_sec": 20.43,
+      "cpu_percent": 48.1,
+      "memory_mb": 31.23,
+      "threads": 2
+    }
+  ],
+  "redis_metrics": [
+    {
+      "network_queue": 0,
+      "vision_queue": 0,
+      "active_cameras": 14
+    },
+    {
+      "network_queue": 0,
+      "vision_queue": 0,
+      "active_cameras": 14
+    },
+    {
+      "network_queue": 0,
+      "vision_queue": 8,
+      "active_cameras": 14
+    }
+  ],
+  "api_health": [
+    {
+      "detail": "Not Found"
+    },
+    {
+      "detail": "Not Found"
+    },
+    {
+      "status": "UNREACHABLE"
+    }
+  ]
+}

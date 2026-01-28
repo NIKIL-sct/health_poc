@@ -1,0 +1,29 @@
+{
+  "test_info": {
+    "target_cameras": 13,
+    "start_time": "2026-01-21T17:21:28.435218",
+    "end_time": "2026-01-21T17:21:34.754796",
+    "duration_sec": 6.32
+  },
+  "system_metrics": [
+    {
+      "timestamp": "2026-01-21T17:21:28.435805",
+      "elapsed_sec": 0.0,
+      "cpu_percent": 96.3,
+      "memory_mb": 30.99,
+      "threads": 2
+    }
+  ],
+  "redis_metrics": [
+    {
+      "network_queue": 0,
+      "vision_queue": 0,
+      "active_cameras": 14
+    }
+  ],
+  "api_health": [
+    {
+      "detail": "Not Found"
+    }
+  ]
+}

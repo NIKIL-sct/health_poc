@@ -1,0 +1,953 @@
+{
+  "test_info": {
+    "target_cameras": 500,
+    "start_time": "2026-01-20T17:08:25.440628",
+    "end_time": "2026-01-20T17:17:29.894592",
+    "duration_sec": 544.45
+  },
+  "system_metrics": [
+    {
+      "timestamp": "2026-01-20T17:08:25.441615",
+      "elapsed_sec": 0.0,
+      "cpu_percent": 92.5,
+      "memory_mb": 29.41,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-20T17:08:35.666195",
+      "elapsed_sec": 10.23,
+      "cpu_percent": 100.0,
+      "memory_mb": 29.79,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-20T17:08:45.914823",
+      "elapsed_sec": 20.47,
+      "cpu_percent": 82.7,
+      "memory_mb": 29.79,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-20T17:08:58.134262",
+      "elapsed_sec": 32.69,
+      "cpu_percent": 45.0,
+      "memory_mb": 29.79,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-20T17:09:08.350755",
+      "elapsed_sec": 42.91,
+      "cpu_percent": 100.0,
+      "memory_mb": 29.79,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-20T17:09:18.580135",
+      "elapsed_sec": 53.14,
+      "cpu_percent": 95.1,
+      "memory_mb": 29.79,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-20T17:09:28.798838",
+      "elapsed_sec": 63.36,
+      "cpu_percent": 73.8,
+      "memory_mb": 29.79,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-20T17:09:39.022848",
+      "elapsed_sec": 73.58,
+      "cpu_percent": 100.0,
+      "memory_mb": 29.79,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-20T17:09:49.285745",
+      "elapsed_sec": 83.85,
+      "cpu_percent": 53.7,
+      "memory_mb": 29.79,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-20T17:09:59.498772",
+      "elapsed_sec": 94.06,
+      "cpu_percent": 50.6,
+      "memory_mb": 29.79,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-20T17:10:09.713843",
+      "elapsed_sec": 104.27,
+      "cpu_percent": 36.2,
+      "memory_mb": 29.79,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-20T17:10:19.927735",
+      "elapsed_sec": 114.49,
+      "cpu_percent": 48.1,
+      "memory_mb": 29.79,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-20T17:10:30.139730",
+      "elapsed_sec": 124.7,
+      "cpu_percent": 51.3,
+      "memory_mb": 29.79,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-20T17:10:40.351715",
+      "elapsed_sec": 134.91,
+      "cpu_percent": 43.0,
+      "memory_mb": 29.79,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-20T17:10:50.563917",
+      "elapsed_sec": 145.12,
+      "cpu_percent": 28.2,
+      "memory_mb": 29.91,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-20T17:11:00.775728",
+      "elapsed_sec": 155.34,
+      "cpu_percent": 45.0,
+      "memory_mb": 29.91,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-20T17:11:10.990726",
+      "elapsed_sec": 165.55,
+      "cpu_percent": 52.6,
+      "memory_mb": 29.91,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-20T17:11:21.202702",
+      "elapsed_sec": 175.76,
+      "cpu_percent": 45.7,
+      "memory_mb": 29.91,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-20T17:11:31.414738",
+      "elapsed_sec": 185.97,
+      "cpu_percent": 37.5,
+      "memory_mb": 29.91,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-20T17:11:41.626745",
+      "elapsed_sec": 196.19,
+      "cpu_percent": 40.0,
+      "memory_mb": 29.91,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-20T17:11:51.838850",
+      "elapsed_sec": 206.4,
+      "cpu_percent": 58.8,
+      "memory_mb": 29.91,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-20T17:12:02.054622",
+      "elapsed_sec": 216.61,
+      "cpu_percent": 77.2,
+      "memory_mb": 29.91,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-20T17:12:12.267742",
+      "elapsed_sec": 226.83,
+      "cpu_percent": 68.7,
+      "memory_mb": 29.91,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-20T17:12:22.483793",
+      "elapsed_sec": 237.04,
+      "cpu_percent": 15.0,
+      "memory_mb": 29.91,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-20T17:12:32.697874",
+      "elapsed_sec": 247.26,
+      "cpu_percent": 48.1,
+      "memory_mb": 29.91,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-20T17:12:42.913733",
+      "elapsed_sec": 257.47,
+      "cpu_percent": 62.0,
+      "memory_mb": 29.91,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-20T17:12:53.126734",
+      "elapsed_sec": 267.69,
+      "cpu_percent": 48.1,
+      "memory_mb": 29.91,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-20T17:13:03.340312",
+      "elapsed_sec": 277.9,
+      "cpu_percent": 40.7,
+      "memory_mb": 29.91,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-20T17:13:13.551707",
+      "elapsed_sec": 288.11,
+      "cpu_percent": 39.2,
+      "memory_mb": 29.91,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-20T17:13:23.763750",
+      "elapsed_sec": 298.32,
+      "cpu_percent": 60.8,
+      "memory_mb": 29.91,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-20T17:13:33.975728",
+      "elapsed_sec": 308.54,
+      "cpu_percent": 36.2,
+      "memory_mb": 29.91,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-20T17:13:44.208112",
+      "elapsed_sec": 318.77,
+      "cpu_percent": 66.2,
+      "memory_mb": 29.91,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-20T17:13:54.425731",
+      "elapsed_sec": 328.99,
+      "cpu_percent": 75.9,
+      "memory_mb": 29.91,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-20T17:14:04.650838",
+      "elapsed_sec": 339.21,
+      "cpu_percent": 100.0,
+      "memory_mb": 29.91,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-20T17:14:16.870732",
+      "elapsed_sec": 351.43,
+      "cpu_percent": 40.0,
+      "memory_mb": 29.91,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-20T17:14:27.083511",
+      "elapsed_sec": 361.64,
+      "cpu_percent": 56.2,
+      "memory_mb": 29.91,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-20T17:14:37.295499",
+      "elapsed_sec": 371.85,
+      "cpu_percent": 100.0,
+      "memory_mb": 29.91,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-20T17:14:47.549730",
+      "elapsed_sec": 382.11,
+      "cpu_percent": 54.4,
+      "memory_mb": 29.91,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-20T17:14:57.762978",
+      "elapsed_sec": 392.32,
+      "cpu_percent": 94.9,
+      "memory_mb": 29.91,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-20T17:15:07.982157",
+      "elapsed_sec": 402.54,
+      "cpu_percent": 76.3,
+      "memory_mb": 29.91,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-20T17:15:18.196446",
+      "elapsed_sec": 412.76,
+      "cpu_percent": 53.2,
+      "memory_mb": 29.91,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-20T17:15:28.410754",
+      "elapsed_sec": 422.97,
+      "cpu_percent": 20.5,
+      "memory_mb": 29.91,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-20T17:15:40.624770",
+      "elapsed_sec": 435.18,
+      "cpu_percent": 59.5,
+      "memory_mb": 29.91,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-20T17:15:50.843805",
+      "elapsed_sec": 445.4,
+      "cpu_percent": 85.2,
+      "memory_mb": 29.91,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-20T17:16:01.056705",
+      "elapsed_sec": 455.62,
+      "cpu_percent": 45.7,
+      "memory_mb": 29.91,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-20T17:16:11.268731",
+      "elapsed_sec": 465.83,
+      "cpu_percent": 63.8,
+      "memory_mb": 29.91,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-20T17:16:21.480707",
+      "elapsed_sec": 476.04,
+      "cpu_percent": 41.2,
+      "memory_mb": 29.91,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-20T17:16:31.692748",
+      "elapsed_sec": 486.25,
+      "cpu_percent": 40.5,
+      "memory_mb": 29.91,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-20T17:16:41.904745",
+      "elapsed_sec": 496.46,
+      "cpu_percent": 79.5,
+      "memory_mb": 29.91,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-20T17:16:52.119774",
+      "elapsed_sec": 506.68,
+      "cpu_percent": 60.8,
+      "memory_mb": 29.91,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-20T17:17:02.331739",
+      "elapsed_sec": 516.89,
+      "cpu_percent": 51.3,
+      "memory_mb": 29.91,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-20T17:17:12.543718",
+      "elapsed_sec": 527.1,
+      "cpu_percent": 41.6,
+      "memory_mb": 29.91,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-20T17:17:22.757727",
+      "elapsed_sec": 537.32,
+      "cpu_percent": 50.0,
+      "memory_mb": 29.91,
+      "threads": 2
+    }
+  ],
+  "redis_metrics": [
+    {
+      "network_queue": 42718,
+      "vision_queue": 3729,
+      "active_cameras": 501
+    },
+    {
+      "network_queue": 42687,
+      "vision_queue": 3723,
+      "active_cameras": 501
+    },
+    {
+      "network_queue": 43545,
+      "vision_queue": 3712,
+      "active_cameras": 501
+    },
+    {
+      "network_queue": 43548,
+      "vision_queue": 3712,
+      "active_cameras": 501
+    },
+    {
+      "network_queue": 43624,
+      "vision_queue": 3712,
+      "active_cameras": 501
+    },
+    {
+      "network_queue": 43892,
+      "vision_queue": 3701,
+      "active_cameras": 501
+    },
+    {
+      "network_queue": 44239,
+      "vision_queue": 3701,
+      "active_cameras": 501
+    },
+    {
+      "network_queue": 44110,
+      "vision_queue": 3684,
+      "active_cameras": 501
+    },
+    {
+      "network_queue": 44561,
+      "vision_queue": 4027,
+      "active_cameras": 501
+    },
+    {
+      "network_queue": 44564,
+      "vision_queue": 4027,
+      "active_cameras": 501
+    },
+    {
+      "network_queue": 44567,
+      "vision_queue": 4027,
+      "active_cameras": 501
+    },
+    {
+      "network_queue": 44567,
+      "vision_queue": 4027,
+      "active_cameras": 501
+    },
+    {
+      "network_queue": 44573,
+      "vision_queue": 4027,
+      "active_cameras": 501
+    },
+    {
+      "network_queue": 44576,
+      "vision_queue": 4027,
+      "active_cameras": 501
+    },
+    {
+      "network_queue": 44576,
+      "vision_queue": 4027,
+      "active_cameras": 501
+    },
+    {
+      "network_queue": 44579,
+      "vision_queue": 4027,
+      "active_cameras": 501
+    },
+    {
+      "network_queue": 44582,
+      "vision_queue": 4027,
+      "active_cameras": 501
+    },
+    {
+      "network_queue": 44582,
+      "vision_queue": 4027,
+      "active_cameras": 501
+    },
+    {
+      "network_queue": 44588,
+      "vision_queue": 4027,
+      "active_cameras": 501
+    },
+    {
+      "network_queue": 44591,
+      "vision_queue": 4027,
+      "active_cameras": 501
+    },
+    {
+      "network_queue": 44594,
+      "vision_queue": 4027,
+      "active_cameras": 501
+    },
+    {
+      "network_queue": 44594,
+      "vision_queue": 4027,
+      "active_cameras": 501
+    },
+    {
+      "network_queue": 44597,
+      "vision_queue": 4027,
+      "active_cameras": 501
+    },
+    {
+      "network_queue": 44603,
+      "vision_queue": 4027,
+      "active_cameras": 501
+    },
+    {
+      "network_queue": 44603,
+      "vision_queue": 4027,
+      "active_cameras": 501
+    },
+    {
+      "network_queue": 44606,
+      "vision_queue": 4027,
+      "active_cameras": 501
+    },
+    {
+      "network_queue": 44609,
+      "vision_queue": 4027,
+      "active_cameras": 501
+    },
+    {
+      "network_queue": 44609,
+      "vision_queue": 4027,
+      "active_cameras": 501
+    },
+    {
+      "network_queue": 44612,
+      "vision_queue": 4027,
+      "active_cameras": 501
+    },
+    {
+      "network_queue": 44618,
+      "vision_queue": 4027,
+      "active_cameras": 501
+    },
+    {
+      "network_queue": 45527,
+      "vision_queue": 4369,
+      "active_cameras": 501
+    },
+    {
+      "network_queue": 45248,
+      "vision_queue": 4360,
+      "active_cameras": 501
+    },
+    {
+      "network_queue": 45478,
+      "vision_queue": 4341,
+      "active_cameras": 501
+    },
+    {
+      "network_queue": 45630,
+      "vision_queue": 4322,
+      "active_cameras": 501
+    },
+    {
+      "network_queue": 45595,
+      "vision_queue": 4322,
+      "active_cameras": 501
+    },
+    {
+      "network_queue": 45601,
+      "vision_queue": 4322,
+      "active_cameras": 501
+    },
+    {
+      "network_queue": 45873,
+      "vision_queue": 4322,
+      "active_cameras": 501
+    },
+    {
+      "network_queue": 46456,
+      "vision_queue": 4300,
+      "active_cameras": 501
+    },
+    {
+      "network_queue": 46797,
+      "vision_queue": 4281,
+      "active_cameras": 501
+    },
+    {
+      "network_queue": 46875,
+      "vision_queue": 4267,
+      "active_cameras": 501
+    },
+    {
+      "network_queue": 47007,
+      "vision_queue": 4267,
+      "active_cameras": 501
+    },
+    {
+      "network_queue": 47389,
+      "vision_queue": 4267,
+      "active_cameras": 501
+    },
+    {
+      "network_queue": 47392,
+      "vision_queue": 4267,
+      "active_cameras": 501
+    },
+    {
+      "network_queue": 47392,
+      "vision_queue": 4267,
+      "active_cameras": 501
+    },
+    {
+      "network_queue": 47395,
+      "vision_queue": 4267,
+      "active_cameras": 501
+    },
+    {
+      "network_queue": 47398,
+      "vision_queue": 4267,
+      "active_cameras": 501
+    },
+    {
+      "network_queue": 47398,
+      "vision_queue": 4267,
+      "active_cameras": 501
+    },
+    {
+      "network_queue": 47404,
+      "vision_queue": 4267,
+      "active_cameras": 501
+    },
+    {
+      "network_queue": 47407,
+      "vision_queue": 4267,
+      "active_cameras": 501
+    },
+    {
+      "network_queue": 47407,
+      "vision_queue": 4267,
+      "active_cameras": 501
+    },
+    {
+      "network_queue": 47410,
+      "vision_queue": 4267,
+      "active_cameras": 501
+    },
+    {
+      "network_queue": 0,
+      "vision_queue": 0,
+      "active_cameras": 0
+    },
+    {
+      "network_queue": 0,
+      "vision_queue": 0,
+      "active_cameras": 0
+    }
+  ],
+  "api_health": [
+    {
+      "status": "healthy",
+      "timestamp": "2026-01-20T17:08:25.653442",
+      "active_cameras": 501,
+      "queues": {
+        "network": 42720,
+        "vision": 3729
+      },
+      "scheduler_running": true,
+      "network_workers": 3,
+      "vision_workers": 3
+    },
+    {
+      "status": "healthy",
+      "timestamp": "2026-01-20T17:08:35.891955",
+      "active_cameras": 501,
+      "queues": {
+        "network": 42686,
+        "vision": 3723
+      },
+      "scheduler_running": true,
+      "network_workers": 3,
+      "vision_workers": 3
+    },
+    {
+      "status": "UNREACHABLE"
+    },
+    {
+      "status": "UNREACHABLE"
+    },
+    {
+      "status": "healthy",
+      "timestamp": "2026-01-20T17:09:08.568323",
+      "active_cameras": 501,
+      "queues": {
+        "network": 43628,
+        "vision": 3712
+      },
+      "scheduler_running": true,
+      "network_workers": 3,
+      "vision_workers": 3
+    },
+    {
+      "status": "healthy",
+      "timestamp": "2026-01-20T17:09:18.787449",
+      "active_cameras": 501,
+      "queues": {
+        "network": 43892,
+        "vision": 3701
+      },
+      "scheduler_running": true,
+      "network_workers": 3,
+      "vision_workers": 3
+    },
+    {
+      "status": "healthy",
+      "timestamp": "2026-01-20T17:09:29.012103",
+      "active_cameras": 501,
+      "queues": {
+        "network": 44239,
+        "vision": 3701
+      },
+      "scheduler_running": true,
+      "network_workers": 3,
+      "vision_workers": 3
+    },
+    {
+      "status": "healthy",
+      "timestamp": "2026-01-20T17:09:39.248869",
+      "active_cameras": 501,
+      "queues": {
+        "network": 44110,
+        "vision": 3683
+      },
+      "scheduler_running": true,
+      "network_workers": 3,
+      "vision_workers": 3
+    },
+    {
+      "status": "UNREACHABLE"
+    },
+    {
+      "status": "UNREACHABLE"
+    },
+    {
+      "status": "UNREACHABLE"
+    },
+    {
+      "status": "UNREACHABLE"
+    },
+    {
+      "status": "UNREACHABLE"
+    },
+    {
+      "status": "UNREACHABLE"
+    },
+    {
+      "status": "UNREACHABLE"
+    },
+    {
+      "status": "UNREACHABLE"
+    },
+    {
+      "status": "UNREACHABLE"
+    },
+    {
+      "status": "UNREACHABLE"
+    },
+    {
+      "status": "UNREACHABLE"
+    },
+    {
+      "status": "UNREACHABLE"
+    },
+    {
+      "status": "UNREACHABLE"
+    },
+    {
+      "status": "UNREACHABLE"
+    },
+    {
+      "status": "UNREACHABLE"
+    },
+    {
+      "status": "UNREACHABLE"
+    },
+    {
+      "status": "UNREACHABLE"
+    },
+    {
+      "status": "UNREACHABLE"
+    },
+    {
+      "status": "UNREACHABLE"
+    },
+    {
+      "status": "UNREACHABLE"
+    },
+    {
+      "status": "UNREACHABLE"
+    },
+    {
+      "status": "UNREACHABLE"
+    },
+    {
+      "status": "healthy",
+      "timestamp": "2026-01-20T17:13:34.186217",
+      "active_cameras": 501,
+      "queues": {
+        "network": 45527,
+        "vision": 4369
+      },
+      "scheduler_running": true,
+      "network_workers": 3,
+      "vision_workers": 3
+    },
+    {
+      "status": "healthy",
+      "timestamp": "2026-01-20T17:13:44.414489",
+      "active_cameras": 501,
+      "queues": {
+        "network": 45247,
+        "vision": 4360
+      },
+      "scheduler_running": true,
+      "network_workers": 3,
+      "vision_workers": 3
+    },
+    {
+      "status": "healthy",
+      "timestamp": "2026-01-20T17:13:54.636029",
+      "active_cameras": 501,
+      "queues": {
+        "network": 45478,
+        "vision": 4341
+      },
+      "scheduler_running": true,
+      "network_workers": 3,
+      "vision_workers": 3
+    },
+    {
+      "status": "UNREACHABLE"
+    },
+    {
+      "status": "UNREACHABLE"
+    },
+    {
+      "status": "UNREACHABLE"
+    },
+    {
+      "status": "healthy",
+      "timestamp": "2026-01-20T17:14:37.519641",
+      "active_cameras": 501,
+      "queues": {
+        "network": 45873,
+        "vision": 4322
+      },
+      "scheduler_running": true,
+      "network_workers": 3,
+      "vision_workers": 3
+    },
+    {
+      "status": "healthy",
+      "timestamp": "2026-01-20T17:14:47.752493",
+      "active_cameras": 501,
+      "queues": {
+        "network": 46456,
+        "vision": 4300
+      },
+      "scheduler_running": true,
+      "network_workers": 3,
+      "vision_workers": 3
+    },
+    {
+      "status": "healthy",
+      "timestamp": "2026-01-20T17:14:57.970942",
+      "active_cameras": 501,
+      "queues": {
+        "network": 46797,
+        "vision": 4281
+      },
+      "scheduler_running": true,
+      "network_workers": 3,
+      "vision_workers": 3
+    },
+    {
+      "status": "healthy",
+      "timestamp": "2026-01-20T17:15:08.185219",
+      "active_cameras": 501,
+      "queues": {
+        "network": 46876,
+        "vision": 4267
+      },
+      "scheduler_running": true,
+      "network_workers": 3,
+      "vision_workers": 3
+    },
+    {
+      "status": "healthy",
+      "timestamp": "2026-01-20T17:15:18.399933",
+      "active_cameras": 501,
+      "queues": {
+        "network": 47007,
+        "vision": 4267
+      },
+      "scheduler_running": true,
+      "network_workers": 3,
+      "vision_workers": 3
+    },
+    {
+      "status": "UNREACHABLE"
+    },
+    {
+      "status": "UNREACHABLE"
+    },
+    {
+      "status": "UNREACHABLE"
+    },
+    {
+      "status": "UNREACHABLE"
+    },
+    {
+      "status": "UNREACHABLE"
+    },
+    {
+      "status": "UNREACHABLE"
+    },
+    {
+      "status": "UNREACHABLE"
+    },
+    {
+      "status": "UNREACHABLE"
+    },
+    {
+      "status": "UNREACHABLE"
+    },
+    {
+      "status": "UNREACHABLE"
+    },
+    {
+      "status": "healthy",
+      "timestamp": "2026-01-20T17:17:12.746860",
+      "active_cameras": 0,
+      "queues": {
+        "network": 0,
+        "vision": 0
+      },
+      "scheduler_running": true,
+      "network_workers": 3,
+      "vision_workers": 3
+    },
+    {
+      "status": "healthy",
+      "timestamp": "2026-01-20T17:17:22.960994",
+      "active_cameras": 0,
+      "queues": {
+        "network": 0,
+        "vision": 0
+      },
+      "scheduler_running": true,
+      "network_workers": 3,
+      "vision_workers": 3
+    }
+  ]
+}

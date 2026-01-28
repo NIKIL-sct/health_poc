@@ -1,0 +1,27 @@
+{
+  "camera_id": "test_cam_001",
+  "events": [
+    {
+      "camera_id": "test_cam_001",
+      "timestamp": "2026-01-23T15:32:54.307993",
+      "event": {
+        "camera_id": "test_cam_001",
+        "event_id": "b89fce75-6635-4df6-b11a-358acafeb8d7",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.100 is not accessible",
+        "timestamp": "2026-01-23T15:32:54.277848",
+        "last_checked": "2026-01-23T15:32:54.277863",
+        "status": "FAIL",
+        "meta_data": {
+          "ip": "192.168.1.100",
+          "port": 554,
+          "accessible": false
+        }
+      },
+      "summary": {
+        "Port_status": "DOWN",
+        "Last_port_check": "2026-01-23T15:32:54.277848"
+      }
+    }
+  ]
+}

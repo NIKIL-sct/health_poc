@@ -1,0 +1,86 @@
+{
+  "test_info": {
+    "target_cameras": 15,
+    "start_time": "2026-01-21T12:39:55.037229",
+    "end_time": "2026-01-21T12:40:19.327794",
+    "duration_sec": 24.29
+  },
+  "system_metrics": [
+    {
+      "timestamp": "2026-01-21T12:39:55.039522",
+      "elapsed_sec": 0.0,
+      "cpu_percent": 81.3,
+      "memory_mb": 28.57,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-21T12:40:05.258964",
+      "elapsed_sec": 10.22,
+      "cpu_percent": 32.5,
+      "memory_mb": 28.69,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-21T12:40:15.471968",
+      "elapsed_sec": 20.43,
+      "cpu_percent": 46.2,
+      "memory_mb": 28.69,
+      "threads": 2
+    }
+  ],
+  "redis_metrics": [
+    {
+      "network_queue": 0,
+      "vision_queue": 0,
+      "active_cameras": 15
+    },
+    {
+      "network_queue": 0,
+      "vision_queue": 0,
+      "active_cameras": 15
+    },
+    {
+      "network_queue": 0,
+      "vision_queue": 0,
+      "active_cameras": 15
+    }
+  ],
+  "api_health": [
+    {
+      "status": "healthy",
+      "timestamp": "2026-01-21T12:39:55.248429",
+      "active_cameras": 15,
+      "queues": {
+        "network": 0,
+        "vision": 0
+      },
+      "scheduler_running": true,
+      "network_workers": 3,
+      "vision_workers": 3
+    },
+    {
+      "status": "healthy",
+      "timestamp": "2026-01-21T12:40:05.461739",
+      "active_cameras": 15,
+      "queues": {
+        "network": 0,
+        "vision": 0
+      },
+      "scheduler_running": true,
+      "network_workers": 3,
+      "vision_workers": 3
+    },
+    {
+      "status": "healthy",
+      "timestamp": "2026-01-21T12:40:15.677555",
+      "active_cameras": 15,
+      "queues": {
+        "network": 0,
+        "vision": 0
+      },
+      "scheduler_running": true,
+      "network_workers": 3,
+      "vision_workers": 3
+    }
+  ]
+}

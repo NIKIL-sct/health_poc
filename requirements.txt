@@ -1,13 +1,25 @@
-numpy==1.26.4
-scipy==1.11.4
-scikit-image==0.22.0
-opencv-python==4.9.0.80
-pillow==10.2.0
-torch==2.1.2
-torchvision==0.16.2
-ftfy
-regex
-tqdm
-psutil
-ultralytics==8.1.0
-git+https://github.com/openai/CLIP.git
+# Core Framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.5.0
+
+# Database - PostgreSQL
+sqlalchemy==2.0.23
+asyncpg==0.29.0  # Async PostgreSQL driver
+psycopg2-binary==2.9.9  # Sync PostgreSQL driver
+alembic==1.12.1  # Database migrations
+
+# Redis
+redis==5.0.1
+
+# Computer Vision
+opencv-python==4.8.1.78
+numpy==1.24.3
+scikit-image==0.21.0
+
+# System Monitoring
+psutil==5.9.6
+
+# Utilities
+python-multipart==0.0.6
+python-dateutil

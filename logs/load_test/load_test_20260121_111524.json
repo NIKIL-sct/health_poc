@@ -1,0 +1,275 @@
+{
+  "test_info": {
+    "target_cameras": 500,
+    "start_time": "2026-01-21T11:13:25.911241",
+    "end_time": "2026-01-21T11:15:24.909831",
+    "duration_sec": 119.0
+  },
+  "system_metrics": [
+    {
+      "timestamp": "2026-01-21T11:13:25.914561",
+      "elapsed_sec": 0.0,
+      "cpu_percent": 97.6,
+      "memory_mb": 28.21,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-21T11:13:36.192969",
+      "elapsed_sec": 10.28,
+      "cpu_percent": 62.5,
+      "memory_mb": 28.59,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-21T11:13:46.407530",
+      "elapsed_sec": 20.5,
+      "cpu_percent": 82.5,
+      "memory_mb": 28.59,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-21T11:13:56.631011",
+      "elapsed_sec": 30.72,
+      "cpu_percent": 67.1,
+      "memory_mb": 28.59,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-21T11:14:06.844936",
+      "elapsed_sec": 40.93,
+      "cpu_percent": 89.7,
+      "memory_mb": 28.59,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-21T11:14:17.065020",
+      "elapsed_sec": 51.15,
+      "cpu_percent": 98.8,
+      "memory_mb": 28.59,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-21T11:14:27.301064",
+      "elapsed_sec": 61.39,
+      "cpu_percent": 100.0,
+      "memory_mb": 28.59,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-21T11:14:37.529423",
+      "elapsed_sec": 71.62,
+      "cpu_percent": 85.4,
+      "memory_mb": 28.59,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-21T11:14:47.759955",
+      "elapsed_sec": 81.85,
+      "cpu_percent": 98.7,
+      "memory_mb": 28.59,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-21T11:14:58.008927",
+      "elapsed_sec": 92.1,
+      "cpu_percent": 46.2,
+      "memory_mb": 28.59,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-21T11:15:08.220024",
+      "elapsed_sec": 102.31,
+      "cpu_percent": 58.2,
+      "memory_mb": 28.59,
+      "threads": 2
+    },
+    {
+      "timestamp": "2026-01-21T11:15:18.431977",
+      "elapsed_sec": 112.52,
+      "cpu_percent": 44.3,
+      "memory_mb": 28.59,
+      "threads": 2
+    }
+  ],
+  "redis_metrics": [
+    {
+      "network_queue": 0,
+      "vision_queue": 4107,
+      "active_cameras": 501
+    },
+    {
+      "network_queue": 0,
+      "vision_queue": 4185,
+      "active_cameras": 501
+    },
+    {
+      "network_queue": 0,
+      "vision_queue": 4170,
+      "active_cameras": 501
+    },
+    {
+      "network_queue": 0,
+      "vision_queue": 4155,
+      "active_cameras": 501
+    },
+    {
+      "network_queue": 0,
+      "vision_queue": 4143,
+      "active_cameras": 501
+    },
+    {
+      "network_queue": 0,
+      "vision_queue": 4128,
+      "active_cameras": 501
+    },
+    {
+      "network_queue": 0,
+      "vision_queue": 4116,
+      "active_cameras": 501
+    },
+    {
+      "network_queue": 0,
+      "vision_queue": 4101,
+      "active_cameras": 501
+    },
+    {
+      "network_queue": 0,
+      "vision_queue": 4092,
+      "active_cameras": 501
+    },
+    {
+      "network_queue": 0,
+      "vision_queue": 4083,
+      "active_cameras": 501
+    },
+    {
+      "network_queue": 0,
+      "vision_queue": 4083,
+      "active_cameras": 501
+    },
+    {
+      "network_queue": 0,
+      "vision_queue": 4083,
+      "active_cameras": 501
+    }
+  ],
+  "api_health": [
+    {
+      "status": "healthy",
+      "timestamp": "2026-01-21T11:13:26.171235",
+      "active_cameras": 501,
+      "queues": {
+        "network": 0,
+        "vision": 4108
+      },
+      "scheduler_running": true,
+      "network_workers": 3,
+      "vision_workers": 3
+    },
+    {
+      "status": "healthy",
+      "timestamp": "2026-01-21T11:13:36.396288",
+      "active_cameras": 501,
+      "queues": {
+        "network": 0,
+        "vision": 4185
+      },
+      "scheduler_running": true,
+      "network_workers": 3,
+      "vision_workers": 3
+    },
+    {
+      "status": "healthy",
+      "timestamp": "2026-01-21T11:13:46.619366",
+      "active_cameras": 501,
+      "queues": {
+        "network": 0,
+        "vision": 4170
+      },
+      "scheduler_running": true,
+      "network_workers": 3,
+      "vision_workers": 3
+    },
+    {
+      "status": "healthy",
+      "timestamp": "2026-01-21T11:13:56.834082",
+      "active_cameras": 501,
+      "queues": {
+        "network": 0,
+        "vision": 4155
+      },
+      "scheduler_running": true,
+      "network_workers": 3,
+      "vision_workers": 3
+    },
+    {
+      "status": "healthy",
+      "timestamp": "2026-01-21T11:14:07.054175",
+      "active_cameras": 501,
+      "queues": {
+        "network": 0,
+        "vision": 4143
+      },
+      "scheduler_running": true,
+      "network_workers": 3,
+      "vision_workers": 3
+    },
+    {
+      "status": "healthy",
+      "timestamp": "2026-01-21T11:14:17.287263",
+      "active_cameras": 501,
+      "queues": {
+        "network": 0,
+        "vision": 4128
+      },
+      "scheduler_running": true,
+      "network_workers": 3,
+      "vision_workers": 3
+    },
+    {
+      "status": "healthy",
+      "timestamp": "2026-01-21T11:14:27.515258",
+      "active_cameras": 501,
+      "queues": {
+        "network": 0,
+        "vision": 4116
+      },
+      "scheduler_running": true,
+      "network_workers": 3,
+      "vision_workers": 3
+    },
+    {
+      "status": "healthy",
+      "timestamp": "2026-01-21T11:14:37.743136",
+      "active_cameras": 501,
+      "queues": {
+        "network": 0,
+        "vision": 4101
+      },
+      "scheduler_running": true,
+      "network_workers": 3,
+      "vision_workers": 3
+    },
+    {
+      "status": "healthy",
+      "timestamp": "2026-01-21T11:14:47.987414",
+      "active_cameras": 501,
+      "queues": {
+        "network": 0,
+        "vision": 4091
+      },
+      "scheduler_running": true,
+      "network_workers": 3,
+      "vision_workers": 3
+    },
+    {
+      "status": "UNREACHABLE"
+    },
+    {
+      "status": "UNREACHABLE"
+    },
+    {
+      "status": "UNREACHABLE"
+    }
+  ]
+}

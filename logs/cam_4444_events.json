@@ -1,0 +1,51 @@
+{
+  "camera_id": "cam_4444",
+  "events": [
+    {
+      "camera_id": "cam_4444",
+      "timestamp": "2026-01-23T15:32:54.194219",
+      "event": {
+        "camera_id": "cam_4444",
+        "event_id": "ef2de99e-3d60-4892-8048-c99120e832cd",
+        "event_type": "PORT_CHECK",
+        "event_description": "Port 554 on 192.168.1.202 is accessible",
+        "timestamp": "2026-01-23T15:32:54.126434",
+        "last_checked": "2026-01-23T15:32:54.126450",
+        "status": "PASS",
+        "meta_data": {
+          "ip": "192.168.1.202",
+          "port": 554,
+          "accessible": true
+        }
+      },
+      "summary": {
+        "Port_status": "UP",
+        "Last_port_check": "2026-01-23T15:32:54.126434"
+      }
+    },
+    {
+      "camera_id": "cam_4444",
+      "timestamp": "2026-01-23T15:32:55.383736",
+      "event": {
+        "camera_id": "cam_4444",
+        "event_id": "b0ff33ab-9eda-48a2-8a87-4bac07e519d9",
+        "event_type": "BASELINE_MATCH",
+        "event_description": "Captured frame matches baseline - no anomalies detected",
+        "timestamp": "2026-01-23T15:32:55.374157",
+        "last_checked": "2026-01-23T15:32:55.374161",
+        "status": "PASS",
+        "meta_data": {
+          "similarity": 0.4892011460437528,
+          "difference_percent": 20.133536565161204,
+          "brightness": 92.62248312114197,
+          "blur_score": 1920.527483993457
+        }
+      },
+      "summary": {
+        "Vision_status": "PASS",
+        "Alert_active": false,
+        "Last_vision_check": "2026-01-23T15:32:55.374005"
+      }
+    }
+  ]
+}
