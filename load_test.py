@@ -45,7 +45,7 @@ BASE_CAMERAS = [
     {
         "id":"cam13",
         "ip": "192.168.1.202",
-        "rtsp_port": 554,
+        "port": 554,
         "rtsp_url": "rtsp://Rohit:7995642622%40Ch@192.168.1.202:554/"
     }
 ]
@@ -133,7 +133,7 @@ def generate_cameras():
         cam = {
             "id": f"cam_{i+1:04d}",
             "ip": base["ip"],
-            "rtsp_port": base["rtsp_port"],
+            "port": base["port"],
             "rtsp_url": base["rtsp_url"]
         }
         cameras.append(cam)

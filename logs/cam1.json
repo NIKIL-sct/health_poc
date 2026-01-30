@@ -22,7 +22,7 @@
         "camera_info": {
           "id": "cam1",
           "ip": "154.210.224.77",
-          "rtsp_port": 8011,
+          "port": 8011,
           "rtsp_url": "rtsp://viewer:Matrix%40123@154.210.224.77:8011/unicaststream/1"
         }
       }

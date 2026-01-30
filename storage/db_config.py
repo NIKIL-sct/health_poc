@@ -18,7 +18,7 @@ DB_USER = "postgres"
 DB_PASSWORD = "vigilxdev"
 DB_HOST = "192.168.1.144"
 DB_PORT = 5432
-DB_NAME = "health_check_service"
+DB_NAME = "healthcheck_vigilx"
 
 
 # Connection URLs

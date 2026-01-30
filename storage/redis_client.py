@@ -1,6 +1,8 @@
 """
 Redis Client Configuration
 Shared Redis connection pool for all components
+
+File: storage/redis_client.py
 """
 
 import redis.asyncio as aioredis
@@ -127,6 +129,40 @@ class RedisKeys:
     def active_cameras() -> str:
         """active:cameras - Set of enabled camera IDs"""
         return "active:cameras"
+    
+    # ============================================
+    # NEW: CONNECTIVITY CHECK KEYS
+    # ============================================
+    
+    @staticmethod
+    def connectivity_api_status(camera_id: str) -> str:
+        """connectivity:api_status:{id} - Latest API alive status"""
+        return f"connectivity:api_status:{camera_id}"
+    
+    @staticmethod
+    def connectivity_latency(camera_id: str) -> str:
+        """connectivity:latency:{id} - Latest latency metrics"""
+        return f"connectivity:latency:{camera_id}"
+    
+    @staticmethod
+    def connectivity_packet_loss(camera_id: str) -> str:
+        """connectivity:packet_loss:{id} - Latest packet loss metrics"""
+        return f"connectivity:packet_loss:{camera_id}"
+    
+    @staticmethod
+    def connectivity_history_latency(camera_id: str) -> str:
+        """connectivity:history:latency:{id} - Sorted set of latency history"""
+        return f"connectivity:history:latency:{camera_id}"
+    
+    @staticmethod
+    def connectivity_history_packet_loss(camera_id: str) -> str:
+        """connectivity:history:packet_loss:{id} - Sorted set of packet loss history"""
+        return f"connectivity:history:packet_loss:{camera_id}"
+    
+    @staticmethod
+    def connectivity_all_cameras() -> str:
+        """connectivity:all_cameras - Set of cameras with connectivity data"""
+        return "connectivity:all_cameras"
 
 
 # ============================================
@@ -147,7 +183,7 @@ class RedisData:
             mapping={
                 "id": config["id"],
                 "ip": config["ip"],
-                "rtsp_port": str(config["rtsp_port"]),
+                "port": str(config["port"]),
                 "rtsp_url": config["rtsp_url"],
                 "enabled": "1",
                 "interval_ip": "60",
@@ -180,7 +216,7 @@ class RedisData:
             return {
                 "id": data["id"],
                 "ip": data["ip"],
-                "rtsp_port": int(data["rtsp_port"]),
+                "port": int(data["port"]),
                 "rtsp_url": data["rtsp_url"],
                 "enabled": data["enabled"] == "1",
                 "interval_ip": int(data.get("interval_ip", 60)),
@@ -205,7 +241,7 @@ class RedisData:
             return {
                 "id": data["id"],
                 "ip": data["ip"],
-                "rtsp_port": int(data["rtsp_port"]),
+                "port": int(data["port"]),
                 "rtsp_url": data["rtsp_url"],
                 "enabled": data["enabled"] == "1",
                 "interval_ip": int(data.get("interval_ip", 60)),
@@ -359,3 +395,176 @@ class RedisData:
         except Exception as e:
             logger.error(f"Failed to get summary for {camera_id}: {e}")
             return None
+    
+    # ============================================
+    # NEW: CONNECTIVITY CHECK REDIS OPERATIONS
+    # ============================================
+    
+    @staticmethod
+    async def store_connectivity_api_status(
+        r: aioredis.Redis,
+        camera_id: str,
+        status_data: dict,
+        ttl: int = 300
+    ):
+        """Store API alive status in Redis"""
+        try:
+            key = RedisKeys.connectivity_api_status(camera_id)
+            await r.setex(key, ttl, json.dumps(status_data))
+            await r.sadd(RedisKeys.connectivity_all_cameras(), camera_id)
+            logger.info(f"Stored API status for camera {camera_id} in Redis")
+        except Exception as e:
+            logger.error(f"Failed to store API status for {camera_id}: {e}")
+    
+    @staticmethod
+    async def store_connectivity_latency(
+        r: aioredis.Redis,
+        camera_id: str,
+        latency_data: dict,
+        ttl: int = 300,
+        keep_history: bool = True,
+        max_history: int = 1000
+    ):
+        """Store latency measurements in Redis"""
+        try:
+            # Store latest latency
+            key = RedisKeys.connectivity_latency(camera_id)
+            await r.setex(key, ttl, json.dumps(latency_data))
+            
+            # Store in history (sorted set with timestamp as score)
+            if keep_history and latency_data.get("rtt_avg") is not None:
+                from datetime import datetime
+                history_key = RedisKeys.connectivity_history_latency(camera_id)
+                timestamp = datetime.utcnow().timestamp()
+                
+                history_entry = {
+                    "rtt_avg": latency_data["rtt_avg"],
+                    "rtt_min": latency_data.get("rtt_min"),
+                    "rtt_max": latency_data.get("rtt_max"),
+                    "timestamp": timestamp
+                }
+                
+                await r.zadd(history_key, {json.dumps(history_entry): timestamp})
+                # Trim history to max size
+                await r.zremrangebyrank(history_key, 0, -(max_history + 1))
+            
+            await r.sadd(RedisKeys.connectivity_all_cameras(), camera_id)
+            logger.info(f"Stored latency for camera {camera_id}: avg={latency_data.get('rtt_avg')}ms")
+        except Exception as e:
+            logger.error(f"Failed to store latency for {camera_id}: {e}")
+    
+    @staticmethod
+    async def store_connectivity_packet_loss(
+        r: aioredis.Redis,
+        camera_id: str,
+        loss_data: dict,
+        ttl: int = 300,
+        keep_history: bool = True,
+        max_history: int = 1000
+    ):
+        """Store packet loss data in Redis"""
+        try:
+            # Store latest packet loss
+            key = RedisKeys.connectivity_packet_loss(camera_id)
+            await r.setex(key, ttl, json.dumps(loss_data))
+            
+            # Store in history
+            if keep_history and loss_data.get("packet_loss_percent") is not None:
+                from datetime import datetime
+                history_key = RedisKeys.connectivity_history_packet_loss(camera_id)
+                timestamp = datetime.utcnow().timestamp()
+                
+                history_entry = {
+                    "packet_loss_percent": loss_data["packet_loss_percent"],
+                    "packets_sent": loss_data.get("packets_sent"),
+                    "packets_received": loss_data.get("packets_received"),
+                    "timestamp": timestamp
+                }
+                
+                await r.zadd(history_key, {json.dumps(history_entry): timestamp})
+                await r.zremrangebyrank(history_key, 0, -(max_history + 1))
+            
+            await r.sadd(RedisKeys.connectivity_all_cameras(), camera_id)
+            logger.info(f"Stored packet loss for camera {camera_id}: {loss_data.get('packet_loss_percent')}%")
+        except Exception as e:
+            logger.error(f"Failed to store packet loss for {camera_id}: {e}")
+    
+    @staticmethod
+    async def get_connectivity_api_status(r: aioredis.Redis, camera_id: str) -> Optional[dict]:
+        """Get latest API status from Redis"""
+        try:
+            key = RedisKeys.connectivity_api_status(camera_id)
+            data = await r.get(key)
+            return json.loads(data) if data else None
+        except Exception as e:
+            logger.error(f"Failed to get API status for {camera_id}: {e}")
+            return None
+    
+    @staticmethod
+    async def get_connectivity_latency(r: aioredis.Redis, camera_id: str) -> Optional[dict]:
+        """Get latest latency from Redis"""
+        try:
+            key = RedisKeys.connectivity_latency(camera_id)
+            data = await r.get(key)
+            return json.loads(data) if data else None
+        except Exception as e:
+            logger.error(f"Failed to get latency for {camera_id}: {e}")
+            return None
+    
+    @staticmethod
+    async def get_connectivity_packet_loss(r: aioredis.Redis, camera_id: str) -> Optional[dict]:
+        """Get latest packet loss from Redis"""
+        try:
+            key = RedisKeys.connectivity_packet_loss(camera_id)
+            data = await r.get(key)
+            return json.loads(data) if data else None
+        except Exception as e:
+            logger.error(f"Failed to get packet loss for {camera_id}: {e}")
+            return None
+    
+    @staticmethod
+    async def get_connectivity_latency_history(
+        r: aioredis.Redis,
+        camera_id: str,
+        limit: int = 100,
+        minutes: Optional[int] = None
+    ) -> list:
+        """Get latency history from Redis"""
+        try:
+            from datetime import datetime, timedelta
+            key = RedisKeys.connectivity_history_latency(camera_id)
+            
+            if minutes:
+                min_score = (datetime.utcnow() - timedelta(minutes=minutes)).timestamp()
+                entries = await r.zrangebyscore(key, min_score, '+inf', start=0, num=limit)
+            else:
+                entries = await r.zrange(key, -limit, -1)
+            
+            return [json.loads(entry) for entry in entries if entry]
+        except Exception as e:
+            logger.error(f"Failed to get latency history for {camera_id}: {e}")
+            return []
+    
+    @staticmethod
+    async def get_connectivity_packet_loss_history(
+        r: aioredis.Redis,
+        camera_id: str,
+        limit: int = 100,
+        minutes: Optional[int] = None
+    ) -> list:
+        """Get packet loss history from Redis"""
+        try:
+            from datetime import datetime, timedelta
+            key = RedisKeys.connectivity_history_packet_loss(camera_id)
+            
+            if minutes:
+                min_score = (datetime.utcnow() - timedelta(minutes=minutes)).timestamp()
+                entries = await r.zrangebyscore(key, min_score, '+inf', start=0, num=limit)
+            else:
+                entries = await r.zrange(key, -limit, -1)
+            
+            return [json.loads(entry) for entry in entries if entry]
+        except Exception as e:
+            logger.error(f"Failed to get packet loss history for {camera_id}: {e}")
+            return []
+

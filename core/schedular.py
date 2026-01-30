@@ -1,32 +1,31 @@
 """
-Redis-Based Task Scheduler - OPTIMIZED WITH ZSET TIME-WHEEL
-Uses sorted sets for O(log N) scheduling instead of O(N) loops
-Eliminates per-camera Redis calls through batch processing
+Enhanced ZSET-Based Scheduler with Configurable Test Modes
+Supports: manual (triggeronce), continuous, and scheduled intervals
+
+File: core/scheduler.py
 """
 
 import asyncio
+import json
 import time
 import logging
-import json
-from typing import Set, List, Tuple, Dict
-from storage.redis_client import get_async_redis, RedisKeys, RedisData
+from typing import Dict, List
+from storage.redis_client import get_async_redis, RedisKeys
 
+logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 
-class HealthCheckScheduler:
+class TimeWheelScheduler:
     """
     High-performance scheduler using Redis ZSET time-wheel pattern
     
-    ARCHITECTURE:
+    Features:
     1. Three ZSETs: schedule:ip, schedule:port, schedule:vision
-    2. Scores are Unix timestamps (next run time)
-    3. ZRANGEBYSCORE fetches all due tasks in O(log N + M)
+    2. O(log N) retrieval of due tasks using ZRANGEBYSCORE
+    3. Batch processing for efficiency
     4. Batch enqueue and reschedule in pipelines
-    
-    PERFORMANCE:
-    - Old: O(N * 6) Redis calls per cycle (N = cameras)
-    - New: O(1) ZRANGEBYSCORE + O(M) pipeline (M = due tasks)
+    5. Configurable intervals per camera (scheduled mode)
     """
     
     def __init__(self, check_interval: float = 1.0):
@@ -142,7 +141,7 @@ class HealthCheckScheduler:
                     camera = {
                         "id": camera_data["id"],
                         "ip": camera_data["ip"],
-                        "rtsp_port": int(camera_data["rtsp_port"]),
+                        "port": int(camera_data["port"]),
                         "rtsp_url": camera_data["rtsp_url"],
                         "enabled": True,
                         "interval_ip": int(camera_data.get("interval_ip", 60)),
@@ -242,7 +241,6 @@ class HealthCheckScheduler:
         
         try:
             pipe = r.pipeline()
-            
             for schedule_key in self.schedule_keys.values():
                 pipe.zrem(schedule_key, camera_id)
             
@@ -251,10 +249,47 @@ class HealthCheckScheduler:
             
         except Exception as e:
             logger.error(f"Failed to unregister {camera_id}: {e}")
+    
+    async def update_camera_intervals(self, camera_id: str, intervals: Dict[str, int]):
+        """
+        Update intervals for a camera dynamically
+        This updates the camera config in Redis - next schedule will use new intervals
+        
+        Args:
+            camera_id: Camera identifier
+            intervals: Dict with keys 'ip', 'port', 'vision' (optional - only update provided)
+        """
+        r = await get_async_redis()
+        
+        try:
+            camera_key = RedisKeys.camera(camera_id)
+            
+            # Check if camera exists
+            exists = await r.exists(camera_key)
+            if not exists:
+                logger.warning(f"Camera {camera_id} not found in Redis")
+                return False
+            
+            # Update intervals in Redis
+            pipe = r.pipeline()
+            
+            if 'ip' in intervals:
+                pipe.hset(camera_key, "interval_ip", intervals['ip'])
+            if 'port' in intervals:
+                pipe.hset(camera_key, "interval_port", intervals['port'])
+            if 'vision' in intervals:
+                pipe.hset(camera_key, "interval_vision", intervals['vision'])
+            
+            await pipe.execute()
+            
+            logger.info(f"Updated intervals for {camera_id}: {intervals}")
+            return True
+            
+        except Exception as e:
+            logger.error(f"Failed to update intervals for {camera_id}: {e}")
+            return False
+    
 
 
-# ============================================
-# Scheduler Instance
-# ============================================
-
-scheduler = HealthCheckScheduler()
+# Global instance
+scheduler = TimeWheelScheduler()

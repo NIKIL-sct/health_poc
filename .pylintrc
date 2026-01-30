@@ -1,0 +1,82 @@
+[MASTER]
+# Python version
+py-version=3.11
+
+# Load additional pylint plugins for docstring and type checking
+load-plugins=pylint.extensions.docparams,pylint.extensions.mccabe
+
+# Files or directories to ignore
+ignore=tests,migrations,__pycache__,venv
+
+[MESSAGES CONTROL]
+# Enable everything except a few exceptions
+disable=
+    C0114,  # missing-module-docstring (optional for test scripts)
+    W0511,  # fixme comments
+    R0903,  # too-few-public-methods (allow small data classes)
+    C0330   # bad-continuation (for formatting exceptions)
+
+[REPORTS]
+# Disable the summary report at the end
+reports=no
+
+[FORMAT]
+max-line-length=120
+indent-string='    '
+# Ignore long lines for URLs and comments
+ignore-long-lines=^\s*(# )?<?https?://\S+>?
+
+[BASIC]
+# Naming conventions (strict RDSO style)
+variable-rgx=[a-z_][a-z0-9_]{0,30}$
+argument-rgx=[a-z_][a-z0-9_]{0,30}$
+attr-rgx=[a-z_][a-z0-9_]{0,30}$
+class-rgx=[A-Z][a-zA-Z0-9]+$
+function-rgx=[a-z_][a-z0-9_]{0,30}$
+const-rgx=([A-Z_][A-Z0-9_]*)|(__.*__)$
+module-rgx=([a-z_][a-z0-9_]{0,30})$
+
+[DESIGN]
+# Strict complexity limits
+max-args=8
+max-locals=20
+max-branches=12
+max-returns=6
+max-attributes=10
+max-statements=40
+max-nested-blocks=4
+min-public-methods=1
+
+[TYPECHECK]
+# Ignore dynamic attributes for popular libraries
+ignored-classes=optparse.Values,thread._local,_thread._local
+ignore-mixin-members=yes
+
+[LOGGING]
+# Enforce structured logging standards
+logging-format-style=old
+
+[SIMILARITIES]
+# Detect code duplication aggressively
+min-similarity-lines=4
+
+[STRING]
+# Enforce f-strings usage
+check-str-concat-over-line-jumps=yes
+
+[DOCSTRING]
+# Mandatory docstrings for modules, classes, and functions
+docstring-min-length=10
+docstring-quotes=double
+docstring-convention=google
+require-return-doc=yes
+require-param-doc=yes
+
+[EXCEPTIONS]
+# Warn on bare excepts
+overgeneral-exceptions=Exception,BaseException
+
+[IMPORTS]
+# Discourage wildcard imports
+deprecated-modules=optparse
+known-standard-library=asyncio,collections,datetime,functools,heapq,itertools,json,logging,math,os,pathlib,queue,random,re,shutil,sys,threading,time,uuid

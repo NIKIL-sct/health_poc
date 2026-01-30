@@ -78,7 +78,7 @@ def categorize_alert(alert_text: str) -> str:
 # DUAL WRITE FUNCTIONS (Redis + DB + Optional JSON)
 # ======================================================
 
-def log_ip_check(camera_id: str, ip: str, is_reachable: bool, metrics: dict = None):
+def log_ip_check(camera_id: str, ip: str, is_reachable: bool):
     """
     Log IP check with FK violation protection
     """
@@ -87,11 +87,7 @@ def log_ip_check(camera_id: str, ip: str, is_reachable: bool, metrics: dict = No
         event_type="IP_CHECK",
         status="PASS" if is_reachable else "FAIL",
         description=f"IP {ip} is {'reachable' if is_reachable else 'not reachable'}",
-        meta_data={
-                        "ip": ip,
-                        "reachable": is_reachable,
-                        **(metrics or {})
-                    }
+        meta_data={"ip": ip, "reachable": is_reachable}
     )
     
     summary_updates = {
@@ -127,7 +123,7 @@ def log_ip_check(camera_id: str, ip: str, is_reachable: bool, metrics: dict = No
                     db_data = {
                         "id": camera_id,
                         "ip": camera_data.get("ip", "0.0.0.0"),
-                        "rtsp_port": int(camera_data.get("rtsp_port", 554)),
+                        "port": int(camera_data.get("port", 554)),
                         "rtsp_url": camera_data.get("rtsp_url", f"rtsp://{camera_id}"),
                         "interval_ip": int(camera_data.get("interval_ip", 60)),
                         "interval_port": int(camera_data.get("interval_port", 15)),
@@ -156,29 +152,23 @@ def log_ip_check(camera_id: str, ip: str, is_reachable: bool, metrics: dict = No
         logger.error(f"[{camera_id}] Failed to write IP check to Redis: {e}")
 
 
-def log_port_check(camera_id: str, ip: str, port: int, is_accessible: bool, metrics: dict = None):
+def log_port_check(camera_id: str, ip: str, port: int, is_accessible: bool):
     """
-    Log PORT check to DB + Redis + Optional JSON (ENHANCED)
+    Log PORT check to DB + Redis + Optional JSON
     """
-
     event = create_event(
         camera_id=camera_id,
         event_type="PORT_CHECK",
         status="PASS" if is_accessible else "FAIL",
         description=f"Port {port} on {ip} is {'accessible' if is_accessible else 'not accessible'}",
-        meta_data={
-            "ip": ip,
-            "port": port,
-            "is_accessible": is_accessible,
-            **(metrics or {})
-        }
+        meta_data={"ip": ip, "port": port, "accessible": is_accessible}
     )
-
+    
     summary_updates = {
         "Port_status": "UP" if is_accessible else "DOWN",
         "Last_port_check": event["timestamp"]
     }
-
+    
     # === WRITE TO DATABASE ===
     try:
         with get_sync_db() as db:
@@ -186,7 +176,7 @@ def log_port_check(camera_id: str, ip: str, port: int, is_accessible: bool, metr
             logger.debug(f"[{camera_id}] PORT check logged to DB")
     except Exception as e:
         logger.error(f"[{camera_id}] Failed to write PORT check to DB: {e}")
-
+    
     # === WRITE TO REDIS ===
     try:
         r = get_sync_redis()
@@ -194,9 +184,9 @@ def log_port_check(camera_id: str, ip: str, port: int, is_accessible: bool, metr
         RedisData.update_summary_sync(r, camera_id, summary_updates)
     except Exception as e:
         logger.error(f"[{camera_id}] Failed to write PORT check to Redis: {e}")
-
+    
     # === WRITE TO JSON (optional) ===
-    if ENABLE_CAMERA_JSON_LOGS and json_logger:
+    if ENABLE_CAMERA_JSON_LOGS:
         try:
             json_logger.log_event(camera_id, event, summary_updates)
         except Exception as e:
@@ -356,43 +346,3 @@ def log_startup(camera_id: str, camera_info: Dict):
             json_logger.log_event(camera_id, event)
         except Exception as e:
             logger.error(f"[{camera_id}] Failed to write startup event to JSON: {e}")
-
-def log_connectivity_check(camera_id: str, is_connected: bool, meta: dict = None):
-    """
-    Log overall connectivity check (RTSP / stream / availability)
-    """
-    event = create_event(
-        camera_id=camera_id,
-        event_type="CONNECTIVITY_CHECK",
-        status="PASS" if is_connected else "FAIL",
-        description="Camera connectivity OK" if is_connected else "Camera connectivity failed",
-        meta_data=meta or {}
-    )
-
-    summary_updates = {
-        "Connectivity_status": "UP" if is_connected else "DOWN",
-        "Last_connectivity_check": event["timestamp"]
-    }
-
-    # === WRITE TO DATABASE ===
-    try:
-        with get_sync_db() as db:
-            HealthLogRepository.create_sync(db, event)
-            logger.debug(f"[{camera_id}] CONNECTIVITY check logged to DB")
-    except Exception as e:
-        logger.error(f"[{camera_id}] Failed to write CONNECTIVITY check to DB: {e}")
-
-    # === WRITE TO REDIS ===
-    try:
-        r = get_sync_redis()
-        RedisData.log_event_sync(r, camera_id, event)
-        RedisData.update_summary_sync(r, camera_id, summary_updates)
-    except Exception as e:
-        logger.error(f"[{camera_id}] Failed to write CONNECTIVITY check to Redis: {e}")
-
-    # === WRITE TO JSON (optional) ===
-    if ENABLE_CAMERA_JSON_LOGS and json_logger:
-        try:
-            json_logger.log_event(camera_id, event, summary_updates)
-        except Exception as e:
-            logger.error(f"[{camera_id}] Failed to write CONNECTIVITY check to JSON: {e}")

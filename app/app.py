@@ -4,20 +4,7 @@ Updated: POST /health/camera/ endpoint with validation checks
 
 File: app/app.py (REPLACE the existing start_camera_health_check function)
 """
-import sys
-from pathlib import Path
-
-BASE_DIR = Path(__file__).resolve().parent.parent
-sys.path.append(str(BASE_DIR))
-
-from fastapi import FastAPI, HTTPException, Query, Depends
-from sqlalchemy.ext.asyncio import AsyncSession
-from typing import Optional
-from datetime import datetime
-import logging
-import traceback
-from app.connectivity_api import connectivity_router
-from dto.dto_validator import CameraRequestDTO
+from dto.dto_validator import CameraRequestDTO,ScheduleConfigRequest,TriggerCheckRequest
 from storage.db_config import get_db_dependency, close_async_engine
 from storage.db_repositary import (
     CameraRepository,
@@ -35,14 +22,29 @@ from workers.network_worker import network_worker_pool
 from workers.vision_worker import vision_worker_pool
 from core.ping_checker import PingChecker
 from core.vision_checker import VisionChecker
-from core.ip_validation_service import IPValidationService  # NEW IMPORT
+from core.ip_validation_service import IPValidationService  
+from core.connectivity_checker import ConnectivityChecker
+from storage.db_repositary import CameraLatencyRepository
+import sys
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parent.parent
+sys.path.append(str(BASE_DIR))
+
+from fastapi import FastAPI, HTTPException, Query, Depends
+from sqlalchemy.ext.asyncio import AsyncSession
+from typing import Optional
+from datetime import datetime
+import logging
+import traceback
+
+
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-app = FastAPI(title="Vigil-X Camera Health Service ")
+app = FastAPI(title="Vigil-X Camera Health Service with DB")
 
-app.include_router(connectivity_router)
 
 # -------------------------------------------------
 # Startup / Shutdown (NO CHANGES)
@@ -116,7 +118,7 @@ async def start_camera_health_check(
     is_valid_format, format_message = IPValidationService.validate_ip_format(camera.ip)
     
     if not is_valid_format:
-        # Store validation failure in database (separate transaction)
+        # Store validation failure in database
         try:
             await IPValidationRepository.create_validation_async(
                 db=db,
@@ -147,26 +149,7 @@ async def start_camera_health_check(
     logger.info(f"[{camera.id}] ✓ IP format is valid")
     
     # ========================================================
-    # STEP 2: CHECK IF CAMERA ALREADY EXISTS (Before Uniqueness Check)
-    # ========================================================
-    # IMPORTANT: Check camera existence BEFORE creating validation record
-    # This prevents transaction issues
-    existing = await CameraRepository.get_by_id_async(db, camera.id)
-    
-    if existing and existing.enabled:
-        # Camera already exists and is enabled
-        logger.warning(f"[{camera.id}] Camera already registered and enabled")
-        raise HTTPException(
-            status_code=409,
-            detail={
-                "error": "CAMERA_ALREADY_REGISTERED",
-                "message": f"Camera '{camera.id}' is already being monitored",
-                "camera_id": camera.id
-            }
-        )
-    
-    # ========================================================
-    # STEP 3: IP UNIQUENESS CHECK
+    # STEP 2: IP UNIQUENESS CHECK
     # ========================================================
     logger.info(f"[{camera.id}] Step 2: Checking IP uniqueness for {camera.ip}")
     
@@ -187,7 +170,7 @@ async def start_camera_health_check(
         logger.warning(f"[{camera.id}] IP found in Redis but not in DB (cache inconsistency)")
     
     if not is_unique:
-        # Store validation failure in database (separate transaction)
+        # Store validation failure in database
         try:
             await IPValidationRepository.create_validation_async(
                 db=db,
@@ -218,16 +201,10 @@ async def start_camera_health_check(
     logger.info(f"[{camera.id}] ✓ IP is unique")
     
     # ========================================================
-    # STEP 4: STORE CAMERA AND VALIDATION IN SINGLE TRANSACTION
+    # STEP 3: STORE SUCCESSFUL VALIDATION
     # ========================================================
     validation_record = None
-    camera_data = camera.dict()
-    camera_data["interval_ip"] = 60
-    camera_data["interval_port"] = 15
-    camera_data["interval_vision"] = 120
-    
     try:
-        # Create validation record (don't commit yet)
         validation_record = await IPValidationRepository.create_validation_async(
             db=db,
             ip=camera.ip,
@@ -236,15 +213,51 @@ async def start_camera_health_check(
             validation_result="SUCCESS",
             message="IP validation passed - camera registration proceeding"
         )
+        # Don't commit yet - will commit with camera creation
         logger.info(f"[{camera.id}] ✓ Validation passed and recorded")
-        
-        # Create or update camera (don't commit yet)
+    except Exception as e:
+        logger.error(f"Failed to store validation result: {e}")
+        await db.rollback()
+        raise HTTPException(
+            status_code=500,
+            detail={
+                "error": "VALIDATION_STORAGE_ERROR",
+                "message": f"Failed to store validation result: {str(e)}"
+            }
+        )
+    
+    # ========================================================
+    # STEP 4: CHECK IF CAMERA ALREADY EXISTS
+    # ========================================================
+    existing = await CameraRepository.get_by_id_async(db, camera.id)
+    
+    if existing and existing.enabled:
+        # Camera already exists and is enabled
+        await db.rollback()
+        raise HTTPException(
+            status_code=409,
+            detail={
+                "error": "CAMERA_ALREADY_REGISTERED",
+                "message": f"Camera '{camera.id}' is already being monitored",
+                "camera_id": camera.id
+            }
+        )
+    
+    # ========================================================
+    # STEP 5: STORE IN DATABASE
+    # ========================================================
+    camera_data = camera.dict()
+    camera_data["interval_ip"] = 60
+    camera_data["interval_port"] = 15
+    camera_data["interval_vision"] = 120
+    
+    try:
         if existing:
             # Update existing disabled camera
             await CameraRepository.update_async(db, camera.id, {
                 "enabled": True,
                 "ip": camera.ip,
-                "port": camera.rtsp_port,
+                "port": camera.port,
                 "rtsp_url": camera.rtsp_url
             })
             logger.info(f"✓ Camera {camera.id} re-enabled in DB")
@@ -253,13 +266,13 @@ async def start_camera_health_check(
             await CameraRepository.create_async(db, camera_data)
             logger.info(f"✓ Camera {camera.id} created in DB")
         
-        # COMMIT BOTH: validation record + camera creation in single transaction
+        # CRITICAL: Commit to DB BEFORE proceeding (includes validation record)
         await db.commit()
-        logger.info(f"[{camera.id}] ✓ Database transaction committed (validation + camera)")
+        logger.info(f"[{camera.id}] ✓ Database transaction committed")
         
     except Exception as e:
         await db.rollback()
-        logger.error(f"Failed to register camera {camera.id} in DB: {e}", exc_info=True)
+        logger.error(f"Failed to create camera {camera.id} in DB: {e}")
         raise HTTPException(
             status_code=500,
             detail={
@@ -269,7 +282,7 @@ async def start_camera_health_check(
         )
     
     # ========================================================
-    # STEP 5: STORE IN REDIS (cache)
+    # STEP 6: STORE IN REDIS (cache)
     # ========================================================
     try:
         await RedisData.store_camera(r, camera.id, camera_data)
@@ -279,7 +292,7 @@ async def start_camera_health_check(
         # Don't fail the request - DB is primary source
     
     # ========================================================
-    # STEP 6: REGISTER IN SCHEDULER (start health checks)
+    # STEP 7: REGISTER IN SCHEDULER (start health checks)
     # ========================================================
     intervals = {
         "ip": 60,
@@ -520,3 +533,528 @@ async def system_health():
         },
         "architecture": "Dual Storage (PostgreSQL + Redis)"
     }
+
+# ============================================
+# NEW ENDPOINTS - ADD THESE AFTER EXISTING ENDPOINTS
+# ============================================
+
+@app.post("/health/camera/connectivity/network-check")
+async def check_network_connectivity(
+    camera_id: str,
+    ip: str,
+    port: int = 554,
+    timeout: int = 5,
+    db: AsyncSession = Depends(get_db_dependency)
+):
+    """
+    **TASK 1: Network Verification**
+    
+    Check if camera API/service is alive and responding.
+    Verifies connectivity between services and camera by checking if API is reachable.
+    
+    Args:
+        camera_id: Camera identifier
+        ip: Camera IP address
+        port: Service port (default 554 for RTSP)
+        timeout: Connection timeout in seconds
+    
+    Returns:
+        Connectivity status with details
+    """
+    try:
+        logger.info(f"Network check for camera {camera_id} at {ip}:{port}")
+        
+        # Verify camera exists
+        camera = await CameraRepository.get_by_id_async(db, camera_id)
+        if not camera:
+            raise HTTPException(
+                status_code=404,
+                detail=f"Camera '{camera_id}' not found"
+            )
+        
+        # Perform network check
+        result = await ConnectivityChecker.check_api_alive(ip, port, timeout)
+        
+        # Store in Redis cache
+        r = await get_async_redis()
+        try:
+            await RedisData.store_connectivity_api_status(r, camera_id, result, ttl=300)
+        except Exception as redis_err:
+            logger.error(f"Failed to store in Redis: {redis_err}")
+        
+        return {
+            "camera_id": camera_id,
+            "check_type": "NETWORK_VERIFICATION",
+            "result": result,
+            "stored_in_redis": True
+        }
+        
+    except HTTPException:
+        raise
+    except Exception as e:
+        logger.error(f"Network check failed for {camera_id}: {e}")
+        raise HTTPException(
+            status_code=500,
+            detail=f"Network check failed: {str(e)}"
+        )
+
+
+@app.post("/health/camera/connectivity/latency-check")
+async def measure_camera_latency(
+    camera_id: str,
+    ip: str,
+    ping_count: int = 10,
+    timeout: int = 5,
+    db: AsyncSession = Depends(get_db_dependency)
+):
+    """
+    **TASK 2: Latency Measurement**
+    
+    Measure Round Trip Time (RTT) for camera during health check.
+    Calculates avg/min/max RTT and stores in:
+    - Database: camera_latency table
+    - Redis: for fast caching
+    
+    Args:
+        camera_id: Camera identifier
+        ip: Camera IP address
+        ping_count: Number of ping packets (5-100)
+        timeout: Timeout per packet in seconds
+    
+    Returns:
+        Latency metrics (rtt_avg, rtt_min, rtt_max in ms)
+    """
+    try:
+        logger.info(f"Latency check for camera {camera_id} at {ip}")
+        
+        # Verify camera exists
+        camera = await CameraRepository.get_by_id_async(db, camera_id)
+        if not camera:
+            raise HTTPException(
+                status_code=404,
+                detail=f"Camera '{camera_id}' not found"
+            )
+        
+        # Perform latency measurement
+        result = await ConnectivityChecker.measure_latency(ip, ping_count, timeout)
+        
+        stored_db = False
+        stored_redis = False
+        
+        if result["success"]:
+            # Prepare data for storage
+            latency_data = {
+                "camera_id": camera_id,
+                "rtt_avg": result.get("rtt_avg"),
+                "rtt_min": result.get("rtt_min"),
+                "rtt_max": result.get("rtt_max"),
+                "packets_sent": result.get("packets_sent"),
+                "packets_received": result.get("packets_received"),
+                "is_reachable": result.get("is_reachable", False),
+                "check_type": "LATENCY",
+                "error_message": None
+            }
+            
+            # Store in database
+            try:
+                await CameraLatencyRepository.create_async(db, latency_data)
+                await db.commit()
+                stored_db = True
+                logger.info(f"Stored latency in DB for {camera_id}")
+            except Exception as db_err:
+                logger.error(f"Failed to store in DB: {db_err}")
+                await db.rollback()
+            
+            # Store in Redis
+            r = await get_async_redis()
+            try:
+                await RedisData.store_connectivity_latency(
+                    r, camera_id,
+                    {**latency_data, "timestamp": result["timestamp"]},
+                    ttl=300,
+                    keep_history=True
+                )
+                stored_redis = True
+            except Exception as redis_err:
+                logger.error(f"Failed to store in Redis: {redis_err}")
+        
+        return {
+            "camera_id": camera_id,
+            "check_type": "LATENCY_MEASUREMENT",
+            "result": result,
+            "storage": {
+                "database": stored_db,
+                "redis": stored_redis
+            }
+        }
+        
+    except HTTPException:
+        raise
+    except Exception as e:
+        logger.error(f"Latency check failed for {camera_id}: {e}")
+        raise HTTPException(
+            status_code=500,
+            detail=f"Latency check failed: {str(e)}"
+        )
+
+
+@app.post("/health/camera/connectivity/packet-loss-check")
+async def calculate_camera_packet_loss(
+    camera_id: str,
+    ip: str,
+    packet_count: int = 100,
+    timeout: int = 5,
+    db: AsyncSession = Depends(get_db_dependency)
+):
+    """
+    **TASK 3: Packet Loss Calculation**
+    
+    Calculate packet loss percentage for camera during health check.
+    Stores result in:
+    - Database: camera_latency table (packet_loss_percent column)
+    - Redis: for fast caching
+    
+    Args:
+        camera_id: Camera identifier
+        ip: Camera IP address
+        packet_count: Number of packets to send (10-1000)
+        timeout: Timeout per packet in seconds
+    
+    Returns:
+        Packet loss percentage and packet statistics
+    """
+    try:
+        logger.info(f"Packet loss check for camera {camera_id} at {ip}")
+        
+        # Verify camera exists
+        camera = await CameraRepository.get_by_id_async(db, camera_id)
+        if not camera:
+            raise HTTPException(
+                status_code=404,
+                detail=f"Camera '{camera_id}' not found"
+            )
+        
+        # Perform packet loss calculation
+        result = await ConnectivityChecker.calculate_packet_loss(ip, packet_count, timeout)
+        
+        stored_db = False
+        stored_redis = False
+        
+        if result["success"]:
+            # Prepare data for storage (includes packet loss)
+            loss_data = {
+                "camera_id": camera_id,
+                "packet_loss_percent": result.get("packet_loss_percent"),
+                "packets_sent": result.get("packets_sent"),
+                "packets_received": result.get("packets_received"),
+                "is_reachable": result.get("packet_loss_percent", 100) < 100,
+                "check_type": "PACKET_LOSS",
+                "error_message": None if result["success"] else result.get("message")
+            }
+            
+            # Store in database
+            try:
+                await CameraLatencyRepository.create_async(db, loss_data)
+                await db.commit()
+                stored_db = True
+                logger.info(f"Stored packet loss in DB for {camera_id}")
+            except Exception as db_err:
+                logger.error(f"Failed to store in DB: {db_err}")
+                await db.rollback()
+            
+            # Store in Redis
+            r = await get_async_redis()
+            try:
+                await RedisData.store_connectivity_packet_loss(
+                    r, camera_id,
+                    {**loss_data, "timestamp": result["timestamp"]},
+                    ttl=300,
+                    keep_history=True
+                )
+                stored_redis = True
+            except Exception as redis_err:
+                logger.error(f"Failed to store in Redis: {redis_err}")
+        
+        return {
+            "camera_id": camera_id,
+            "check_type": "PACKET_LOSS_CALCULATION",
+            "result": result,
+            "storage": {
+                "database": stored_db,
+                "redis": stored_redis
+            }
+        }
+        
+    except HTTPException:
+        raise
+    except Exception as e:
+        logger.error(f"Packet loss check failed for {camera_id}: {e}")
+        raise HTTPException(
+            status_code=500,
+            detail=f"Packet loss check failed: {str(e)}"
+        )
+
+
+
+
+@app.get("/health/camera/{camera_id}/connectivity/latency-history")
+async def get_camera_latency_history(
+    camera_id: str,
+    source: str = Query(default="database", regex="^(database|redis)$"),
+    limit: int = Query(default=100, ge=1, le=1000),
+    hours: Optional[int] = Query(default=None, ge=1, le=168),
+    db: AsyncSession = Depends(get_db_dependency)
+):
+    """
+    Get latency history for a camera
+    
+    Args:
+        camera_id: Camera identifier
+        source: Data source ('database' or 'redis')
+        limit: Maximum number of records
+        hours: Optional time window (last N hours)
+    
+    Returns:
+        List of historical latency records
+    """
+    try:
+        # Verify camera exists
+        camera = await CameraRepository.get_by_id_async(db, camera_id)
+        if not camera:
+            raise HTTPException(
+                status_code=404,
+                detail=f"Camera '{camera_id}' not found"
+            )
+        
+        records = []
+        
+        if source == "database":
+            records_obj = await CameraLatencyRepository.get_history_by_camera_async(
+                db, camera_id, limit=limit, hours=hours
+            )
+            records = [r.to_dict() for r in records_obj]
+        else:  # redis
+            r = await get_async_redis()
+            minutes = hours * 60 if hours else None
+            records = await RedisData.get_connectivity_latency_history(
+                r, camera_id, limit=limit, minutes=minutes
+            )
+        
+        return {
+            "camera_id": camera_id,
+            "source": source,
+            "total_records": len(records),
+            "records": records
+        }
+        
+    except HTTPException:
+        raise
+    except Exception as e:
+        logger.error(f"Failed to get latency history for {camera_id}: {e}")
+        raise HTTPException(
+            status_code=500,
+            detail=f"Failed to retrieve history: {str(e)}"
+        )
+
+
+@app.get("/health/camera/{camera_id}/connectivity/statistics")
+async def get_camera_connectivity_statistics(
+    camera_id: str,
+    hours: int = Query(default=24, ge=1, le=168),
+    db: AsyncSession = Depends(get_db_dependency)
+):
+    """
+    Get aggregated connectivity statistics for a camera
+    
+    Args:
+        camera_id: Camera identifier
+        hours: Time window for statistics (default 24 hours)
+    
+    Returns:
+        Aggregated statistics (avg RTT, packet loss, uptime %)
+    """
+    try:
+        # Verify camera exists
+        camera = await CameraRepository.get_by_id_async(db, camera_id)
+        if not camera:
+            raise HTTPException(
+                status_code=404,
+                detail=f"Camera '{camera_id}' not found"
+            )
+        
+        # Get statistics from database
+        stats = await CameraLatencyRepository.get_statistics_async(
+            db, camera_id, hours=hours
+        )
+        
+        return stats
+        
+    except HTTPException:
+        raise
+    except Exception as e:
+        logger.error(f"Failed to get statistics for {camera_id}: {e}")
+        raise HTTPException(
+            status_code=500,
+            detail=f"Failed to retrieve statistics: {str(e)}"
+        )
+
+
+@app.put("/health/camera/{camera_id}/intervals")
+async def update_camera_intervals(
+    camera_id: str,
+    config: ScheduleConfigRequest,
+    db: AsyncSession = Depends(get_db_dependency)
+):
+    """
+    Configure scheduled test intervals for a camera
+    
+    This endpoint allows you to set custom intervals for IP, Port, and Vision checks.
+    """
+    try:
+        # Verify camera exists
+        camera = await CameraRepository.get_by_id_async(db, camera_id)
+        if not camera:
+            raise HTTPException(
+                status_code=404,
+                detail={
+                    "error": "CAMERA_NOT_FOUND",
+                    "message": f"Camera '{camera_id}' not found",
+                    "camera_id": camera_id
+                }
+            )
+        
+        # Prepare update data
+        update_data = {}
+        intervals_to_update = {}
+        
+        if config.interval_ip is not None:
+            update_data["interval_ip"] = config.interval_ip
+            intervals_to_update['ip'] = config.interval_ip
+            
+        if config.interval_port is not None:
+            update_data["interval_port"] = config.interval_port
+            intervals_to_update['port'] = config.interval_port
+            
+        if config.interval_vision is not None:
+            update_data["interval_vision"] = config.interval_vision
+            intervals_to_update['vision'] = config.interval_vision
+        
+        if not update_data:
+            raise HTTPException(
+                status_code=400,
+                detail={
+                    "error": "NO_INTERVALS_PROVIDED",
+                    "message": "At least one interval must be provided",
+                    "valid_fields": ["interval_ip", "interval_port", "interval_vision"]
+                }
+            )
+        
+        # Update database
+        updated_camera = await CameraRepository.update_async(db, camera_id, update_data)
+        await db.commit()
+        
+        logger.info(f"Updated intervals in DB for {camera_id}: {update_data}")
+        
+        # Update Redis
+        r = await get_async_redis()
+        from storage.redis_client import RedisKeys  # Import here if needed
+        camera_key = RedisKeys.camera(camera_id)
+        
+        pipe = r.pipeline()
+        for key, value in update_data.items():
+            pipe.hset(camera_key, key, value)
+        await pipe.execute()
+        
+        logger.info(f"Updated intervals in Redis for {camera_id}")
+        
+        # Update scheduler
+        await scheduler.update_camera_intervals(camera_id, intervals_to_update)
+        
+        return {
+            "message": "Camera schedule configured successfully",
+            "camera_id": camera_id,
+            "previous_intervals": {
+                "interval_ip": camera.interval_ip,
+                "interval_port": camera.interval_port,
+                "interval_vision": camera.interval_vision
+            },
+            "updated_intervals": {
+                "interval_ip": updated_camera.interval_ip,
+                "interval_port": updated_camera.interval_port,
+                "interval_vision": updated_camera.interval_vision
+            },
+            
+            "status": "active",
+            "note": "New intervals will take effect on the next scheduled check"
+        }
+        
+    except HTTPException:
+        raise
+    except Exception as e:
+        logger.error(f"Error configuring schedule for {camera_id}: {e}", exc_info=True)
+        await db.rollback()
+        
+        raise HTTPException(
+            status_code=500,
+            detail={
+                "error": "INTERNAL_SERVER_ERROR",
+                "message": f"Failed to configure camera schedule: {str(e)}",
+                "camera_id": camera_id
+            }
+        )
+
+
+
+@app.get("/health/camera/{camera_id}/schedule")
+async def get_camera_schedule(
+    camera_id: str,
+    db: AsyncSession = Depends(get_db_dependency)
+):
+    """
+    Get current schedule configuration for a camera
+    """
+    try:
+        camera = await CameraRepository.get_by_id_async(db, camera_id)
+        if not camera:
+            raise HTTPException(
+                status_code=404,
+                detail={
+                    "error": "CAMERA_NOT_FOUND",
+                    "message": f"Camera '{camera_id}' not found",
+                    "camera_id": camera_id
+                }
+            )
+        
+        return {
+            "camera_id": camera_id,
+            "schedule_mode": "scheduled" if camera.enabled else "disabled",
+            "intervals": {
+                "interval_ip": camera.interval_ip,
+                "interval_port": camera.interval_port,
+                "interval_vision": camera.interval_vision
+            },
+            "camera_info": {
+                "ip": camera.ip,
+                "port": camera.port,
+                "enabled": camera.enabled
+            },
+            "test_modes": {
+                "manual": "Use POST /health/camera/triggeronce",
+                "continuous": "Currently running with scheduled intervals",
+                "scheduled": "Current mode - use POST /schedule to update"
+            }
+        }
+        
+    except HTTPException:
+        raise
+    except Exception as e:
+        logger.error(f"Error fetching schedule for {camera_id}: {e}", exc_info=True)
+        
+        raise HTTPException(
+            status_code=500,
+            detail={
+                "error": "INTERNAL_SERVER_ERROR",
+                "message": f"Failed to fetch camera schedule: {str(e)}",
+                "camera_id": camera_id
+            }
+        )
