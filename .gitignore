@@ -6,3 +6,7 @@ logs/
 
 # Images / captured frames
 img/
+
+__pycache__/
+*.pyc
+.env
