@@ -1,172 +1,211 @@
+# Camera Health Check Microservice
 
+## Purpose
 
-```md
-# HCS_VigilX
+This microservice is responsible for continuously monitoring the health of IP cameras. It exposes APIs to manage camera configurations, performs periodic health checks in the background, stores health results, raises alerts, and manages automatic cleanup of historical health logs based on retention policies.
 
-
-##  Project Structure
-
-```
-
-HCS_VigilX_1/
-│
-├── app/
-│   ├── **init**.py
-│   └── app.py                  # FastAPI entrypoint
-│
-├── core/
-│   ├── **init**.py
-│   ├── schedular.py             # Camera scheduling logic
-│   ├── ping_checker.py          # Network health checker
-│   └── vision_checker.py        # Vision analysis logic
-│
-├── workers/
-│   ├── **init**.py
-│   ├── network_worker.py        # Network worker pool
-│   └── vision_worker.py         # Vision worker pool
-│
-├── storage/
-│   ├── **init**.py
-│   ├── redis_client.py          # Redis abstraction
-│   ├── vision_storage.py        # Vision result persistence
-│   └── camera_worker.py         # Per-camera logging utilities
-│
-├── img/
-│   ├── baseline/                # Baseline reference frames
-│   └── captures/                # Live captured frames
-│
-├── logs/                        # Runtime logs & JSON outputs
-│
-├── analyze_performance.py       # Load test performance analysis
-├── load_test.py                 # Load testing script
-├── demo.py                      # Demo / manual testing
-├── architecture_code.docx       # Architecture documentation
-├── requirements.txt
-├── Readme.md
-└── venv/
-
-````
+The service is designed to run continuously after application startup and does not require manual triggering of health checks.
 
 ---
 
-##  Architecture Overview
+## High-Level Workflow
 
-The system follows a **producer–consumer architecture**:
-
-1. **Scheduler**
-   - Periodically schedules health checks for cameras
-   - Pushes tasks into Redis queues
-
-2. **Network Workers**
-   - Consume network health tasks
-   - Validate IP/Port/RTSP availability
-   - Update Redis summaries
-
-3. **Vision Workers**
-   - Consume vision health tasks
-   - Perform image-based analysis
-   - Store results and logs
-
-4. **FastAPI Application**
-   - Exposes APIs for manual health checks
-   - Provides health summaries and responses
+1. Application starts using `uvicorn app.app:app --reload`
+2. Background schedulers and workers are initialized on startup
+3. Cameras are registered and cached in Redis
+4. Cameras are added to Redis-based schedulers with configured intervals
+5. Scheduler continuously evaluates which cameras are due for health checks
+6. Health check tasks are pushed to Redis queues
+7. Workers consume tasks and execute health checks
+8. Health results are stored in the database
+9. Alerts are generated for unhealthy conditions
+10. Old logs are cleaned automatically based on retention settings
 
 ---
 
-##  Running the Application
+## Health Checks Performed
 
-### 1️ Activate virtual environment
+* IP Reachability Check
+* Port Availability Check
+* Vision Checks
 
-```bash
-source venv/bin/activate
-````
+  * Blur detection
+  * Obstruction detection
+  * Position / displacement checks
 
-### 2️ Start Redis
-
-Ensure Redis is running locally:
-
-```bash
-redis-server
-```
+Each check runs at its own configured interval per camera.
 
 ---
 
-### 3️ Start the FastAPI server
+## API Endpoints
 
-From the project root:
+### Camera Management
 
-```bash
-uvicorn app.app:app --reload
-```
+* `POST /health/camera`
 
-API will be available at:
+  * Register a new camera
+  * Stores configuration in DB and Redis
+  * Registers camera into the scheduler
 
-```
-http://127.0.0.1:8000
-```
+* `GET /health/camera/{camera_id}`
 
----
+  * Fetch camera configuration
 
-## ⚙️ Background Workers
+* `GET /health/camera`
 
-Workers are typically started as **separate processes**.
-
-### Network workers
-
-```bash
-python workers/network_worker.py
-```
-
-### Vision workers
-
-```bash
-python workers/vision_worker.py
-```
+  * List all registered cameras
 
 ---
 
-##  Load Testing
+### Health Data APIs
 
-Run a load test simulating hundreds of cameras:
+* `GET /health/camera/{camera_id}/logs`
 
-```bash
-python load_test.py
-```
+  * Retrieve health check logs for a camera
 
----
+* `GET /health/camera/{camera_id}/alerts`
 
-##  Performance Analysis
+  * Retrieve alerts generated for a camera
 
-Analyze load-test results:
+* `GET /health/summary`
 
-```bash
-python analyze_performance.py <path_to_log_file.json>
-```
-
-This provides:
-
-* CPU usage
-* Memory usage
-* Queue depth
-* Per-camera resource estimates
-* Stability indicators
+  * Fetch aggregated health summary
 
 ---
 
-## 🧾 Logging Behavior
+### Log Retention APIs
 
-* Supports **per-camera JSON logging**
-* Logging can be toggled via configuration flags
-* Default flow:
+* `GET /health/camera/{camera_id}/log-retention`
 
-  ```
-  Worker → Redis → Response
-  ```
-* Optional:
+  * Retrieve log retention configuration for a camera
 
-  ```
-  Worker → JSON logs (per camera)
-  ```
+* `POST /health/camera/{camera_id}/log-retention`
+
+  * Configure health log retention interval
 
 ---
 
+## Background Components
+
+### Scheduler
+
+* Redis ZSET-based time-wheel scheduler
+* Maintains separate schedules for:
+
+  * IP checks
+  * Port checks
+  * Vision checks
+* Continuously runs after app startup
+
+### Workers
+
+* Network Workers
+
+  * Async workers for IP and port checks
+
+* Vision Workers
+
+  * Multiprocessing workers for CPU-intensive vision analysis
+
+* Log Cleanup Worker
+
+  * Deletes old health logs and alerts based on retention policy
+
+---
+
+## Database Schema
+
+### cameras
+
+Stores camera configuration and scheduling intervals.
+
+Key fields:
+
+* id
+* ip_address
+* port
+* rtsp_url
+* interval_ip
+* interval_port
+* interval_vision
+
+---
+
+### health_logs
+
+Stores results of all health checks.
+
+Key fields:
+
+* id
+* camera_id
+* check_type
+* status
+* metadata
+* created_at
+
+---
+
+### alerts
+
+Stores alerts generated when health checks fail or cross thresholds.
+
+Key fields:
+
+* id
+* camera_id
+* alert_type
+* severity
+* created_at
+
+---
+
+### camera_latency
+
+Stores network latency and connectivity metrics.
+
+Key fields:
+
+* id
+* camera_id
+* latency
+* created_at
+
+---
+
+## Redis Usage
+
+* Camera runtime cache (`camera:{id}`)
+* Scheduler ZSETs for time-based execution
+* Task queues for worker consumption
+* Aggregated health summaries
+
+Redis acts as the runtime backbone, while PostgreSQL is the source of truth.
+
+---
+
+## Startup Behavior
+
+On application startup:
+
+* Database connections are initialized
+* Redis connections are established
+* Scheduler loop starts automatically
+* Worker pools are started
+* Log retention and cleanup schedulers are activated
+
+No manual triggering is required for health checks once cameras are registered.
+
+---
+
+## Notes
+
+* Health checks will not run unless cameras are registered into the scheduler
+* Redis data is considered ephemeral and can be rebuilt from the database
+* Log retention policies control automatic deletion of historical records
+
+---
+
+## Scope
+
+This README documents the functionality, APIs, workflow, and data model of the microservice. It does not cover deployment, security hardening, or production infrastructure details.
